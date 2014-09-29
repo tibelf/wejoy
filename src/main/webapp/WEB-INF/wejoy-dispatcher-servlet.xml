@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans     
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd
+        http://www.springframework.org/schema/mvc 
+          http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
+
+	<!-- 访问com.jd.wejoy包下有@Controller注解的Controller文件 -->
+	<!-- 通过注解，把URL映射到Controller上，该标签默认注册DefaultAnnotationHandlerMapping和AnnotationMethodHandlerAdapter -->
+	<context:component-scan base-package="com.jd.wejoy" />
+	<mvc:annotation-driven />
+
+    <mvc:resources mapping="/css/**" location="/WEB-INF/assets/css/" />
+    <mvc:resources mapping="/image/**" location="/WEB-INF/assets/image/" />
+
+
+    <bean
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:log4j.properties</value>
+			</list>
+		</property>
+	</bean>
+	<!-- velocity视图解析器 -->
+	<bean id="velocityViewResolver"
+		class="org.springframework.web.servlet.view.velocity.VelocityViewResolver">
+		<property name="contentType" value="text/html;charset=utf-8" />
+		<property name="cache" value="true" />
+		<property name="prefix" value="/" />
+		<property name="suffix" value=".vm" />
+
+	</bean>
+	<!-- velocity环境配置 -->
+	<bean id="velocityConfig"
+		class="org.springframework.web.servlet.view.velocity.VelocityConfigurer">
+		<!-- velocity配置文件路径 -->
+		<property name="configLocation" value="classpath:velocity.properties" />
+		<!-- velocity模板路径 -->
+		<property name="resourceLoaderPath" value="/WEB-INF/vm" />
+		<property name="velocityProperties">
+			<props>
+				<prop key="input.encoding">UTF-8</prop>
+				<prop key="output.encoding">UTF-8</prop>
+			</props>
+		</property>
+	</bean>
+
+</beans>
