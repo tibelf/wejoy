@@ -15,21 +15,29 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * 版本： 1.0
  * Date: 2014-9-27
  */
-	@Controller
-	public class CenterController {
-	    @RequestMapping(value="/shop",  method = RequestMethod.GET)
-	    public String shop(ModelMap model) {
+@Controller
+public class CenterController {
+    @RequestMapping(value="/shop",  method = RequestMethod.GET)
+    public String shop(ModelMap model) {
 //	        model.addAttribute("message", "wejoy，demo");
 //	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
 //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
-	        return "shop";
-	    }
+        return "shop";
+    }
 
     @RequestMapping(value="/classify",  method = RequestMethod.GET)
-    public String classify(ModelMap model) {
-//	        model.addAttribute("message", "wejoy，demo");
-//	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
-//	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
+     public String classify(ModelMap model) {
+        //	        model.addAttribute("message", "wejoy，demo");
+        //	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
+        //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
         return "classify";
     }
-	}
+
+    @RequestMapping(value="/watch_detail",  method = RequestMethod.GET)
+    public String watchDetail(ModelMap model) {
+        //	        model.addAttribute("message", "wejoy，demo");
+        //	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
+        //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
+        return "watch_detail";
+    }
+}
