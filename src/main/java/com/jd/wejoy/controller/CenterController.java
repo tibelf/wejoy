@@ -1,11 +1,13 @@
 package com.jd.wejoy.controller;
-
-import java.text.SimpleDateFormat;
-
+import org.omg.CORBA.Request;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * 
@@ -17,7 +19,15 @@ import org.springframework.web.bind.annotation.RequestMethod;
  */
 @Controller
 public class CenterController {
-    @RequestMapping(value="/shop",  method = RequestMethod.GET)
+    @RequestMapping(value="/test",  method = {RequestMethod.GET, RequestMethod.POST})
+    public String test(ModelMap model) {
+//	        model.addAttribute("message", "wejoy，demo");
+//	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
+//	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
+        
+        return "test";
+    }
+    @RequestMapping(value="/shop",  method = {RequestMethod.GET, RequestMethod.POST})
     public String shop(ModelMap model) {
 //	        model.addAttribute("message", "wejoy，demo");
 //	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
@@ -33,11 +43,51 @@ public class CenterController {
         return "classify";
     }
 
-    @RequestMapping(value="/watch_detail",  method = RequestMethod.GET)
-    public String watchDetail(ModelMap model) {
+    @RequestMapping(value="/custom_watch_detail",  method = RequestMethod.GET)
+    public String customWatchDetail(ModelMap model) {
         //	        model.addAttribute("message", "wejoy，demo");
         //	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
         //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
-        return "watch_detail";
+        return "custom_watch_detail";
+    }
+
+    @RequestMapping(value="/custom_share",  method = RequestMethod.GET)
+    public String customShare(ModelMap model) {
+        //	        model.addAttribute("message", "wejoy，demo");
+        //	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
+        //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
+        return "custom_share";
+    }
+
+    @RequestMapping(value="/address",  method = RequestMethod.GET)
+    public String address(ModelMap model) {
+        //	        model.addAttribute("message", "wejoy，demo");
+        //	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
+        //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
+        return "address";
+    }
+
+    @RequestMapping(value="/user_share",  method = RequestMethod.GET)
+    public String userShare(ModelMap model) {
+        //	        model.addAttribute("message", "wejoy，demo");
+        //	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
+        //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
+        return "user_share";
+    }
+
+    @RequestMapping(value="/user_share_without_xiu",  method = RequestMethod.GET)
+    public String userShareWithoutXiu(ModelMap model) {
+        //	        model.addAttribute("message", "wejoy，demo");
+        //	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
+        //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
+        return "user_share_without_xiu";
+    }
+
+    @RequestMapping(value="/user_share_xiu",  method = RequestMethod.GET)
+    public String userShareXiu(ModelMap model) {
+        //	        model.addAttribute("message", "wejoy，demo");
+        //	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
+        //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
+        return "user_share_xiu";
     }
 }

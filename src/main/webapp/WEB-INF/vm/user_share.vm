@@ -1,0 +1,54 @@
+<html lang="zh-CN"><head>
+    <script type="text/javascript">
+        var speedTimePoint = [[(new Date()), 1470, 117, 1,1470,117,4,1470,117,5]];
+        speedTimePoint.rptTime = -1;
+        speedTimePoint.diffNetwork=true;
+
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+    <meta name="author" content="qinuoli">
+
+    <title>发表文字</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+
+
+    <link combofile="my/my_v2.shtml" rel="stylesheet" href="http://static.paipaiimg.com/c/=/wx/css/common/gb_v3.s.min.css,/wx/css/my/my_v2.s.min.css?t=1409800182"><!--[if !IE]>|xGv00|e94c4f6f94ed2bd6561128016a22087d<![endif]-->
+
+    <script type="text/javascript">
+        speedTimePoint[1]=new Date();
+    </script>
+    <script charset="utf-8" async="" src="http://static.gtimg.com/js/version/201409/wg.my.201409241731.js"></script><script charset="utf-8" async="" src="http://static.gtimg.com/js/version/201306/loadscript.201306251923.js"></script><script>var old = null;function asplay_top(c){var audio = document.createElement("audio");if(audio != null && audio.canPlayType && audio.canPlayType("audio/mpeg")){if(old){old.pause();}audio.src = c;old = audio;audio.play();}}</script></head>
+    <body>
+        <img src = "/image/share.jpg" style="top:0px;left: 0px; width:100%;height:50px;" />
+        <br></br>
+        <table>
+            <tr>
+                <td><b><font size="6">今天</font></b></td>
+                <td><img src="/image/camera.jpg"></td>
+            </tr>
+        </table>
+        <br></br>
+        <table>
+            <tr>
+                <td><b><font size="6">昨天</font></b></td>
+                <td><a href="/user_share_xiu"><img src="/image/xiuyixiu.jpg" style="left: 60px"></a> </td>
+            </tr>
+        </table>
+        <br></br>
+        <table>
+            <tr>
+                <td><b><font size="6">9.26</font></b></td>
+                <td><img src="/image/qiudashang.jpg"></td>
+            </tr>
+        </table>
+##        <table>
+##            <tr>
+##                <td><b><font size="6">今天</font></b></td>
+##                <td><img src="/image/camera.jpg"></td>
+##            </tr>
+##        </table>
+    </body>
+</html>
