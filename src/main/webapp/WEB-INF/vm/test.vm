@@ -8,7 +8,7 @@
             width: 119px;
             height: 37px;
             background-color: #53AD3F;
-            background-image: url(image/xiuyixiu.jpg);
+            /*background-image: url(image/xiuyixiu.jpg);*/
             background-repeat: no-repeat;
             background-position: 0 0;
             background-attachment: scroll;
@@ -37,16 +37,36 @@
         }
     </style>
     <title>js 实现 input file 文件上传 /></title>
+    <script>
+
+
+        function readFile(){
+        }
+
+        function clickNextPage(){
+            var result = document.getElementById("result");
+            var file = document.getElementById("_f").value;
+            var reader = new FileReader();
+//            reader.readAsDataURL(file);
+            reader.onload = function(e){
+                result.innerHTML = '<img src="'+this.result+'" alt=""/>'
+            }
+//            var path = document.getElementById("_f").value;
+//            document.location.href = 'shop.vm';
+        }
+    </script>
 </head>
 <body>
-    <form id="form1" runat="server" method="post" enctype="multipart/form-data">
-        <div>
+##    <form id="form1" runat="server" method="post" enctype="multipart/form-data" action="tt">
+##        <div>
             <div class="_box">
+                <input type="file" name="_f" id="_f" onchange="clickNextPage()"/>
                 <input type="file" name="_f" id="_f"/>
                 选择图片
             </div>
-            <input type="submit" value="submit"/>
-        </div>
-    </form>
+            <div id="result"></div>
+##            <input type="submit" value="submit"/>
+##        </div>
+##    </form>
 </body>
 </html> 

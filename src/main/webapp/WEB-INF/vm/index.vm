@@ -1,0 +1,1252 @@
+
+<!--[if !IE]>|xGv00|c835215da014ed1f872b4e06f4b2f968<![endif]-->
+
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <script>
+      (function() {
+          var u = window.location.search,
+              reg = new RegExp("(^|&)actid=([^&]*)(&|$)"),
+              r = u.substr(u.indexOf("\?") + 1).match(reg),
+              actid=(r != null ? r[2] : "");
+          if(!actid || actid=='1'){
+             window.location.href='index?actid=35011&tabid=2';
+          }
+      })();
+  </script>
+  <script>var speedTimePoint=[[(new Date()),1470,123,1,1470,123,2,1470,123,3]];speedTimePoint.rptTime=4000;speedTimePoint.diffNetwork=true;var _curTpl="3",_fistfloor=1;</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"  />
+  <title>购物</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="x-dns-prefetch-control" content="on" />
+  <link rel="dns-prefetch" href="//pics0.paipaiimg.com">
+  <link rel="dns-prefetch" href="//pics1.paipaiimg.com">
+  <link rel="dns-prefetch" href="//pics2.paipaiimg.com">
+  <link rel="dns-prefetch" href="//pics3.paipaiimg.com">
+  <link rel="dns-prefetch" href="//static.paipaiimg.com">
+  <link rel="dns-prefetch" href="//img0.paipaiimg.com">
+  <link rel="dns-prefetch" href="//img1.paipaiimg.com">
+  <link rel="dns-prefetch" href="//img2.paipaiimg.com">
+  <link rel="dns-prefetch" href="//img3.paipaiimg.com">
+  <link rel="dns-prefetch" href="//img4.paipaiimg.com">
+  <link rel="dns-prefetch" href="//img5.paipaiimg.com">
+  <link rel="dns-prefetch" href="//img6.paipaiimg.com">
+  <link rel="dns-prefetch" href="//img7.paipaiimg.com">
+  <link combofile="mall/gouwu_v3.shtml" rel="stylesheet" href="http://static.paipaiimg.com/c/=/wx/css/mall/mall_v2.s.min.css,/wx/css/mall/ju_v3.s.min.css,/wx/css/mall/brand_v8.s.min.css,/wx/css/mall/xin_v3.s.min.css?t=1411549196" /><!--[if !IE]>|xGv00|85703231e19cd4acb609915041eb48b2<![endif]-->
+  <script>speedTimePoint[1]=new Date();//css加载时间  </script>
+</head>
+<body class="has_wx_download">
+  	<script>
+gSupport = {
+    retina: window.devicePixelRatio >= 1.5 ? 1 : 0,
+    sticky: (function supportSticky() {
+        var t, n = '-webkit-sticky',
+            e = document.createElement("i");
+        e.style.position = n;
+        t = e.style.position;
+        e = null;
+        return t === n;
+    })()
+}
+var exp = new Date();
+document.cookie = 'retina=' + gSupport.retina + ';expires=' + (new Date(exp.setMinutes(exp.getMinutes() + 43200)).toGMTString()) + ';path=/;domain=wanggou.com';
+window.wxPayDomain = 'http://m.buy.qq.com/';
+(function () {
+    var uin = '', gray = false, buyLinkGray = false,
+        whiteList = ['404645486', '42434741', '36384741', '394243851', '42434741', '2202082359', '93219600', '3715423', '2354805240', '84375863', '402533002', '125876917', '747125212'];
+
+    function getCookie(name) {
+        //读取COOKIE
+        var reg = new RegExp("(^| )" + name + "(?:=([^;]*))?(;|$)"), val = document.cookie.match(reg);
+        return val ? (val[2] ? unescape(val[2]) : "") : null;
+    }
+    // 获得uin
+    uin = getCookie('wg_uin') || getCookie('p_uin') || getCookie('uin');
+
+    //if (uin && (/[1234567]$/.test(uin) || whiteList.indexOf(uin) >= 0)) {
+        gray = true;
+    //}
+    if (gray) {
+        window.wxPayDomain = 'http://mm.wanggou.com/';
+    }
+
+    // 灰度一口价链接
+    window.buyLink = window.wxPayDomain + 'p/cart/order/jdpay.shtml';
+    //if (uin && (/[123]$/.test(uin) || whiteList.indexOf(uin) >= 0)) {
+        buyLinkGray = true;
+    //}
+
+    if (buyLinkGray) {
+        window.buyLink = window.wxPayDomain + 'p/cart/order/n_confirm_v2.shtml';
+    }
+
+})();
+
+</script><!--[if !IE]>|xGv00|c80a932186f40bc70aca5139c39c3a25<![endif]-->
+<script>window["PP.wx.badjs.time"]=[new Date()]</script>
+<script id="legos:21994" ver="21994:20140225:20140508112656" name="PP.wx.badjs" charset="gbk">
+window['PP.wx.badjs.time'] && window['PP.wx.badjs.time'].push(new Date());
+function $initBadjs(){var errorStr="";var getStack=function(){if(arguments.callee.caller.caller){var curr=arguments.callee.caller.caller,c,o=[];while(curr){c=curr;o.push('['+$transJson2str(curr.arguments)+']'+c.toString().replace(/[\t\n\r]/g,"").substring(0,100));curr=curr.caller;}
+return o.join(":");}else{return"";}}
+window.onerror=function(msg,url,l){var stack=getStack(),ts=String(msg).replace(/\n/g," ")+"|"+encodeURIComponent(url+":"+stack)+"|"+l;window._last_err_msg={msg:msg,url:url,l:l,stack:stack};if(errorStr.indexOf(ts)==-1||window._badjs_allow_resend){errorStr+=ts+",";$sendBadjs(msg,url,l+":"+stack);}
+return false}};function $namespace(name){for(var arr=name.split(','),r=0,len=arr.length;r<len;r++){for(var i=0,k,name=arr[r].split('.'),parent={};k=name[i];i++){i===0?eval('(typeof '+k+')==="undefined"?('+k+'={}):"";parent='+k):(parent=parent[k]=parent[k]||{});}}};function $sendBadjs(msg,src,d){var ua=navigator.userAgent.toLowerCase(),bom=window.ActiveXObject?"IE"+ua.match(/msie ([\d.]+)/)[1]:(ua.indexOf("firefox")!=-1)?"Firefox"+ua.match(/firefox\/([\d.]+)/)[1]:(ua.indexOf("chrome")!=-1)?"Chrome"+ua.match(/chrome\/([\d.]+)/)[1]:window.opera?"Opera"+ua.match(/opera.([\d.]+)/)[1]:window.openDatabase?"Safari"+ua.match(/version\/([\d.]+)/)[1]:ua.replace(/\s*/g,""),ts=msg.replace(/\n/g," ").replace(/\|/g,";")+"|"+encodeURIComponent(src)+"|"+d.replace(/\|/g,";");setTimeout(function(){sr=document.createElement("script");document.getElementsByTagName("head")[0].appendChild(sr);sr.src="http://party.paipai.com/cgi-bin/badjs?Browser="+bom+"&Url="+encodeURIComponent(location.href)+"&Content="+ts+"&t="+Math.random();},1000);};function $transJson2str(o){if(o==undefined){return"";}
+var r=[];if(typeof o=="string")return"\""+o.replace(/([\"\\])/g,"\\$1").replace(/(\n)/g,"\\n").replace(/(\r)/g,"\\r").replace(/(\t)/g,"\\t")+"\"";if(typeof o=="object"){if(o.nodeName){r.push(["document node","nodeName:"+o.nodeName,"id:"+o.id,"class:"+o.className].join('-'));r="{"+r.join()+"}";}
+else if(!o.sort){for(var i in o)
+r.push("\""+i+"\":"+$transJson2str(o[i]));if(!!document.all&&!/^\n?function\s*toString\(\)\s*\{\n?\s*\[native code\]\n?\s*\}\n?\s*$/.test(o.toString)){r.push("toString:"+o.toString.toString());}
+r="{"+r.join()+"}";}else{for(var i=0;i<o.length;i++)
+r.push($transJson2str(o[i]));r="["+r.join()+"]";}
+return r;}
+return o.toString().replace(/\"\:/g,'":""');};$namespace("PP.wx.badjs");PP.wx.badjs.init=function(){$initBadjs();};PP.wx.badjs.init();
+window['PP.wx.badjs']='21994:20140225:20140508112656';
+window['PP.wx.badjs.time'] && window['PP.wx.badjs.time'].push(new Date());
+</script><!--[if !IE]>|xGv00|0ba3e8374ea76ebdbb169012f60d0dfd<![endif]-->
+<script>  
+try{(function(w){function getCookie(name){var reg=new RegExp("(^| )"+name+"(?:=([^;]*))?(;|$)"),val=document.cookie.match(reg);return val?(val[2]?unescape(val[2]):""):null;}
+function reportUrl(traceurl){var d=new Image(1,1);d.src=traceurl;d.onload=function(){d.onload=null;d.onerror=null;};d.onerror=function(){d.onload=null;d.onerror=null;};w['_mercury_head_img']=d;}
+function pvReportBj(){var traceurl=("https:"==location.protocol?"https://mercuryssl":"http://hermes")+".jd.com/log.gif"
++"?t=wg_wx.100000&m=MO_J2011-2"
++"&pin="+encodeURIComponent(getCookie("jdpin")||'-')
++"&sid="+getCookie("visitkey")+'|'
++"&fst=&pst=&vct=&vt=&v=&url="+encodeURIComponent(location.href)
++"&ref="+encodeURIComponent(document.referrer||'')
++"&rm="+(new Date).getTime();reportUrl(traceurl);}
+pvReportBj();})(window);}catch(ex){}
+</script>  <!--[if !IE]>|xGv00|6bbebfeeb7a0683c6a7c6a3456793377<![endif]-->
+<script>
+!function(a){function b(){var a=new Date;document.cookie="retina="+(e.device.isRetina?1:0)+";expires="+new Date(a.setMinutes(a.getMinutes()+43200)).toGMTString()+";path=/;wanggou.com"}function c(){function a(){var a=document.createElement("div");a.className="loadcsstest",document.body.appendChild(a);var d=a.getBoundingClientRect().width;100!=d&&(b(),e.report.badJs("css load failed:"+c.href)),document.body.removeChild(a)}function b(){c.onload=null,c.href=c.href+(c.href.indexOf("?")>-1?"&":"?")+"r="+Math.random()}for(var c,d=document.querySelectorAll("link"),f=0,g=d.length;g>f;f++)if("stylesheet"==d[f].rel&&(d[f].href.indexOf("mall_v2")>-1||d[f].href.indexOf("mall_qq")>-1)){c=d[f];break}c&&(c.onload=a)}function d(){var a=e.device.scene;e.cookie.set("cid","weixin"===a?1:"qq"===a?2:3,43200,"","wanggou.com")}var e={};e.send=function(a){var b=(new Date).getTime(),c="_COUNTRD"+b++;try{window[c]=new Image,window[c].src=a}catch(d){}},e.sendJs=function(a,b){function c(){d&&(d.onload=d.onreadystatechange=d.onerror=null,d.parentNode&&d.parentNode.removeChild(d),d=null)}var d=document.createElement("script");b=b||{},d.charset=b.charset||"utf-8",d.onload=d.onreadystatechange=function(){(/loaded|complete/i.test(this.readyState)||-1==navigator.userAgent.toLowerCase().indexOf("msie"))&&(b.onLoad&&b.onLoad(),c())},d.onerror=function(){c()},d.src=a,b.defer&&(d.defer="defer"),b.async&&(d.async="async"),document.getElementsByTagName("head")[0].appendChild(d)},e.device={retina:window.devicePixelRatio>=1.5,sticky:function(){var a,b="-webkit-sticky",c=document.createElement("i");return c.style.position=b,a=c.style.position,c=null,a===b}(),scene:function(){var a=navigator.userAgent.toLowerCase();return a.indexOf("micromessenger")>-1?"weixin":/qq\/([\d\.]+)*/.test(a)?"qq":"mobile"}()},e.performance={useScaleImg:function(){var a=e.cookie.get("network"),b=e.device.retina;return"wifi"!=a||!b}},e.report={itil:function(a){var b={bid:"1",mid:"01",res:[],onBeforeReport:null,delay:5e3};for(var c in a)b[c]=a[c];b.res.length>0&&(window.reportWebInfo=function(){},window.setTimeout(function(){b.onBeforeReport&&b.onBeforeReport(b);var a=b.bid+b.mid+"-"+b.res.join("|"),c="http://bases.wanggou.com/mcoss/webreport/ReportWebInfo?report="+a+"&t="+new Date/1e3;e.send(c)},b.delay))},rd:function(a){function b(){if(d.length){var a=d.shift();c(a),setTimeout(b,30)}}function c(a){ECC.cloud.report.trace({ptag:a})}var d;!this._rdList&&(this._rdList=[]),window.ECC_cloud_report_pv?(c(a),d=this._rdList,b()):this._rdList.push(a)},badJs:function(a,b){b=b||location.href.replace(/\?.*$/g,"");var c=new Image;c.src="http://party.paipai.com/cgi-bin/badjs?Browser=mobilelog&Url="+b+"&Content="+a+"&t="+Math.random()}},e.cookie={get:function(a){var b=new RegExp("(^| )"+a+"(?:=([^;]*))?(;|$)"),c=document.cookie.match(b);return c?c[2]?unescape(c[2]):"":null},set:function(a,b,c,d,e,f){var g=new Date,c=arguments[2]||null,d=arguments[3]||"/",e=arguments[4]||null,f=arguments[5]||!1;c?g.setMinutes(g.getMinutes()+parseInt(c)):"",document.cookie=a+"="+escape(b)+(c?";expires="+g.toGMTString():"")+(d?";path="+d:"")+(e?";domain="+e:"")+(f?";secure":"")},del:function(a,b,c,d){var e=getCookie(a);if(null!=e){var f=new Date;f.setMinutes(f.getMinutes()-1e3),b=b||"/",document.cookie=a+"=;expires="+f.toGMTString()+(b?";path="+b:"")+(c?";domain="+c:"")+(d?";secure":"")}}},e.url={setHash:function(a){setTimeout(function(){location.hash=a},0)},getHash:function(a){var b=a||location.hash;return b?b.replace(/.*#/,""):""},getHashParam:function(a){var b=this.getHash().match(new RegExp("(^|&)"+a+"=([^&]*)(&|$)"));return null!=b?b[2]:""},getUrlParam:function(a){var b=arguments[1]||window.location.search,c=new RegExp("(^|&)"+a+"=([^&]*)(&|$)"),d=b.substr(b.indexOf("?")+1).match(c);return null!=d?d[2]:""},parseUrl:function(a){var b=document.createElement("a");return b.href=a,{source:a,protocol:b.protocol.replace(":",""),host:b.hostname,port:b.port,query:b.search,params:function(){for(var a,c={},d=b.search.replace(/^\?/,"").split("&"),e=d.length,f=0;e>f;f++)d[f]&&(a=d[f].split("="),c[a[0]]=a[1]);return c}(),file:(b.pathname.match(/([^\/?#]+)$/i)||[,""])[1],hash:b.hash.replace("#",""),path:b.pathname.replace(/^([^\/])/,"/$1"),relative:(b.href.match(/tps?:\/\/[^\/]+(.+)/)||[,""])[1],segments:b.pathname.replace(/^\//,"").split("/")}},smartboxUrl:"http://static.paipaiimg.com/js/version/2014/06/pp.wg.jdSmartbox.20140605.js?t=201409241006"},e.init=function(){b(),c(),d()},e.init(),window[a]=e}("JD");
+</script><!--[if !IE]>|xGv00|b9f30821ad90ffb9b4a5deafcc289e0c<![endif]-->
+<div class="WX_msg_bar" id="yxHead" style="display: none"></div>
+
+<!--WEBPAGEBEGIN@5557--><script>var wx_curtainad=[
+
+{"link":"http://mm.wanggou.com/brand/event33/index.shtml?PTAG=37080.5.5","urlImg1":"http://pics3.paipaiimg.com/update/20140930/pcd_170945998.jpg","urlImg2":"http://pics1.paipaiimg.com/update/20140930/pcd_80-80.png","startTime":"2014/10/03 00:00:00","endTime":"2014/10/03 23:59:59","check":"1"}
+,
+
+{"link":"http://mm.wanggou.com/juhui/event31/index.shtml?PTAG=37080.5.5","urlImg1":"http://pics0.paipaiimg.com/update/20140930/pcd_172310185.jpg","urlImg2":"http://pics1.paipaiimg.com/update/20140930/pcd_172313522.png","startTime":"2014/10/04 00:00:00","endTime":"2014/10/04 23:59:59","check":"1"}
+,
+
+{"link":"http://mm.wanggou.com/xin/event11/index.shtml?PTAG=37080.5.5","urlImg1":"http://pics0.paipaiimg.com/update/20141001/pcd_095241248.jpg","urlImg2":"http://pics2.paipaiimg.com/update/20141001/pcd_80-3.png","startTime":"2014/10/01 00:00:00","endTime":"2014/10/02 23:59:59","check":"1"}
+,
+
+{"link":"http://mm.wanggou.com/xin/event11/index.shtml?PTAG=37080.5.5","urlImg1":"http://pics1.paipaiimg.com/update/20141001/pcd_010205271.jpg","urlImg2":"http://pics1.paipaiimg.com/update/20141001/pcd_80-2.png","startTime":"2014/10/06 00:00:00","endTime":"2014/10/08 23:59:59","check":"1"}
+
+];</script> <!--WEBPAGEEND@5557--><!--[if !IE]>|xGv00|75027d3b7014f6454ac8414c55bce57e<![endif]-->
+##<a class="dacu_banner_nianzhong" href="" style="position: absolute"  id="curtainHead"></a>
+<div class="dacu_banner_mask" style="display: none"></div>
+
+<div class="WX_search" id="mallHead">
+    <div class="WX_bar_cate">
+        <a href="http://mm.wanggou.com/category_m.shtml?ptag=37080.5.1" id="__cate"></a>
+    </div>
+    <form action="" method="get" class="WX_search_frm" onsubmit="" >
+        <input name="key" class="WX_search_txt" placeholder="搜索京东全部商品" ptag="37080.5.2" type="search" id="topSearchTxt" AUTOCOMPLETE="off"/>
+        <a class="WX_search_clear" href="javascript:;" id="topSearchClear" style="display:none;">x</a>
+    </form>
+    <div class="WX_me">
+        <a href="javascript:" id="topSearchbtn" class="WX_search_btn_blue" style="display:none;">搜索</a>
+        <a href="javascript:" id="topSearchCbtn" class="WX_search_btn" style="display:none;">取消</a>
+    </div>
+</div>
+<div class="WX_tab Top_tab" id="toolbarHead">
+    <div class="WX_tab_wrap">
+        <a href="http://mm.wanggou.com/search/index.shtml?src=1" class="WX_btn_search">搜索</a>
+        <span class="WX_tab_inner">
+            <a id="__xinTab" href="javascript:;"  ptag="37035.8.3" >新品首发</a>
+            <a id="__mallTab" href="javascript:;" ptag="37035.8.1" >品牌闪购</a>
+            <a id="__juhuiTab" href="javascript:;" ptag="37035.8.2" >特价秒杀</a>
+        </span>
+    </div>
+</div>
+<div id="smartboxBlock"></div>
+<script>
+window._navfoot={};
+
+window.setTimeout(function() {
+	if(window.closeSearchEntrance){
+        var mHead = document.getElementById("mallHead");
+		mHead && (mHead.style.display="none");
+		return ;
+	}
+	var smartboxUrl = window.JD.url.smartboxUrl;
+    var head = document.getElementsByTagName('head')[0];
+    var js = document.createElement("script");
+    js.charset = "gbk";
+    js.type = "text/javascript";
+    js.src = smartboxUrl || "http://static.paipaiimg.com/js/version/2014/06/pp.wg.jdSmartbox.20140605.js?t=201409241008";
+    head.appendChild(js);
+    js.onload = function() {
+        var tBtn = document.getElementById('topSearchbtn'),
+            tClear = document.getElementById('topSearchClear'),
+            tcBtn = document.getElementById('topSearchCbtn'),
+            searTxt = document.getElementById('topSearchTxt'),
+            topTab = document.querySelector('.Top_tab'),
+            wxWrap = document.querySelector('.wx_wrap'),            
+            wxSfrm = document.querySelector('.WX_search_frm'),            
+            navBar = document.getElementById('navBar'),
+            curtainHead=document.getElementById('curtainHead'),
+            nowBtn = tcBtn;
+        PP.wg.jdSmartbox.init({
+            scene : 2,
+            kwObj: 'topSearchTxt',
+            searchBtn : 'topSearchbtn',
+            clearBtn : 'topSearchClear',
+            cancelBtn: 'topSearchCbtn',
+            smartWrap: 'smartboxBlock',
+            searchRd:"37080.5.4",
+            hotRd:"37080.5.4",
+            showCb : function() {
+                var wxFooter = document.querySelector('.wx_footer'),
+                    wxNav = document.querySelector('.wx_nav'),
+                    jdapp = document.getElementById('jdappdlOutter');
+                topTab && (topTab.style.display = "none");
+                wxWrap && (wxWrap.style.display = "none");
+                wxFooter && (wxFooter.style.display = "none");
+                wxSfrm.className = "WX_search_frm WX_search_frm_focus";
+                nowBtn.style.display = "";
+                document.body.style.minHeight = '';
+                jdapp && (jdapp.style.display = "none");
+                wxNav && (wxNav.style.display = "none");
+                navBar && (navBar.style.display = "none");
+                curtainHead&&(curtainHead.style.display = "none");
+            },
+            hideCb : function() {
+                var wxFooter = document.querySelector('.wx_footer'),
+                    wxNav = document.querySelector('.wx_nav'),
+                    jdapp = document.getElementById('jdappdlOutter');
+                searTxt.value = '';
+                topTab && (topTab.style.display = "block");
+                wxWrap && (wxWrap.style.display = "block");
+                wxFooter && (wxFooter.style.display = "block");
+                wxSfrm.className = "WX_search_frm";                
+                nowBtn.style.display = "none";
+                document.body.style.minHeight = '1000px';
+                jdapp && (jdapp.style.display = "");
+                wxNav && (wxNav.style.display = "");
+                navBar && (navBar.style.display = "");
+                curtainHead&&(curtainHead.style.display = "");
+            },
+            keyInput : function(key){
+                if(key == ''){
+                    tClear.style.display = "none";
+                    tBtn.style.display = "none";
+                    tcBtn.style.display = "";
+                    nowBtn = tcBtn;
+                }else{
+                    tClear.style.display = "";
+                    tBtn.style.display = "";
+                    tcBtn.style.display = "none";
+                    nowBtn = tBtn;
+                }
+            }
+        });
+    };
+}, 0);
+
+
+(function(){
+	var isYx=(JD.url.getUrlParam("wc_scene")=="4"||JD.url.getUrlParam("wc_scene")=="5"||JD.url.getUrlParam("wc_scene")=="6"||JD.url.getUrlParam("havetip"))&&!JD.cookie.get("hasShowYx");
+	isYx?showYx():showCurtain();
+	//showCurtain();
+	//showYx();
+	
+	function showYx(){
+		JD.sendJs("http://bases.wanggou.com/presalequery/queryreddot4active?t="+Math.random());
+	    window.psCallback = function(json){
+	    	/*var yxHead=document.getElementById("yxHead");
+	    	if(json.errNo=="13"){
+	    		location.href = "http://party.wanggou.com/tws64/m/wxv2/Login?exp_code=1&rurl="+encodeURIComponent(location.href)+"&appid=1";	
+	    		return ;
+	    	}
+	    	if(json.errNo!="0"||json.totalCount==0){
+	    		yxHead.parentNode.removeChild(yxHead);
+	    		return ;
+	    	}
+	    	var yxInfo=json.upcomingSubscribeList[0],
+	    		now=new Date(),//new Date(json.serverTime.replace(/-/g,"/")),
+	    		msg="";
+	    	if(!yxInfo){return ;}
+	    	yxInfo.startTime=new Date(yxInfo.saleStartTime*1000);
+	    	yxInfo.endTime=new Date(yxInfo.saleEndTime*1000);
+	    	if(now<yxInfo.startTime){
+	    		msg="您预约的商品即将开抢！";
+	    	}else if(now>=yxInfo.startTime&&now<yxInfo.endTime){
+	    		msg="您预约的商品已经开始抢购！";
+	    	}else{
+	    		msg="您预约的商品已抢购结束！";
+	    	}
+	    	yxHead.innerHTML='<a href="http://mm.wanggou.com/my/mypreorder.shtml?ptag=37080.10.1" class="msg_order"><img src="http://pics0.paipaiimg.com/update/20140912/index_60x60.jpg">'+msg+'</a>';
+	    	yxHead.style.display="";
+	    	
+	    	JD.cookie.set("hasShowYx",1,Math.round((new Date(now.getFullYear(),now.getMonth(),now.getDate()+1)-now)/(1000*60)),"/","wanggou.com");*/
+	    };
+	   var now=new Date(),
+	    	msg,
+	    	yxHead=document.getElementById("yxHead"),
+	    	startTime=new Date("2014/9/25 10:00"),
+	    	endTime=new Date("2014/9/25 22:00");
+	    if(now<startTime){
+    		msg="您预约的商品即将开抢！";
+    	}else if(now>=startTime&&now<endTime){
+    		msg="您预约的商品已经开始抢购！";
+    	}else{
+    		msg="您预约的商品已抢购结束！";
+    	}
+    	yxHead.innerHTML='<a href="http://mm.wanggou.com/my/mypreorder.shtml?ptag=37080.10.1" class="msg_order"><img src="http://pics1.paipaiimg.com/update/20140924/index_18133358.jpg">'+msg+'</a>';
+    	yxHead.style.display="";
+	    
+	    JD.cookie.set("hasShowYx",1,Math.round((new Date(now.getFullYear(),now.getMonth(),now.getDate()+1)-now)/(1000*60)),"/","wanggou.com");
+	}
+	function showCurtain(){
+		//幕帘
+		var now=new Date(),
+			curAd,
+			iHeight,
+			curtainAdShow = JD.cookie.get("curtainAdShow"),
+			curtainAd=document.getElementById("curtainHead"),
+			curTop=0,
+			searchBar=document.getElementById("mallHead"),
+			mask=document.querySelector(".dacu_banner_mask"),
+			stopMove=function(e){e.preventDefault();};
+		for(var i=0,j=wx_curtainad.length;i<j;i++){
+			if(now>=new Date(wx_curtainad[i].startTime.replace(/-/g,"/"))&&now<new Date(wx_curtainad[i].endTime.replace(/-/g,"/"))){
+				curAd=wx_curtainad[i];
+				break;
+			}
+		}
+		if(!curAd){
+			mask.parentNode.removeChild(mask);
+			curtainAd.parentNode.removeChild(curtainAd);
+			return ;
+		}
+		//图片的规格为640*500,根据图片的宽度的压缩比，即压缩比=屏幕的宽度/图片本身的宽度（固定位640px），计算图片的高度，即图片显示高度=压缩比*图片本身高度
+		iHeight=document.documentElement.clientWidth*500/640;
+		curtainAd.href=curAd.link;
+		if(curAd.check&&!curtainAdShow){//直接展示的情况
+			mask.style.display="";
+			curtainAd.innerHTML='<img src="'+curAd.urlImg1+'"><div class="WX_bar_dacu"><span style="background: url('+curAd.urlImg2+') no-repeat 0 0;background-size: 40px 45px;"></span></div>';
+			JD.cookie.set("curtainAdShow",1,Math.round((new Date(now.getFullYear(),now.getMonth(),now.getDate()+1)-now)/(1000*60)),"/","wanggou.com");
+			setTimeout(function(){
+				curTop=-iHeight;
+				curtainAd.style["-webkit-transform"]="translateY("+(-iHeight)+"px)";
+			},10000);
+		}else{
+			curTop=-iHeight;
+			curtainAd.style["-webkit-transform"]="translateY("+(-iHeight)+"px)";
+			mask.style.display="none";
+			curtainAd.innerHTML='<img back_src="'+curAd.urlImg1+'" height="'+iHeight+'"><div class="WX_bar_dacu"><span style="background: url('+curAd.urlImg2+') no-repeat 0 0;background-size: 40px 45px;"></span></div>';
+		}
+		searchBar&&searchBar.classList.add("WX_search_promote");
+		setTimeout(function(){
+			curtainAd.style["-webkit-transition"]="-webkit-transform 1s ease-in-out";
+			curtainAd.style["transition"]="-webkit-transform 1s ease-in-out";
+		},0);
+		mask.onclick=curtainAd.querySelector(".WX_bar_dacu").onclick=function(e){
+			var img=curtainAd.querySelector("img");
+			!img.src&&(img.src=img.getAttribute("back_src"));
+			if(curTop<0){
+				curtainAd.style["-webkit-transform"]="translateY(0px)";
+				curTop=0;
+			}else{
+				curtainAd.style["-webkit-transform"]="translateY("+(-iHeight)+"px)";
+				curTop=-iHeight;
+			}
+			if(curTop==0){
+				mask.style.display="";
+				document.addEventListener("touchmove",stopMove,false);	
+			}
+			JD.report.rd("37080.5.3");
+			return false;
+		};
+		curtainAd.addEventListener("webkitTransitionEnd",function(){
+			if(curTop<0){
+				mask.style.display="none";
+				document.removeEventListener("touchmove",stopMove,false);	
+			}
+		},false);
+	}
+	
+	function yxGray(){
+		var uin=JD.cookie.get("wg_uin")||JD.cookie.get("buy_uin")||JD.cookie.get("uin");
+		if(!uin){return false;}
+		var lastNum=uin%10;
+		return lastNum>=0&&lastNum<5;
+	}
+})();
+
+(function(){
+	var wxTab = document.querySelector('.WX_tab'),
+        jTab = document.getElementById('__juhuiTab'),
+        mTab = document.getElementById('__mallTab'),
+        xTab = document.getElementById('__xinTab');
+	
+	if(!JD.device.sticky){
+		document.addEventListener('touchmove', function() {
+		    checkBar();
+		});
+		document.addEventListener('scroll', function() {
+		    checkBar();
+		});
+	}
+	function checkBar() {
+        if (window.scrollY > 45) {
+            if (wxTab.className.indexOf('WX_tab_fixed') === -1) {
+                wxTab.className += ' WX_tab_fixed';
+            }
+        } else {
+            if (wxTab.className.indexOf('WX_tab_fixed') > -1) {
+                wxTab.className = wxTab.className.replace(' WX_tab_fixed', '');
+            }
+        }
+    }
+
+    xTab.setAttribute("ptag","37035.8.3");
+    mTab.setAttribute("ptag","37035.8.1");
+    jTab.setAttribute("ptag","37035.8.2");
+})();
+</script><!--[if !IE]>|xGv00|9f8285652d6ca518c3753b13bb07fc6c<![endif]-->
+	<script>
+      speedTimePoint[8]=new Date(); //头部加载时间 
+      window.recordSpeedTime1=function(){//首屏图片加载完成(新发现，直出，原图)
+          !speedTimePoint[2]&&(speedTimePoint[2]=new Date());
+      };
+      window.recordSpeedTime2=function(){//首屏图片加载完成(新发现，直出，压缩图)
+          !speedTimePoint[2]&&(speedTimePoint[2]=new Date());
+      };
+      window.recordSpeedTime3=function(){//首屏图片加载完成(品牌，直出，原图)
+          !speedTimePoint[4]&&(speedTimePoint[4]=new Date());
+      };
+      window.recordSpeedTime4=function(){//首屏图片加载完成(品牌，，直出，压缩图)
+          !speedTimePoint[4]&&(speedTimePoint[4]=new Date());
+      };
+      window.recordSpeedTime5=function(){//首屏图片加载完成(聚惠，直出，原图)
+          !speedTimePoint[7]&&(speedTimePoint[7]=new Date());
+      };
+      window.recordSpeedTime6=function(){//首屏图片加载完成(聚惠，直出，压缩图)
+          !speedTimePoint[7]&&(speedTimePoint[7]=new Date());
+      };
+      var curNetworkType="";
+	</script>
+	
+    
+  
+  <div class="wx_wrap">
+  	<div id="xinDiv" style="display:none" >
+  		<!--WEBPAGEBEGIN@5226--><script>
+var xin_proNavDatas = [{tId:"1", tName:"数码", tImg1:"", tImg2:"", tDesc:"", martId:"35011",ptag:"",tPTAG:"",WXPPtag:"37016.9.2",WXCPtag:"37016.9.3",QQPPtag:"8888",QQCPtag:"9999", pId:"", clickUrl:"", areaIds:[{areaId:"3807",num:"120",areaTitle: "", areaDesc:""},null]},{tId:"2", tName:"生活", tImg1:"", tImg2:"", tDesc:"", martId:"35011",ptag:"",tPTAG:"",WXPPtag:"37016.9.4",WXCPtag:"37016.9.5",QQPPtag:"",QQCPtag:"", pId:"", clickUrl:"", areaIds:[{areaId:"3808",num:"120",areaTitle: "", areaDesc:""},null]},{tId:"3", tName:"女人", tImg1:"", tImg2:"", tDesc:"", martId:"35011",ptag:"",tPTAG:"",WXPPtag:"37016.9.8",WXCPtag:"37016.9.9",QQPPtag:"",QQCPtag:"", pId:"", clickUrl:"", areaIds:[{areaId:"3809",num:"120",areaTitle: "", areaDesc:""},null]},{tId:"4", tName:"男人", tImg1:"", tImg2:"", tDesc:"", martId:"35011",ptag:"",tPTAG:"",WXPPtag:"37016.9.6",WXCPtag:"37016.9.7",QQPPtag:"",QQCPtag:"", pId:"", clickUrl:"", areaIds:[{areaId:"3810",num:"120",areaTitle: "", areaDesc:""},null]},{tId:"5", tName:"首发", tImg1:"", tImg2:"", tDesc:"", martId:"35011",ptag:"",tPTAG:"",WXPPtag:"37016.9.10",WXCPtag:"37016.9.11",QQPPtag:"",QQCPtag:"", pId:"", clickUrl:"", areaIds:[{areaId:"3975",num:"50",areaTitle: "", areaDesc:""},null]},{tId:"101", tName:"华为首发", tImg1:"http://pics3.paipaiimg.com/update/20140523/pcd_171835622.jpg", tImg2:"", tDesc:"我是一颗水果", martId:"35011",ptag:"",tPTAG:"",WXPPtag:"{#WXPPtag#}",WXCPtag:"{#WXCPtag#}",QQPPtag:"{#QQPPtag#}",QQCPtag:"{#QQCPtag#}", pId:"1", clickUrl:"", areaIds:[{areaId:"4356",num:"40",areaTitle: "电子手表", areaDesc:"电子手表"},{areaId:"4356",num:"50",areaTitle: "移动手机", areaDesc:"移动手机"},null]},{tId:"102", tName:"苹果六", tImg1:"http://pics0.paipaiimg.com/update/20140527/pcd_181609394.jpg", tImg2:"", tDesc:"", martId:"35011",ptag:"",tPTAG:"",WXPPtag:"{#WXPPtag#}",WXCPtag:"{#WXCPtag#}",QQPPtag:"{#QQPPtag#}",QQCPtag:"{#QQCPtag#}", pId:"1", clickUrl:"", areaIds:[{areaId:"4719",num:"50",areaTitle: "苹果6首发", areaDesc:"我是一颗大苹果"},null]},{tId:"201", tName:"夏日空调", tImg1:"http://pics3.paipaiimg.com/update/20140512/pcd_002251201.jpg", tImg2:"", tDesc:"", martId:"35011",ptag:"",tPTAG:"",WXPPtag:"{#WXPPtag#}",WXCPtag:"{#WXCPtag#}",QQPPtag:"{#QQPPtag#}",QQCPtag:"{#QQCPtag#}", pId:"2", clickUrl:"", areaIds:[{areaId:"4114",num:"50",areaTitle: "夏日空调", areaDesc:"可爱的空调君"},null]},null];
+  for(var i = 0;i<xin_proNavDatas.length-1;i++){
+    var theme = xin_proNavDatas[i],
+        areas = theme.areaIds,
+        areaids = [];
+    for(var j = 0;j<areas.length-1;j++){
+        areaids.push(areas[j].areaId);
+    }
+    theme.themeId = theme.martId+ '_'+areaids.join(';');
+  }
+  </script><!--WEBPAGEEND@5226--><!--[if !IE]>|xGv00|065798da15205bbb9024143d5cc93225<![endif]-->
+		<!--WEBPAGEBEGIN@5140--><script>
+var xin_novelDatas = [{begin:"2014-08-26", end:"2014-08-28",martId:"35011",areaIds:[{areaId:"4218",num:"50"},null]},{begin:"2014-08-27", end:"2014-08-29",martId:"35011",areaIds:[{areaId:"4219",num:"50"},null]},{begin:"2014-08-28", end:"2014-08-30",martId:"35011",areaIds:[{areaId:"4220",num:"80"},null]},{begin:"2014-08-29", end:"2014-08-31",martId:"35011",areaIds:[{areaId:"4985",num:"50"},null]},{begin:"2014-08-30", end:"2014-09-01",martId:"35011",areaIds:[{areaId:"4227",num:"50"},null]},{begin:"2014-07-31", end:"2014-08-02",martId:"35011",areaIds:[{areaId:"4199",num:"50"},null]},{begin:"2014-08-01", end:"2014-08-03",martId:"35011",areaIds:[{areaId:"4228",num:"50"},null]},{begin:"2014-08-02", end:"2014-08-04",martId:"35011",areaIds:[{areaId:"4361",num:"50"},null]},{begin:"2014-08-08", end:"2014-08-10",martId:"35011",areaIds:[{areaId:"4368",num:"50"},null]},{begin:"2014-08-09", end:"2014-08-11",martId:"35011",areaIds:[{areaId:"4369",num:"50"},null]},{begin:"2014-08-10", end:"2014-08-12",martId:"35011",areaIds:[{areaId:"4370",num:"50"},null]},{begin:"2014-08-12", end:"2014-08-14",martId:"35011",areaIds:[{areaId:"4979",num:"50"},null]},{begin:"2014-08-13", end:"2014-08-15",martId:"35011",areaIds:[{areaId:"4964",num:"50"},null]},{begin:"2014-08-14", end:"2014-08-16",martId:"35011",areaIds:[{areaId:"4980",num:"50"},null]},{begin:"2014-08-15", end:"2014-08-17",martId:"35011",areaIds:[{areaId:"4981",num:"50"},null]},{begin:"2014-08-16", end:"2014-08-18",martId:"35011",areaIds:[{areaId:"4982",num:"50"},null]},{begin:"2014-08-17", end:"2014-08-19",martId:"35011",areaIds:[{areaId:"4983",num:"50"},null]},{begin:"2014-08-18", end:"2014-08-20",martId:"35011",areaIds:[{areaId:"4984",num:"50"},null]},{begin:"2014-08-19", end:"2014-08-21",martId:"35011",areaIds:[{areaId:"4960",num:"50"},null]},{begin:"2014-08-20", end:"2014-08-22",martId:"35011",areaIds:[{areaId:"4965",num:"50"},null]},{begin:"2014-09-01", end:"2014-09-03",martId:"35011",areaIds:[{areaId:"7234",num:"50"},null]},{begin:"2014-09-02", end:"2014-09-04",martId:"35011",areaIds:[{areaId:"7235",num:"50"},null]},{begin:"2014-09-03", end:"2014-09-05",martId:"35011",areaIds:[{areaId:"7906",num:"50"},null]},{begin:"2014-09-04", end:"2014-09-06",martId:"35011",areaIds:[{areaId:"7308",num:"50"},null]},{begin:"2014-09-05", end:"2014-09-07",martId:"35011",areaIds:[{areaId:"7310",num:"50"},null]},{begin:"2014-09-06", end:"2014-09-08",martId:"35011",areaIds:[{areaId:"7307",num:"50"},null]},{begin:"2014-09-07", end:"2014-09-09",martId:"35011",areaIds:[{areaId:"8104",num:"50"},null]},{begin:"2014-09-08", end:"2014-09-10",martId:"35011",areaIds:[{areaId:"3806",num:"50"},null]},{begin:"2014-09-09", end:"2014-09-11",martId:"35011",areaIds:[{areaId:"4987",num:"50"},null]},{begin:"2014-09-10", end:"2014-09-12",martId:"35011",areaIds:[{areaId:"4986",num:"50"},null]},{begin:"2014-09-11", end:"2014-09-13",martId:"35011",areaIds:[{areaId:"4988",num:"50"},null]},{begin:"2014-08-31", end:"2014-09-02",martId:"35011",areaIds:[{areaId:"3985",num:"50"},null]},null];
+</script><!--WEBPAGEEND@5140--><!--[if !IE]>|xGv00|8cb89dff5900f2f465d412b988b7941b<![endif]-->
+  		<div class="mod_banner" id="xin_slideList"></div>
+	    
+	    <!--E 轮播 -->
+	   <div class="mod_flr xin_flr" id="mainContent">
+	      <div>
+	            <ul class="rec_list" id="cmdtyList" ptag="37016.5.2" style="display:block;">
+                  
+            </ul>
+	      </div>
+	    </div>
+	    <!--E 新发现列表 -->
+	    <!--WEBPAGEBEGIN@5139--><div class="mod_flr fashion_flr" style="display:none">
+  <div class="flr_hd clearfix"><h3 class="flr_tit">潮流圈子</h3><span class="hd_txt">不能不看的潮流圈子，且赞且珍惜。</div>
+  <ul class="fashion_list" id="groupList2">
+  </ul>
+</div>
+<script>
+var groupDatas = [{themeId:"",searchId:"35011",tImg1:"http://pics2.paipaiimg.com/update/20140915/index_112824933.jpg",tImg2:"http://pics1.paipaiimg.com/update/20140915/index_112824384.jpg",tName:"潮爆智能馆",tDesc:"汇聚最潮的数码智能设备",tNum:"100",ptag:'12455.6.1', cmdtyPtag:"12455.6.2", areaIds:[{areaId:"3996",num:"100",areaTitle: "", areaDesc:""},null]},{themeId:"",searchId:"35011",tImg1:"http://pics0.paipaiimg.com/update/20140701/pcd_640-240_2_11.jpg",tImg2:"http://pics3.paipaiimg.com/update/20140613/pcd_122-122_2_.jpg",tName:"智能新家电",tDesc:"开启新生活的畅想模式",tNum:"100",ptag:'12455.6.9', cmdtyPtag:"12455.6.10", areaIds:[{areaId:"4002",num:"100",areaTitle: "", areaDesc:""},null]},{themeId:"",searchId:"35011",tImg1:"http://pics2.paipaiimg.com/update/20140613/pcd_640-240_3_.jpg",tImg2:"http://pics2.paipaiimg.com/update/20140613/pcd_122-122_3_.jpg",tName:"梦想生活家",tDesc:"唯有爱与梦想不能辜负",tNum:"100",ptag:'12455.6.3', cmdtyPtag:"12455.6.4", areaIds:[{areaId:"3997",num:"100",areaTitle: "", areaDesc:""},null]},{themeId:"",searchId:"35011",tImg1:"http://pics2.paipaiimg.com/update/20140613/pcd_600-240_4_.jpg",tImg2:"http://pics2.paipaiimg.com/update/20140613/pcd_122-122_4_.jpg",tName:"潮男私房货",tDesc:"细节与质感塑造型男风向标",tNum:"100",ptag:'12455.6.5', cmdtyPtag:"12455.6.6", areaIds:[{areaId:"3999",num:"100",areaTitle: "", areaDesc:""},null]},{themeId:"",searchId:"35011",tImg1:"http://pics3.paipaiimg.com/update/20140613/pcd_600-240_5_.jpg",tImg2:"http://pics2.paipaiimg.com/update/20140613/pcd_122-122_5_.jpg",tName:"女神养成记",tDesc:"优雅气质与生俱来",tNum:"100",ptag:'12455.6.7', cmdtyPtag:"12455.6.8", areaIds:[{areaId:"3998",num:"100",areaTitle: "", areaDesc:""},null]},{themeId:"",searchId:"35011",tImg1:"http://pics1.paipaiimg.com/update/20140613/pcd_600-240_6_.jpg",tImg2:"http://pics0.paipaiimg.com/update/20140613/pcd_122-122_6_.jpg",tName:"美食小当家",tDesc:"舌尖上的美味轻松品尝",tNum:"100",ptag:'12455.6.11', cmdtyPtag:"12455.6.12", areaIds:[{areaId:"4129",num:"100",areaTitle: "", areaDesc:""},null]},null];
+  for(var i = 0;i<groupDatas.length-1;i++){
+    var theme = groupDatas[i],
+        areas = theme.areaIds,
+        areaids = [];
+    for(var j = 0;j<areas.length-1;j++){
+        areaids.push(areas[j].areaId);
+    }
+    theme.themeId = theme.searchId+ '_'+areaids.join(';');
+  }
+  </script>
+</script><!--WEBPAGEEND@5139--><!--[if !IE]>|xGv00|8352287c1e4d116ee435915bf46e2d5e<![endif]-->
+      <script type="text/javascript">
+        window.__arrTip=[{n:'新品首发',v:256,c:'green'},
+                            {n:'秋冬上新',v:512,c:'green'},
+                            {n:'新品预售',v:1024,c:'green'},
+                            {n:'热销爆款',v:2048,c:'red'},
+                            {n:'稀缺好货',v:4096,c:'red'},
+                            {n:'微信专享',v:8192,c:'green'},
+                            {n:'限时秒杀',v:16384,c:'red'},
+                            {n:'底价清仓',v:32768,c:'red'}
+                          ];
+      </script>
+       <script type="text/html" id="cmdtyListTmpl">
+          <%
+          var group = 0;
+          for(var i = 0; i < data.length; i++){
+            var item = data[i],
+                tipName = '',
+                objTip='',
+                newPTAG='37016.5.1';
+                item.price = item.dwWeChatPrice;
+                item.img = item.uppic1;
+                 if((_fistfloor==1) && ((item.dwProperty * 1) & 4096) !== 0) {
+                    tipName ="今日主打";
+                 }
+                  _fistfloor++;
+                    objTip=__arrTip.filter(function(o){ return ((item.commPinMask*1)&o.v)!==0;})[0];
+                if(i % 10 === 0) {_group++;}
+             %>
+                  <li  dwproperty="<%=item.dwProperty%>" attr-group="<%=_group%>" id="<%=item.sItemId%>">
+                    <a class="url" href="<%=item.sClickUrl%>&referkey=xin&PTAG=<%=newPTAG%>&price=<%=item.price%>">
+                        <img class="photo" usesrc="1"  dwproperty="<%=item.dwProperty%>" init_src="<%=item.sUploadPicUrl2%>" src="http://pics2.paipaiimg.com/update/20140807/index_2x1.png">
+                    </a>
+
+                    <div class="info_wrap">
+                        <div class="fn">
+                           <%=item.sItemName%>
+                        </div>
+
+                        <div class="avatar_wrap"  ud="<%=item.sUserData1%>">
+                            <div  class="avatar">
+                             <img  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEXt7e0zK21NAAAAAXRSTlMAQObYZgAAAApJREFUeNpjYAAAAAIAAeUn3vwAAAAASUVORK5CYII=">
+                            </div>
+                            <span class="name"></span>
+                        </div>
+                        <%if(item.sUserData2){%>
+                            <div class="brand_disc">
+                              
+                                <i class="icon_quote_start"></i><%=item.sUserData2%><i class="icon_quote_end"></i>
+                            </div>
+                        <%}%>
+
+                        <div class="price_wrap">
+                        <div class="price">微信价：<em>&yen;<%=item.price%></em></div>
+                        
+                            <a class="btn_buy" href="<%=item.sClickUrl%>&referkey=xin&PTAG=<%=newPTAG%>&price=<%=item.price%>">立即购买</a>
+                        </div>
+                    </div>
+
+                    <div class="opt_wrap">
+                      
+                        <div class="like"  attr-tag="favAction" ptag="37016.2.1" id="favBtn_<%=item.sItemId%>"><i></i>赞（<em attr-tag="num" id="favNum<%=item.sItemId%>">0</em>）</div>
+
+                      
+                        <div class="fav" id="shouBtn_<%=item.sItemId%>" attr-tag="shouAction" ptag="37016.2.2"  data-itemid="<%=item.sItemId%>"  data-commid="<%=item.sSkuId%>" data-shopid="<%=item.dwShopId%>" data-commtitle="<%=item.sItemName%>"  data-commprice="<%=item.dwActMinPrice%>"  data-shopname="<%=item.sItemName%>"  data-imageurl="<%=item.sImg120x120%>"><i></i>收藏</div>
+                    </div>
+            <%
+         
+ 
+   
+                if(objTip) {
+                %>
+                    <div class="item_tag tag_<%=objTip.c%>"><%=objTip.n%></div>
+                <%}%>
+                  
+                </li>
+          <%}%>
+     </script>
+      
+      
+       
+     
+        <script type="text/html" id="groupListTmpl">
+          <%
+          var group = 0,
+              cmdtyPtag = data.cmdtyPtag,
+              minheight = (document.documentElement.clientWidth - 20) / 2 - 23,
+              tipName1 ='';
+           
+          for(var i = 0; i < data.length; i++){
+              var item = data[i];
+              item.price = ((item.actPrice * 1) / 100).toFixed(2);
+              item.img =item.uppic1;
+              item.itemId=item.cid;
+              item.itemShortName=item.rcmdNm;
+  
+              if(i % 10 === 0) {group++;}
+          %>
+          <li class="hproduct" attr-group="<%=group%>" id="<%=item.itemId%>">
+            <a href="<%=item.clkUrl%>&PTAG=<%=cmdtyPtag%>&referkey=xin" onclick="recordState();" class="url">
+              <span class="photo_wrap">
+                  <img class="photo" init_src="<%=item.img%>"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEXt7e0zK21NAAAAAXRSTlMAQObYZgAAAApJREFUeNpjYAAAAAIAAeUn3vwAAAAASUVORK5CYII=" attr-line="<%=i%10===0?1:0%>" style="min-height:<%=minheight%>px" />
+                  <span class="price">&yen;<%=item.price%></span>
+              </span>
+              <h3 class="fn"><%=tipName1+item.itemShortName%></h3>
+            </a>
+            <p class="other"><span class="fav" attr-tag="favAction" id="favBtn_<%=item.itemId%>"><em attr-tag="num" id="favNum<%=item.itemId%>"></em>人喜欢</span></p>
+          </li>
+          <%}%>
+        </script>
+	
+  	</div>
+  	<div id="brandDiv"   >
+  		<div class="mod_banner" id="bannerDiv"> </div>
+  		<div class="category_nav_wrap"  id="navDiv">
+  			<div class="category_nav">
+		        <div class="category_nav_list">
+		            <ul id="filterBar">
+		                <li><a href="javascript:;" ptag="37014.1.15">今日上新</a></li>
+		                <li><a href="javascript:;"  ptag="37014.1.16">正在热卖</a></li>
+		                <li><a href="javascript:;"  ptag="37014.1.17">最后疯抢</a></li>
+		            </ul>
+		        </div>
+		        <div class="category_nav_more">
+		            <span class="category_nav_btn"  id="navMore">分类</span>
+		            <ul id="temaiNav"></ul>
+		        </div>
+		    </div>
+  		</div>
+	    <div id="nowDiv">
+	      <p class="mall_title_small"><span id="nowTitle">每天<em>9:00</em>准时上新</span><a href="http://mm.wanggou.com/wx/brand/search_brand.shtml?ptag=37014.1.18">快速找品牌</a></p>
+	      <div id="nowList">
+	      		      	
+	      	
+	      	
+		      	
+			      	
+			      		<div class="mall_item">
+					        <a href="http://mm.wanggou.com/promote/brand_detail_weixin.shtml?actId=34990&areaId=4090&itemrd=37015.2.37&PTAG=0.0.0&ch=0&extname3=%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E5%93%81%E7%89%8C%E7%89%B9%E6%83%A0&exturl3=&DAP=139698755295936504:844710725855778533:8193:493458&pps=focus.00002001030002:000787920000061a:" class="mall_item_content" proInfo="0" dis="3" dwResourceRegistDetailId="493458"  brandId="0" bt="1412438400"  weixinkey="华为手机品牌特卖**http://img1.paipaiimg.com/boss-1EEC46DE-201410051EEC46DE54277501000012AC.2.jpg**3**华为手机品牌特惠">
+					            <img class="image" src="http://img1.paipaiimg.com/boss-1EEC46DE-201410051EEC46DE54277501000012AC.1.min.1.jpg"  onload="recordSpeedTime3();">
+					            <span class="timer"></span>
+					            
+					        </a>
+					        <div class="mall_item_title">
+					            <p>华为手机品牌特卖</p>
+					            <div><em>3折起</em></div>
+					        </div>
+					    </div>
+			    
+	        
+		      	
+			      	
+			      		<div class="mall_item">
+					        <a href="http://mm.wanggou.com/promote/brand_detail_weixin.shtml?actId=35230&areaId=7358&itemrd=37015.2.98&PTAG=0.0.0&ch=0&extname3=%E5%A4%8F%E6%99%AE%E5%93%81%E7%89%8C%E6%97%A5%E4%B8%93%E5%9C%BA&exturl3=&DAP=139698755295936504:844710725855778533:8193:492342&pps=focus.00002001030002:000783360000061a:" class="mall_item_content" proInfo="0" dis="6" dwResourceRegistDetailId="492342"  brandId="0" bt="1412438400"  weixinkey="夏普品牌日专场**http://img6.paipaiimg.com/boss-1EEC46DD-201410051EEC46DD5423D9A6000012AC.2.jpg**6**夏普品牌日专场">
+					            <img class="image" init_src="http://img4.paipaiimg.com/46e9dc02/adau-5423E6CC-0000000100000007833600000008EEFB.1.min.1.jpg"  >
+					            <span class="timer"></span>
+					            
+					        </a>
+					        <div class="mall_item_title">
+					            <p>夏普品牌日专场</p>
+					            <div><em>6折起</em></div>
+					        </div>
+					    </div>
+			    
+	        
+		      	
+			      	
+			      		<div class="mall_item">
+					        <a href="http://mm.wanggou.com/promote/brand_detail_weixin.shtml?actId=35229&areaId=5836&itemrd=37015.2.130&PTAG=0.0.0&ch=0&extname3=%E5%A4%A7%E7%89%8C%E5%B9%B3%E6%9D%BF%E8%81%94%E5%90%88%E4%B8%93%E5%9C%BA&exturl3=&DAP=139698755295936504:844710725855778533:8193:491654&pps=focus.00002001030002:000780860000061a:" class="mall_item_content" proInfo="0" dis="3" dwResourceRegistDetailId="491654"  brandId="0" bt="1412438400"  weixinkey="大牌平板联合专场**http://img5.paipaiimg.com/boss-1EEC46DC-201410011EEC46DC5422A62D000012AC.2.png**3**大牌平板联合专场">
+					            <img class="image" init_src="http://img3.paipaiimg.com/7db6b9f4/adau-542532A3-0000000100000007808600000008F45A.1.min.1.jpg"  >
+					            <span class="timer"></span>
+					            
+					        </a>
+					        <div class="mall_item_title">
+					            <p>大牌平板联合专场</p>
+					            <div><em>3折起</em></div>
+					        </div>
+					    </div>
+			    
+	        
+		      	
+			      	
+			      		<div class="mall_item">
+					        <a href="http://mm.wanggou.com/promote/brand_detail_weixin.shtml?actId=34990&areaId=3692&itemrd=37015.2.3&PTAG=0.0.0&ch=0&extname3=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA%E5%9B%BD%E5%BA%86%E5%A4%A7%E4%BF%83&exturl3=&DAP=139698755295936504:844710725855778533:8193:493462&pps=focus.00002001030002:000787960000061a:" class="mall_item_content" proInfo="0" dis="3" dwResourceRegistDetailId="493462"  brandId="0" bt="1412438400"  weixinkey="三星手机国庆大促**http://img5.paipaiimg.com/boss-1EEC46DE-201410051EEC46DE5427759D000012AC.2.jpg**3**三星手机国庆大促">
+					            <img class="image" init_src="http://img5.paipaiimg.com/boss-1EEC46DE-201410051EEC46DE5427759D000012AC.1.min.1.jpg"  >
+					            <span class="timer"></span>
+					            
+					        </a>
+					        <div class="mall_item_title">
+					            <p>三星手机国庆大促</p>
+					            <div><em>3折起</em></div>
+					        </div>
+					    </div>
+			    
+	        
+		      	
+			      	
+			      		<div class="mall_item">
+					        <a href="http://mm.wanggou.com/promote/brand_detail_weixin.shtml?actId=34990&areaId=3943&itemrd=37015.2.12&PTAG=0.0.0&ch=0&extname3=%E8%8B%B9%E6%9E%9C%E6%89%8B%E6%9C%BA%E5%93%81%E7%89%8C%E5%A4%A7%E6%94%BE%E4%BB%B7&exturl3=&DAP=139698755295936504:844710725855778533:8193:493455&pps=focus.00002001030002:0007878f0000061a:" class="mall_item_content" proInfo="0" dis="3" dwResourceRegistDetailId="493455"  brandId="0" bt="1412352000"  weixinkey="苹果手机品牌大放价**http://img5.paipaiimg.com/boss-1EEC46DE-201410041EEC46DE5427744D000012AC.2.jpg**3**苹果手机品牌大放价">
+					            <img class="image" init_src="http://img5.paipaiimg.com/boss-1EEC46DE-201410041EEC46DE5427744D000012AC.1.min.1.jpg"  >
+					            <span class="timer"></span>
+					            
+					        </a>
+					        <div class="mall_item_title">
+					            <p>苹果手机品牌大放价</p>
+					            <div><em>3折起</em></div>
+					        </div>
+					    </div>
+			    
+	        
+		      	
+			      	
+			      		<div class="mall_item">
+					        <a href="http://mm.wanggou.com/promote/brand_detail_weixin.shtml?actId=34990&areaId=3945&itemrd=37015.2.140&PTAG=0.0.0&ch=0&extname3=%E4%BA%AC%E4%B8%9C%E5%85%AB%E6%A0%B8%E6%89%8B%E6%9C%BA%E5%9B%BD%E5%BA%86%E7%89%B9%E6%83%A0&exturl3=&DAP=139698755295936504:844710725855778533:8193:493445&pps=focus.00002001030002:000787850000061a:" class="mall_item_content" proInfo="0" dis="5" dwResourceRegistDetailId="493445"  brandId="0" bt="1412265600"  weixinkey="京东八核手机国庆特惠**http://img6.paipaiimg.com/boss-1EEC46DE-201410031EEC46DE54277306000012AC.2.jpg**5**京东八核手机国庆特惠">
+					            <img class="image" init_src="http://img6.paipaiimg.com/boss-1EEC46DE-201410031EEC46DE54277306000012AC.1.min.1.jpg"  >
+					            <span class="timer"></span>
+					            
+					        </a>
+					        <div class="mall_item_title">
+					            <p>京东八核手机国庆特惠</p>
+					            <div><em>5折起</em></div>
+					        </div>
+					    </div>
+			    
+	        
+		      	
+			      	
+			      		<div class="mall_item">
+					        <a href="http://mm.wanggou.com/xin/event95/index.shtml?PTAG=0.0.0&ch=0&extname3=%E6%99%BA%E8%83%BD%E7%BD%91%E7%BB%9C%E5%93%81%E7%B1%BB%E6%97%A5%E7%89%B9%E6%83%A0%E5%9C%BA&exturl3=&DAP=139698755295936504:844710725855778533:8193:492114&pps=focus.00002001030002:000782520000061a:" class="mall_item_content" proInfo="0" dis="5" dwResourceRegistDetailId="492114"  brandId="0" bt="1412265600"  weixinkey="智能网络品类日特惠场**http://img5.paipaiimg.com/6088198c/adau-542A201D-00000001000000078252000000090253.1.jpg**5**智能网络品类日特惠场">
+					            <img class="image" init_src="http://img1.paipaiimg.com/08b8abee/adau-542A1FF9-00000001000000078252000000090252.1.min.1.jpg"  >
+					            <span class="timer"></span>
+					            
+					        </a>
+					        <div class="mall_item_title">
+					            <p>智能网络品类日特惠场</p>
+					            <div><em>5折起</em></div>
+					        </div>
+					    </div>
+			    
+	        
+		      	
+			      	
+			      		<div class="mall_item">
+					        <a href="http://mm.wanggou.com/brand/event87/index.shtml?PTAG=0.0.0&ch=0&extname3=%E7%AC%94%E8%AE%B0%E6%9C%AC%E5%9B%BD%E5%BA%86%E8%81%94%E5%90%88%E9%92%9C%E6%83%A0&exturl3=&DAP=139698755295936504:844710725855778533:8193:492115&pps=focus.00002001030002:000782530000061a:" class="mall_item_content" proInfo="0" dis="5" dwResourceRegistDetailId="492115"  brandId="0" bt="1412352000"  weixinkey="笔记本国庆联合钜惠**http://img5.paipaiimg.com/8fc1f4ec/adau-5427E5CD-0000000100000007825300000008FAD2.1.jpg**5**笔记本国庆联合钜惠">
+					            <img class="image" init_src="http://img5.paipaiimg.com/29db1b04/adau-5427E065-0000000100000007825300000008FA9B.1.min.1.jpg"  >
+					            <span class="timer"></span>
+					            
+					        </a>
+					        <div class="mall_item_title">
+					            <p>笔记本国庆联合钜惠</p>
+					            <div><em>5折起</em></div>
+					        </div>
+					    </div>
+			    
+	        
+		      	
+			      	
+			      		<div class="mall_item">
+					        <a href="http://mm.wanggou.com/promote/brand_detail_weixin.shtml?actId=35229&areaId=8487&itemrd=37015.2.66&PTAG=0.0.0&ch=0&extname3=%E7%BD%97%E9%A9%AC%E4%BB%95%E7%A7%BB%E5%8A%A8%E7%94%B5%E6%BA%90%E4%B8%93%E5%9C%BA&exturl3=&DAP=139698755295936504:844710725855778533:8193:491653&pps=focus.00002001030002:000780850000061a:" class="mall_item_content" proInfo="0" dis="5" dwResourceRegistDetailId="491653"  brandId="0" bt="1412352000"  weixinkey="罗马仕移动电源品牌专场**http://img6.paipaiimg.com/799108c5/adau-5427EA56-0000000100000007808500000008FAE8.1.jpg**5**罗马仕移动电源专场">
+					            <img class="image" init_src="http://img5.paipaiimg.com/76bb8b8b/adau-5427B685-0000000100000007808500000008F8E7.1.min.1.jpg"  >
+					            <span class="timer"></span>
+					            
+					        </a>
+					        <div class="mall_item_title">
+					            <p>罗马仕移动电源专场</p>
+					            <div><em>5折起</em></div>
+					        </div>
+					    </div>
+			    
+	        
+		      	
+			      	
+			      		<div class="mall_item">
+					        <a href="http://mm.wanggou.com/promote/brand_detail_weixin.shtml?actId=34990&areaId=4233&itemrd=37015.2.114&PTAG=0.0.0&ch=0&extname3=%E7%BE%BD%E5%8D%9A%E7%A7%BB%E5%8A%A8%E7%94%B5%E6%BA%90%E7%89%B9%E6%83%A0&exturl3=&DAP=139698755295936504:844710725855778533:8193:493444&pps=focus.00002001030002:000787840000061a:" class="mall_item_content" proInfo="0" dis="4" dwResourceRegistDetailId="493444"  brandId="0" bt="1412265600"  weixinkey="羽博移动电源特惠**http://img7.paipaiimg.com/boss-1EEC46DE-201410031EEC46DE54277267000012AC.2.jpg**4**羽博移动电源特惠">
+					            <img class="image" init_src="http://img4.paipaiimg.com/bb77256b/adau-54292D84-0000000100000007878400000009010A.1.min.1.jpg"  >
+					            <span class="timer"></span>
+					            
+					        </a>
+					        <div class="mall_item_title">
+					            <p>羽博移动电源特惠</p>
+					            <div><em>4折起</em></div>
+					        </div>
+					    </div>
+			    
+	        
+		      	
+			      	
+			      		<div class="mall_item">
+					        <a href="http://mm.wanggou.com/promote/brand_detail_weixin.shtml?actId=35230&areaId=5855&itemrd=37015.2.46&PTAG=0.0.0&ch=0&extname3=%E9%A3%9E%E5%88%A9%E6%B5%A6%E5%BD%B1%E9%9F%B3%E7%94%9F%E6%B4%BB%E7%89%B9%E5%8D%96&exturl3=&DAP=139698755295936504:844710725855778533:8193:494121&pps=focus.00002001030002:00078a290000061a:" class="mall_item_content" proInfo="0" dis="5" dwResourceRegistDetailId="494121"  brandId="0" bt="1412265600"  weixinkey="飞利浦影音生活馆**http://img3.paipaiimg.com/boss-1EEC46DD-201410031EEC46DD5428D45B000012AC.2.jpg**5**飞利浦影音生活特卖">
+					            <img class="image" init_src="http://img2.paipaiimg.com/c72056b2/adau-5429172A-00000001000000078A29000000090005.1.min.1.jpg"  >
+					            <span class="timer"></span>
+					            
+					        </a>
+					        <div class="mall_item_title">
+					            <p>飞利浦影音生活馆</p>
+					            <div><em>5折起</em></div>
+					        </div>
+					    </div>
+			    
+	        
+		      	
+			      	
+			      		<div class="mall_item">
+					        <a href="http://mm.wanggou.com/promote/brand_detail_weixin.shtml?actId=35230&areaId=10307&itemrd=37015.2.190&PTAG=0.0.0&ch=0&extname3=%E4%BC%98%E7%9B%9F%E6%99%BA%E8%83%BD%E5%8E%A8%E7%94%B5%E5%9B%BD%E5%BA%86%E4%B8%93%E5%9C%BA&exturl3=&DAP=139698755295936504:844710725855778533:8193:492951&pps=focus.00002001030002:000785970000061a:" class="mall_item_content" proInfo="0" dis="6" dwResourceRegistDetailId="492951"  brandId="0" bt="1412352000"  weixinkey="优盟智能厨电国庆专场**http://img3.paipaiimg.com/boss-5A4B51A5-201410045A4B51A554251A03000012AC.2.jpg**6**优盟智能厨电国庆专场">
+					            <img class="image" init_src="http://img1.paipaiimg.com/bb430de1/adau-542930D1-00000001000000078597000000090129.1.min.1.jpg"  >
+					            <span class="timer"></span>
+					            
+					        </a>
+					        <div class="mall_item_title">
+					            <p>优盟智能厨电国庆专场</p>
+					            <div><em>6折起</em></div>
+					        </div>
+					    </div>
+			    
+	        
+		      	
+	        
+		      	
+	        
+		      	
+	        
+		      	
+	        
+		      	
+	        
+	       
+	      </div>
+	    </div>
+	    <div id="previewDiv" style="display: none">
+	    	  <p class="mall_title_large"><span>明日预告</span></p>
+		      <div id="previewList">
+		      		      	
+		      	
+		      	
+			      	
+		        
+			      	
+		        
+			      	
+		        
+			      	
+		        
+			      	
+		        
+			      	
+		        
+			      	
+		        
+			      	
+		        
+			      	
+		        
+			      	
+		        
+			      	
+		        
+			      	
+		        
+			      	
+				      	
+			      		<div class="mall_item">
+					        <a href="javascript:;" class="mall_item_content" brandid="0" dis="5" dwResourceRegistDetailId="494237"  proInfo="0"  bt="1412524800">
+					            <img class="image" src="http://img4.paipaiimg.com/25526a67/adau-54291974-00000001000000078A9D000000090030.1.min.1.jpg">
+					            <div class="layer"><span>明日9点开抢</span></div>
+					        </a>
+					        <div class="mall_item_title">
+					            <p>一加手机限量抢</p>
+					            <div><em>5折起</em></div>
+					        </div>
+					    </div>
+				   
+		        
+			      	
+				      	
+			      		<div class="mall_item">
+					        <a href="javascript:;" class="mall_item_content" brandid="0" dis="5" dwResourceRegistDetailId="494001"  proInfo="0"  bt="1412524800">
+					            <img class="image" init_src="http://img3.paipaiimg.com/67d5ebd7/adau-5428CB43-000000010000000789B100000008FD06.1.min.1.jpg">
+					            <div class="layer"><span>明日9点开抢</span></div>
+					        </a>
+					        <div class="mall_item_title">
+					            <p>文具品牌日大促销</p>
+					            <div><em>5折起</em></div>
+					        </div>
+					    </div>
+				   
+		        
+			      	
+				      	
+			      		<div class="mall_item">
+					        <a href="javascript:;" class="mall_item_content" brandid="0" dis="5" dwResourceRegistDetailId="491655"  proInfo="0"  bt="1412524800">
+					            <img class="image" init_src="http://img5.paipaiimg.com/ce23fd74/adau-5427EDFD-0000000100000007808700000008FAFD.1.min.1.jpg">
+					            <div class="layer"><span>明日9点开抢</span></div>
+					        </a>
+					        <div class="mall_item_title">
+					            <p>苹果品牌日大促销</p>
+					            <div><em>5折起</em></div>
+					        </div>
+					    </div>
+				   
+		        
+			      	
+				      	
+			      		<div class="mall_item">
+					        <a href="javascript:;" class="mall_item_content" brandid="0" dis="8" dwResourceRegistDetailId="494224"  proInfo="0"  bt="1412524800">
+					            <img class="image" init_src="http://img2.paipaiimg.com/f2607214/adau-54291AD2-00000001000000078A9000000009003E.1.min.1.jpg">
+					            <div class="layer"><span>明日9点开抢</span></div>
+					        </a>
+					        <div class="mall_item_title">
+					            <p>西门子十一大促</p>
+					            <div><em>8折起</em></div>
+					        </div>
+					    </div>
+				   
+		        
+			      	
+				      	
+			      		<div class="mall_item">
+					        <a href="javascript:;" class="mall_item_content" brandid="0" dis="0.5" dwResourceRegistDetailId="494666"  proInfo="0"  bt="1412524800">
+					            <img class="image" init_src="http://img1.paipaiimg.com/aec0aabc/adau-542A5F51-00000001000000078C4A000000090355.1.min.1.jpg">
+					            <div class="layer"><span>明日9点开抢</span></div>
+					        </a>
+					        <div class="mall_item_title">
+					            <p>手机配件国庆出行团</p>
+					            <div><em>0.5折起</em></div>
+					        </div>
+					    </div>
+				   
+		        
+		       
+		      </div>
+	    </div>
+			    
+	    <script type="text/html" id="brand_tpl">
+			<%for(var i=0,j=list.length;i<j;i++){var item=list[i]; %>
+				<div class="mall_item">
+			        <a href="<%=item.dwShowType==4?'javascript:;':(item.sUrl+'&referkey=brand')%>" class="mall_item_content" weixinkey="<%=item.sMaterialDesc%>**<%=item.sMaterialUrl1%>**<%=item.sUserData1%>**<%=item.sUserData2%>">
+			            <img class="image" <%=i>2?'init_':''%>src="<%=item.sMaterialUrl%>">
+			            <%if(item.dwShowType!=4){%>
+				            <span class="timer<%=item.isLastDay?' timer_2':''%>"><%=item.limit%></span>
+				            <%if(item.sUserData5&&item.sUserData5!="0"){%><span class="tag"><%=item.sUserData5%></span><%}%>
+			            <%}else{%>
+			            	<div class="layer"><span>明日9点开抢</span></div>
+			            <%}%>
+			        </a>
+			        <div class="mall_item_title">
+			            <p><%=item.sMaterialName%></p>
+			            <div><%=item.sUserData1!=10?('<em>'+item.sUserData1+'折起</em>'):''%><%if(item.dwBrandId&&item.dwBrandId!="0"){ %><span brandId="<%=item.dwBrandId%>">收藏</span><%}%></div>
+			        </div>
+			    </div>
+			<%}%>
+		</script>
+		<script type="text/html" id="brand_navTpl">
+			<li><a href="javascript:;" val="" class="cur" ptag="37014.1.1">全部</a></li>
+			<%for(var i=0,j=list.length;i<j;i++){%>
+				<li><a href="javascript:;" val="<%=list[i].key%>" ptag="<%=list[i].rd%>"><%=list[i].title%></a></li>
+			<%}%>
+		</script>
+		<script type="text/html" id="brand_bannerTpl">
+		  <%for(var i=0,j=list.length;i<j;i++){%>
+		  	<a href="<%=list[i].sUrl%>&ref=brand"><img src="<%=list[i].material%>"></a>
+		  <%}%>
+		</script>
+		
+		<script>
+		var brand_cfg={
+			_serverTime:1412496637,
+			_totalNum:17
+		}
+		var _temaiNav = [{title:'数码',key:'9',rd:'37014.1.8',sub:[]},{title:'百货',key:'8',rd:'37014.1.6',sub:[]},{title:'女装',key:'3',rd:'37014.1.3',sub:[]},{title:'男装',key:'2',rd:'37014.1.2',sub:[{title:'裤子',key:'1.1', rd:''},]},{title:'运动',key:'5',rd:'37014.1.5',sub:[]},{title:'鞋包',key:'4',rd:'37014.1.4',sub:[]},{title:'配饰',key:'6',rd:'37014.1.7',sub:[]},];/*  |xGv00|3dbfb8c4a1af257939e1a30f02b4070c */
+		</script>
+  		
+	  
+  	</div>
+  	<div id="juhuiDiv"  style="display:none" >
+  		<ul id="ju_first" class="rec_list">
+            
+		
+        </ul>
+		<div id="ju_category_wrap" class="mod_category_wrap">
+			<div class="mod_category">
+			    <div class="mod_category_inner">
+			        <div id="clsList" class="mod_category_cont">
+			        </div>
+			        <div class="mod_category_more" data-rel="1" onclick="var e=document.querySelector('#clsList');if(this.dataset.rel=='1'){e.className+=' mod_category_all';this.dataset.rel='0';}else{e.className=e.className.replace(' mod_category_all','');this.dataset.rel='1';}"></div>
+			    </div>
+			</div>
+		</div>
+		
+		<div class="ju_list">
+		  <ul id="ju_pro_list">	      
+		  </ul>
+		</div>
+		<div id="emptyTips" style="display: none;" class="ju_list_null"></div>
+		<script type="text/html" id="ju_itemTpl">
+		<%
+		    var item, src, srcname, ptagFix='37028.3.', ptag, pageno=data.pageno, index=(pageno-1)*data.pagesize, loadEvt, srcholder='';
+		    for(var i=0,l=data.length;i<l;i++){
+		        item = data[i];
+		        src = item.sImg;
+		        ptag = ptagFix+(index+i+1);
+		        (!_imgloaded && i<3) ? (srcname = 'src', loadEvt=' onload="if(!speedTimePoint[7]){speedTimePoint[7] = new Date();_imgloaded=true;}"') : (srcname = 'init_src', loadEvt='', srcholder=' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEXt7e0zK21NAAAAAXRSTlMAQObYZgAAAApJREFUeNpjYAAAAAIAAeUn3vwAAAAASUVORK5CYII="');
+		        if(_imgloaded){
+		          loadEvt='';
+		        }
+		        if(((item.dwProperty*1) & 512) !==0){
+		            src = src.replace('.jpg', '.min.1.jpg');
+		        }
+		%>
+		    <li class="hproduct" attr-pageno="<%=pageno%>">
+		        <a href="<%=item.sUrl%>&PTAG=<%=ptag%>&price=<%=item.dwActMinPrice%>" class="url" onclick="savePage('<%=pageno%>,<%=i%>,<%=l%>')">
+		            <img class="photo" <%=srcname%>="<%=src%>"<%=srcholder%> />
+		            <h3 class="fn"><%=item.sItemName%></h3>
+		            <p class="price">京东价:<strong>&yen;<%=item.dwActMinPrice%></strong><del class="old_price">&yen;<%=item.dwMarketPrice%></del></p>
+		            <p class="other">
+		                <span class="o3"><%=item.dwEvalCnt%> 人已评价</span>
+		            </p>
+		        </a>
+		    </li>
+		<%}%>
+		</script>
+		<script type="text/html" id="ju_firstTpl">
+		    <li>
+		        <a class="url" href="<%=url%>&PTAG=37028.5.1&price=<%=price%>" target="_blank">
+		            <img class="photo" src="<%=src%>" />
+		        </a>
+		        <div class="info_wrap">
+		            <div class="fn">
+		                <%=shortname%>
+		            </div>
+		            <div class="brand_disc">
+		                <%=desc%>
+		            </div>
+		            <div class="price_wrap">
+		                <div class="col_left">
+		                    <div class="price">京东价：<em>&yen;<%=price%></em></div>
+		                    <div class="old_price">市场价：<em>&yen;<%=marketPrice%></em></div>
+		                </div>
+		                <a class="btn_buy" href="<%=url%>&PTAG=37028.5.1&price=<%=price%>" target="_blank">立即购买</a>
+		            </div>
+		        </div>
+		        <div class="tag_long">今日主打 <span><%=commentsNum%> 人已评价</span></div>
+		    </li>
+		</script>		
+  	</div>
+  </div>
+  
+
+  <div class="WX_mask WX_mask2"></div>
+  <div class="g_small_tips" id="shouNotice" style="display:none;">提示信息</div>
+  <a href="#" id="goTop" style="display:none"  class="WX_backtop">返回顶部</a>
+ 
+ <script>speedTimePoint[10]=new Date(); //html加载时间 </script> 
+ <script type="text/javascript">
+//entra324-14
+(function(global){
+var g=[[]],d='http://static.gtimg.com',m={},blankjs="",grays={},mdebug = location.href.indexOf("mdebug=1")!=-1;
+m.alias = {};
+var a={},p={},c=[];
+g["1"]=["\/js\/version\/201309\/cookie.201309291040.js","\/js\/version\/201403\/date.201403271619.js","\/js\/version\/201401\/extend.201401121516.js","\/js\/version\/201401\/formatJson.201401101547.js","\/js\/version\/201408\/mobile.zepto.201408111909.js","\/js\/version\/201409\/url.201409021135.js","\/js\/version\/201409\/wg.autoLoadImage.201409161812.js","\/js\/version\/201409\/wg.countRd.201409281427.js","\/js\/version\/201409\/wg.demandLoad.201409161729.js","\/js\/version\/201409\/wg.format.201409161730.js","\/js\/version\/201407\/wg.localcache.201407291802.js","\/js\/version\/201409\/wg.logon.201409261138.js","\/js\/version\/201409\/wg.mqqStorage.201409011653.js","\/js\/version\/201403\/wg.returnCode.201403271617.js","\/js\/version\/201409\/wg.scrollCtrl.201409161730.js","\/js\/version\/201408\/wg.speedtime.201408281525.js","\/js\/version\/201409\/wg.ui.201409281038.js"];
+g["2"]=["\/js\/version\/201409\/wg.favtool.201409291030.js","\/js\/version\/201409\/wg.juhuiOpt.201409281839.js","\/js\/version\/201409\/wg.loadJs.201409181648.js","\/js\/version\/201409\/wg.mart.data.201409261053.js","\/js\/version\/201404\/wg.user.201404021807.js","\/js\/version\/201409\/wg.util.201409171653.js","\/js\/version\/201409\/wg.wx.brand.201409291818.js","\/js\/version\/201409\/wg.wx.xin.201409300955.js","\/js\/version\/201409\/wg.wxPortal.201409281428.js","\/js\/version\/201409\/wg.xin.themetool.201409281426.js"];
+g["3"]=["\/js\/version\/201409\/wg.ui.page.201409300954.js"];
+c = [['cookie',1,0],['date',1,1],['extend',1,2],['formatJson',1,3],['mobile.zepto',1,4],['url',1,5],['wg.autoLoadImage',1,6],['wg.countRd',1,7],['wg.demandLoad',1,8],['wg.favtool',2,0],['wg.format',1,9],['wg.juhuiOpt',2,1],['wg.loadJs',2,2],['wg.localcache',1,10],['wg.logon',1,11],['wg.mart.data',2,3],['wg.mqqStorage',1,12],['wg.returnCode',1,13],['wg.scrollCtrl',1,14],['wg.speedtime',1,15],['wg.ui',1,16],['wg.ui.page',3,0],['wg.user',2,4],['wg.util',2,5],['wg.wx.brand',2,6],['wg.wx.xin',2,7],['wg.wxPortal',2,8],['wg.xin.themetool',2,9]];
+if(typeof(JSON)!="undefined" && window.localStorage){
+	for(var key in localStorage){
+		if(/^_m_/.test(key)){
+			var store = JSON.parse(localStorage.getItem(key));
+        	var i = key.substr(3);
+        	if((new Date()).getTime()>store.cacheTime){
+	    		continue;
+	    	}
+	    	var _m=getModuleMap(i);
+	    	if(!_m || _m.group==0){continue;}
+	    	var curPath=g[_m.group][_m.groupid];
+	    	if((d+curPath)==store.path){
+				g[0].push(curPath);
+				g[_m.group][_m.groupid]=blankjs;
+				c[_m.index]=[_m.id,0,g[0].length-1];
+			}
+		}
+	}
+	}
+function getModuleMap(id){
+	for(var i=0;i<c.length;i++){
+		if(c[i][0]==id){
+			return {"id":id,"index":i,"group":c[i][1],"groupid":c[i][2]};
+		}
+	}
+	return "";
+}
+function getCombUrl(list){
+	var a=[];
+	for(var i=0;i<list.length;i++){
+		if(list[i]){
+			a.push(list[i]);
+		}
+	}
+	return a.length>1?(d+"/c/="+a.join(",")):(d+a[0]);
+}
+
+for(var i=0;i<c.length;i++){
+	var surl=d+g[c[i][1]][c[i][2]];
+	var furl=getCombUrl(g[c[i][1]]);//合并包地址
+		a[c[i][0]]=surl;
+		p[c[i][0]]=(c[i][1]==0)?surl:furl;
+}
+
+m.alias=mdebug?a:p;
+m.moduleURI=a;
+
+
+global._moduleConfig = m;
+
+function gray(m){
+	}
+
+})(this);
+
+</script>
+<script type="text/javascript">if(typeof JSON!=="object"){JSON={};}(function(){function f(n){return n<10?"0"+n:n;}if(typeof Date.prototype.toJSON!=="function"){Date.prototype.toJSON=function(key){return isFinite(this.valueOf())?this.getUTCFullYear()+"-"+f(this.getUTCMonth()+1)+"-"+f(this.getUTCDate())+"T"+f(this.getUTCHours())+":"+f(this.getUTCMinutes())+":"+f(this.getUTCSeconds())+"Z":null;};String.prototype.toJSON=Number.prototype.toJSON=Boolean.prototype.toJSON=function(key){return this.valueOf();};}var cx=/[\u0000\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g,escapable=/[\\\"\x00-\x1f\x7f-\x9f\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g,gap,indent,meta={"\b":"\\b","\t":"\\t","\n":"\\n","\f":"\\f","\r":"\\r",'"':'\\"',"\\":"\\\\"},rep;function quote(string){escapable.lastIndex=0;return escapable.test(string)?'"'+string.replace(escapable,function(a){var c=meta[a];return typeof c==="string"?c:"\\u"+("0000"+a.charCodeAt(0).toString(16)).slice(-4);})+'"':'"'+string+'"';}function str(key,holder){var i,k,v,length,mind=gap,partial,value=holder[key];if(value&&typeof value==="object"&&typeof value.toJSON==="function"){value=value.toJSON(key);}if(typeof rep==="function"){value=rep.call(holder,key,value);}switch(typeof value){case"string":return quote(value);case"number":return isFinite(value)?String(value):"null";case"boolean":case"null":return String(value);case"object":if(!value){return"null";}gap+=indent;partial=[];if(Object.prototype.toString.apply(value)==="[object Array]"){length=value.length;for(i=0;i<length;i+=1){partial[i]=str(i,value)||"null";}v=partial.length===0?"[]":gap?"[\n"+gap+partial.join(",\n"+gap)+"\n"+mind+"]":"["+partial.join(",")+"]";gap=mind;return v;}if(rep&&typeof rep==="object"){length=rep.length;for(i=0;i<length;i+=1){if(typeof rep[i]==="string"){k=rep[i];v=str(k,value);if(v){partial.push(quote(k)+(gap?": ":":")+v);}}}}else{for(k in value){if(Object.prototype.hasOwnProperty.call(value,k)){v=str(k,value);if(v){partial.push(quote(k)+(gap?": ":":")+v);}}}}v=partial.length===0?"{}":gap?"{\n"+gap+partial.join(",\n"+gap)+"\n"+mind+"}":"{"+partial.join(",")+"}";gap=mind;return v;}}if(typeof JSON.stringify!=="function"){JSON.stringify=function(value,replacer,space){var i;gap="";indent="";if(typeof space==="number"){for(i=0;i<space;i+=1){indent+=" ";}}else{if(typeof space==="string"){indent=space;}}rep=replacer;if(replacer&&typeof replacer!=="function"&&(typeof replacer!=="object"||typeof replacer.length!=="number")){throw new Error("JSON.stringify");}return str("",{"":value});};}if(typeof JSON.parse!=="function"){JSON.parse=function(text,reviver){var j;function walk(holder,key){var k,v,value=holder[key];if(value&&typeof value==="object"){for(k in value){if(Object.prototype.hasOwnProperty.call(value,k)){v=walk(value,k);if(v!==undefined){value[k]=v;}else{delete value[k];}}}}return reviver.call(holder,key,value);}text=String(text);cx.lastIndex=0;if(cx.test(text)){text=text.replace(cx,function(a){return"\\u"+("0000"+a.charCodeAt(0).toString(16)).slice(-4);});}if(/^[\],:{}\s]*$/.test(text.replace(/\\(?:["\\\/bfnrt]|u[0-9a-fA-F]{4})/g,"@").replace(/"[^"\\\n\r]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?/g,"]").replace(/(?:^|:|,)(?:\s*\[)+/g,""))){j=eval("("+text+")");return typeof reviver==="function"?walk({"":j},""):j;}throw new SyntaxError("JSON.parse");};}}());var modulejs,require,define;(function(global){var mod,cfg,_modulejs,_define,_require;var version="1.0.2";var isCache=true;var cacheTime=60*60*24*30*1000;cfg={debug:location.href.indexOf("mdebug=1")!=-1?true:false,alias:{},cssAlias:{},moduleURI:{},vars:{},uris:{},modules:{},callback:[],actModules:{},cacheLoad:{},cacheDel:{},deps:{},events:{},timing:{}};_modulejs.config=config;config(global["_moduleConfig"]?global._moduleConfig:cfg);global["_moduleConfig"]=cfg;require=_require;define=_define;modulejs=_modulejs;on("module_ready",function(id,fromeCache){cfg.callback=cleanArray(cfg.callback);var init=cfg.callback,l=init.length;for(var i=0;i<l;i++){if(init[i]&&checkDeps(init[i].dependencies)){var cb=init[i].factory;var deps=init[i].dependencies;var mods=[];var allDeps=[];var m;for(var j=0;j<deps.length;j++){var m=_require(deps[j]);allDeps.push(m.dependencies);mods.push(m);}
+debug("callback_is_run=start",cb.toString(),cfg.callback);init[i]=null;cb.apply(null,mods);cfg.debug&&emit("callback_is_run",cb.toString().replace(/[\r\n]/g,""));}}});on("module_require",function(id){cfg.actModules[id]=cfg.actModules[id]?(cfg.actModules[id]+1):1;});on("module_cacheDel",function(id){cfg.cacheDel[id]=1;});on("cache_load",function(m){});on("module_loss_alias",function(id){console.error("module_loss_alias:"+id);});var cacheNow=new Date();_loadCache();cfg.timing['loadcache']=new Date()-cacheNow;function _loadCache(){if(!_useCache()){return false;}
+localStorage.removeItem("_modules");for(var key in localStorage){if(/^_m_/.test(key)){var store=JSON.parse(localStorage.getItem(key));var i=key.substr(3);var now=(new Date()).getTime();var oneDay=24*3600*1000;if(cfg.alias[i]){if(_getModuleURI(i)!=store.path||store.deps.join(",").indexOf("{")>-1){emit("module_cacheDel",i);localStorage.removeItem(key);continue;}}else{if(now>store.cacheTime){emit("module_cacheDel",i);localStorage.removeItem(key);continue;}}
+if(store.cacheTime-now<oneDay){store.cacheTime=(new Date()).getTime()+cacheTime;try{localStorage.removeItem(key);localStorage.setItem(key,JSON.stringify(store));}catch(e){}}
+cfg.cacheLoad[store.id]=store;emit("cache_load",store);}}}
+function _getModuleURI(id){return cfg.moduleURI[id]?cfg.moduleURI[id]:cfg.alias[id];}
+function _useCache(id,deps,factory){if(typeof(JSON)=="undefined"){return false;}
+if(!isCache){return false;}
+if(!(JSON&&window.localStorage)){return false;}
+if(cfg.debug){return false;}
+var agent=navigator.userAgent.toLowerCase();if(agent.indexOf("msie")>0){var m=agent.match(/msie\s([\d\.]+);/i);if(m&&m.length>=2&&parseInt(m[1])<=6){return false;}}
+if(id&&id.indexOf("_")==0){return false;}
+if(factory&&factory.toString().indexOf("_cacheThisModule_")<0){return false;}
+return true;}
+function _cacheModule(id,deps,factory){var key="_m_"+id;var _t=localStorage.getItem(key);var ms=_t?JSON.parse(_t):{};ms={"id":id,"deps":deps,"factory":factory.toString(),"path":_getModuleURI(id),"cacheTime":(new Date()).getTime()+cacheTime};try{localStorage.removeItem(key);localStorage.setItem(key,JSON.stringify(ms));emit("module_cached",id);}catch(e){}}
+function _define(id,deps,factory){if(arguments.length===2){factory=deps;deps=null;}
+deps=isType("Array",deps)?deps:(deps?[deps]:[]);if(isType("Function",factory)){var _deps=parseDependencies(factory.toString());}
+_useCache(id,deps,factory)&&_cacheModule(id,deps,factory);deps=mergeArray(deps,_deps);var mod=new Module(id);mod.dependencies=deps||[];for(var i=mod.dependencies.length-1;i>=0;i--){mod.dependencies[i]=parseVars(mod.dependencies[i]);}
+mod.factory=factory;if(id=="_init"){cfg.callback.push(mod);}else{cfg.modules[id]=mod;}
+emit("module_ready",id);}
+function _require(id){id=parseVars(id);var module=cfg.modules[id];emit("module_require",id);if(!module){emit("module_error",id);return null}
+if(module.exports){return module.exports;}
+var now=new Date();var factory=module.factory;var exports=isType("Function",factory)?factory(require,module.exports={},module):factory;module.exports=exports===undefined?module.exports:exports;cfg.timing[id]=new Date()-now;return module.exports;}
+_require.async=_modulejs;_require.css=function(path){path=cfg.cssAlias&&cfg.cssAlias[path]?cfg.cssAlias[path]:path;if(!path){return;}
+var l;if(!window["_loadCss"]||window["_loadCss"].indexOf(path)<0){l=document.createElement('link');l.setAttribute('type','text/css');l.setAttribute('rel','stylesheet');l.setAttribute('href',path);l.setAttribute("id","loadCss"+Math.random());document.getElementsByTagName("head")[0].appendChild(l);window["_loadCss"]?(window["_loadCss"]+="|"+path):(window["_loadCss"]="|"+path);}
+l&&(typeof callback=="function")&&(l.onload=callback);return true;}
+function _modulejs(deps,factory){_define("_init",deps,factory);}
+function checkDeps(deps){var list={},flag=true;for(var i=0;i<deps.length;i++)list[deps[i]]=1;getDesps(deps,list);for(var i in list){if(!cfg.modules[i]){loadModule(i);flag=false;}}
+return flag;function getDesps(deps,list){for(var i=0;i<deps.length;i++){if(!list[deps[i]]){list[deps[i]]=1;}
+if(cfg.modules[deps[i]]&&list[deps[i]]!=2){list[deps[i]]=2;getDesps(cfg.modules[deps[i]].dependencies,list);}}}}
+function parseVars(id){var VARS_RE=/{([^{]+)}/g
+var vars=cfg.vars
+if(vars&&id.indexOf("{")>-1){id=id.replace(VARS_RE,function(m,key){return isType("String",vars[key])?vars[key]:key})}
+return id}
+function mergeObject(a,b){for(var i in b){if(!b.hasOwnProperty(i)){continue;}
+if(!a[i]){a[i]=b[i];}else if(Object.prototype.toString.call(b[i])=="[object Object]"){mergeObject(a[i],b[i]);}else{a[i]=b[i];}}
+return a;}
+function config(obj){return cfg=mergeObject(cfg,obj);}
+function Module(id){this.id=id;this.dependencies=[];this.exports=null;this.uri="";}
+function loadModule(id){var m;if(m=cfg.cacheLoad[id]){return _define(m.id,m.deps,eval("a = "+m.factory));}
+if(cfg.modules[id]){emit("module_ready",id);return;}
+var url=cfg.alias[id]?cfg.alias[id]:"";if(!url){emit("module_loss_alias",id);return;}
+if(cfg.uris[url]){return;}
+cfg.uris[url]=1;var head=document.getElementsByTagName("head")[0]||document.documentElement;var baseElement=head.getElementsByTagName("base")[0];var node=document.createElement("script");node.charset="utf-8";node.async=true;node.src=url;var handler=function(){var callee=arguments.callee
+cfg.timing[callee.uri]=new Date()-callee.time;};handler.time=new Date();handler.uri=url;node.onload=handler;baseElement?head.insertBefore(node,baseElement):head.appendChild(node);cfg.debug&&emit("file_loading",url);}
+function on(name,cb){var cbs=cfg.events[name];if(!cbs){cbs=cfg.events[name]=[];}
+cbs.push(cb);}
+function emit(name,evt){debug(name,evt);if(!cfg.events[name]||cfg.events[name].length==0){return;}
+for(var i=0,l=cfg.events[name].length;i<l;i++){cfg.events[name][i](evt);}
+if(name==='error'){delete cfg.events[name];}}
+function cleanArray(a){var n=[];for(var i=0;i<a.length;i++){a[i]&&n.push(a[i]);}
+return n;}
+function mergeArray(a,b){for(var i=0;i<b.length;i++){((","+a+",").indexOf(","+b[i]+",")<0)&&a.push(b[i]);}
+return a;}
+function isType(type,obj){return Object.prototype.toString.call(obj)==="[object "+type+"]"}
+function parseDependencies(code){var commentRegExp=/(\/\*([\s\S]*?)\*\/|([^:]|^)\/\/(.*)$)/mg;var cjsRequireRegExp=/[^.]\s*require\s*\(\s*["']([^'"\s]+)["']\s*\)/g;var ret=[];code.replace(commentRegExp,"").replace(cjsRequireRegExp,function(match,dep){dep&&ret.push(parseVars(dep));})
+return ret;}
+function debug(){if(!cfg.debug){return true;}
+var a=[],l=arguments.length;for(var i=0;i<l;i++){a.push(arguments[i]);}
+try{console.log.apply(console,a);}catch(e){}}}(this));</script>
+<script type="text/javascript">
+var _speedMarkModule = new Date();
+/*if(!!window.modulejsStartTime){
+    var modulejsSpendTime=Date.now()-modulejsStartTime;
+    speedTimePoint[13]=speedTimePoint[0][0].getTime()+modulejsSpendTime;
+}*/
+modulejs("wg.wxPortal",function(portal){
+   portal.init(); 
+});</script><!--[if !IE]>|xGv00|84ff8ca4fa9c087ea1f8870cd504d72b<![endif]-->
+ <script>speedTimePoint[11]=new Date(); //js执行时间 </script>
+ <script>
+ 	window.MANUAL_PV = true;
+ 	window._jdApp = { 
+        index : 6, 
+        closeHide : true, 
+        androidUrl : 'http://storage.jd.com/jdmobile/jd-wxmall3.apk?Expires=1713064741&AccessKey=77a2f170807670c5afd3cccf63deaee9ca2f4714&Signature=vG6%2FdO%2B2HBCV9PQC0C9dtg%2FUFMA%3D', 
+        iosUrl : 'https://itunes.apple.com/cn/app/jing-dong/id414245413?mt=8', 
+        fixed : false ,
+        androidRd : '7005.3.1', 
+        iosRd : '7005.3.2'
+	} 
+ </script>
+<script type="text/javascript">
+window.FOOTDETECT = {scene:JD.device.scene};
+window.addEventListener("load", function() {
+    FOOTDETECT.load = true;
+});
+
+
+
+(function(){
+		var _conf = {
+			'mobilereport':'/js/version/2014/09/pp.wg.mobilereport.20140929.js',
+	        'report': '/js/mobile/common/dest/wg.report.min.js',
+	        'ping': '/js/version/2014/08/pp.mobile.ping.20140825.js',
+	        'wxapi': '/js/mobile/common/dest/wg.wxapi.min.js',
+	        'mwfoot': '/js/mobile/common/dest/wg.mwfoot.min.js',
+	        'wxfoot': '/js/mobile/common/dest/wg.wxfoot.min.js',
+	        'wgstorage': '/js/mobile/common/dest/wg.storage.min.js',
+	        'jdappdl' : '/js/mobile/common/dest/wg.jdappdl.min.js',
+	        'navfoot' : '/js/mobile/common/dest/wg.navfoot.min.js',
+	        'searchfoot' : '/js/mobile/common/dest/wg.searchfoot.min.js',
+	        'imgSpeed' : '/js/mobile/common/dest/wg.imgReport.min.js',
+	        'cookieReset' : '/js/mobile/common/dest/wg.cookieReset.min.js'
+	    },
+	    //isDev=/^(172|10)\./.test('163.177.65.177'),
+	    isAct=location.href.replace(/(\?|#).*$/,"").indexOf("event")>-1,
+	    arr = ['mobilereport','report','ping'];
+	
+		if(JD.device.scene=="weixin"){
+			arr.push('imgSpeed');
+			arr.push('wxapi');
+		}
+		if(!isAct){
+			JD.device.scene=="weixin"?arr.push('wxfoot'):arr.push('mwfoot');
+		}
+		window._jdApp&&arr.push('jdappdl');
+		window._navfoot&&arr.push('navfoot');
+		window._searchfoot&&arr.push('searchfoot');
+		arr.push('wgstorage');
+		
+		if(window.debug){
+			arr.forEach(function(key){
+				JD.sendJs('http://static.paipaiimg.com' + _conf[key].replace("/dest/","/src/").replace(".min.js",".js")+"?t="+Math.random(),{defer:true,async:true});
+			});
+		}else{
+			JD.sendJs('http://static.paipaiimg.com/c/=' + arr.map(function(key){return _conf[key]}).join(',') + '?t=201409291905',{defer:true,async:true});			
+		}
+})();
+</script>
+<!--[if !IE]>|xGv00|b21a636c8e4d5ab702bca6739ba1f514<![endif]-->
+</body>
+</html>
+<!--[if !IE]>|xGv00|1e45c4b8df15c2e08f45aed07aa00dd2<![endif]-->
+
+<!--[if !IE]>|xGv00|219c8e8160ed5e352799c2a86797a9ec<![endif]-->
+<iframe id="syn_vk_iframe" src="http://wei.jd.com/mobile/synvisitkey.shtml?visitkey=15097477177167990"
+        style="display: none;"></iframe>
+<div class="wx_footer">
+    <div class="jd_logo" id="jdBtmLogo">
+
+    </div>
+</div>
+<iframe id="cacheProxyIfr" src="http://mm.wanggou.com/plugin/cache_proxy.shtml"
+        style="height: 0px; width: 0px; visibility: hidden;"></iframe>
+<div class="wx_nav">
+    <a href="index?actid=35011&tab=2" data-href="#" class="nav_index on">购物</a>
+	<a href="/shopcicle" data-href="#" class="nav_index">购物圈</a>
+    <a href="#" data-href="http://mm.wanggou.com/category_m.shtml?PTAG=37080.1.2&shownav=1" class="nav_search" style="display:">搜索</a>
+    <a href="#" data-href="http://mm.wanggou.com/my/jdshopcart.shtml?PTAG=37080.1.3&shownav=1" class="nav_shopcart">购物车</a>
+    <a href="#" data-href="http://mm.wanggou.com/my/index.shtml?PTAG=37080.1.4&shownav=1" class="nav_me">个人中心</a></div></body></html>
+
+
+

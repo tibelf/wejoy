@@ -1181,6 +1181,7 @@ function delCookie(name, path, domain, secure) {
         style="height: 0px; width: 0px; visibility: hidden;"></iframe>
 <div class="wx_nav">
     <a href="#" data-href="#" class="nav_index on">购物</a>
+	<a href="/shopcicle" data-href="#" class="nav_index">购物圈</a>
     <a href="#" data-href="http://mm.wanggou.com/category_m.shtml?PTAG=37080.1.2&shownav=1" class="nav_search" style="display:">搜索</a>
     <a href="#" data-href="http://mm.wanggou.com/my/jdshopcart.shtml?PTAG=37080.1.3&shownav=1" class="nav_shopcart">购物车</a>
     <a href="#" data-href="http://mm.wanggou.com/my/index.shtml?PTAG=37080.1.4&shownav=1" class="nav_me">个人中心</a></div></body></html>
