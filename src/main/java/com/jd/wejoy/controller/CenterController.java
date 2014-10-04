@@ -5,6 +5,9 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -18,13 +21,13 @@ import java.util.Map;
  * Date: 2014-9-27
  */
 @Controller
-public class CenterController {
+public class CenterController extends HttpServlet {
     @RequestMapping(value="/test",  method = {RequestMethod.GET, RequestMethod.POST})
     public String test(ModelMap model) {
 //	        model.addAttribute("message", "wejoy，demo");
 //	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
 //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
-        
+
         return "test";
     }
     @RequestMapping(value="/shop",  method = {RequestMethod.GET, RequestMethod.POST})
@@ -89,5 +92,13 @@ public class CenterController {
         //	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
         //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
         return "user_share_xiu";
+    }
+
+    @RequestMapping(value="/record",  method = RequestMethod.GET)
+    public String record(ModelMap model) {
+        //	        model.addAttribute("message", "wejoy，demo");
+        //	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
+        //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
+        return "record";
     }
 }
