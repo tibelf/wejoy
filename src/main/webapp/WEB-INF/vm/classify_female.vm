@@ -1,0 +1,713 @@
+<html lang="zh-CN"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>搜索</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="//pics0.paipaiimg.com">
+    <link rel="dns-prefetch" href="//pics1.paipaiimg.com">
+    <link rel="dns-prefetch" href="//pics2.paipaiimg.com">
+    <link rel="dns-prefetch" href="//pics3.paipaiimg.com">
+    <link rel="dns-prefetch" href="//static.paipaiimg.com">
+    <link combofile="mall/category_v2.shtml" rel="stylesheet" href="http://static.paipaiimg.com/c/=//wx/css/mall/mall_v2.s.min.css,//wx/css/mall/category_v2.s.min.css?t=1411096027"><!--[if !IE]>|xGv00|81b7c1bc84f0d8d9f9f008ed93ebdc43<![endif]-->
+    <script charset="utf-8" async="" src="http://static.gtimg.com/js/version/201306/loadscript.201306251923.js"></script><script charset="utf-8" defer="" async="" src="http://static.paipaiimg.com/c/=/js/mobile/common/dest/wg.wxapi.min.js,/js/version/2014/09/pp.wg.mobilereport.20140929.js,/js/mobile/common/dest/wg.report.min.js,/js/version/2014/08/pp.mobile.ping.20140825.js,/js/mobile/common/dest/wg.wxfoot.min.js,/js/mobile/common/dest/wg.storage.min.js,/js/mobile/common/dest/wg.debug.min.js,/js/mobile/common/dest/wg.navfoot.min.js?t=201409291905"></script><script charset="gbk" type="text/javascript" src="http://static.paipaiimg.com/js/version/2014/06/pp.wg.jdSmartbox.20140605.js?t=2014007021448"></script><script>var old = null;function asplay_top(c){var audio = document.createElement("audio");if(audio != null && audio.canPlayType && audio.canPlayType("audio/mpeg")){if(old){old.pause();}audio.src = c;old = audio;audio.play();}}</script><link type="text/css" rel="stylesheet" href="http://static.paipaiimg.com/wx/css/mall/search_panel.s.min.css?t=201407301111" id="loadCss0.05438660876825452"></head>
+<body>
+<script>
+    gSupport = {
+        retina: window.devicePixelRatio >= 1.5 ? 1 : 0,
+        sticky: (function supportSticky() {
+            var t, n = '-webkit-sticky',
+                    e = document.createElement("i");
+            e.style.position = n;
+            t = e.style.position;
+            e = null;
+            return t === n;
+        })()
+    }
+    var exp = new Date();
+    document.cookie = 'retina=' + gSupport.retina + ';expires=' + (new Date(exp.setMinutes(exp.getMinutes() + 43200)).toGMTString()) + ';path=/;domain=wanggou.com';
+    window.wxPayDomain = 'http://m.buy.qq.com/';
+    (function () {
+        var uin = '', gray = false, buyLinkGray = false,
+                whiteList = ['404645486', '42434741', '36384741', '394243851', '42434741', '2202082359', '93219600', '3715423', '2354805240', '84375863', '402533002', '125876917', '747125212'];
+
+        function getCookie(name) {
+            //读取COOKIE
+            var reg = new RegExp("(^| )" + name + "(?:=([^;]*))?(;|$)"), val = document.cookie.match(reg);
+            return val ? (val[2] ? unescape(val[2]) : "") : null;
+        }
+        // 获得uin
+        uin = getCookie('wg_uin') || getCookie('p_uin') || getCookie('uin');
+
+        //if (uin && (/[1234567]$/.test(uin) || whiteList.indexOf(uin) >= 0)) {
+        gray = true;
+        //}
+        if (gray) {
+            window.wxPayDomain = 'http://mm.wanggou.com/';
+        }
+
+        // 灰度一口价链接
+        window.buyLink = window.wxPayDomain + 'p/cart/order/jdpay.shtml';
+        //if (uin && (/[123]$/.test(uin) || whiteList.indexOf(uin) >= 0)) {
+        buyLinkGray = true;
+        //}
+
+        if (buyLinkGray) {
+            window.buyLink = window.wxPayDomain + 'p/cart/order/n_confirm_v2.shtml';
+        }
+
+    })();
+
+</script><!--[if !IE]>|xGv00|c80a932186f40bc70aca5139c39c3a25<![endif]-->
+<script>window["PP.wx.badjs.time"]=[new Date()]</script>
+<script id="legos:21994" ver="21994:20140225:20140508112656" name="PP.wx.badjs" charset="gbk">
+    window['PP.wx.badjs.time'] && window['PP.wx.badjs.time'].push(new Date());
+    function $initBadjs(){var errorStr="";var getStack=function(){if(arguments.callee.caller.caller){var curr=arguments.callee.caller.caller,c,o=[];while(curr){c=curr;o.push('['+$transJson2str(curr.arguments)+']'+c.toString().replace(/[\t\n\r]/g,"").substring(0,100));curr=curr.caller;}
+        return o.join(":");}else{return"";}}
+        window.onerror=function(msg,url,l){var stack=getStack(),ts=String(msg).replace(/\n/g," ")+"|"+encodeURIComponent(url+":"+stack)+"|"+l;window._last_err_msg={msg:msg,url:url,l:l,stack:stack};if(errorStr.indexOf(ts)==-1||window._badjs_allow_resend){errorStr+=ts+",";$sendBadjs(msg,url,l+":"+stack);}
+            return false}};function $namespace(name){for(var arr=name.split(','),r=0,len=arr.length;r<len;r++){for(var i=0,k,name=arr[r].split('.'),parent={};k=name[i];i++){i===0?eval('(typeof '+k+')==="undefined"?('+k+'={}):"";parent='+k):(parent=parent[k]=parent[k]||{});}}};function $sendBadjs(msg,src,d){var ua=navigator.userAgent.toLowerCase(),bom=window.ActiveXObject?"IE"+ua.match(/msie ([\d.]+)/)[1]:(ua.indexOf("firefox")!=-1)?"Firefox"+ua.match(/firefox\/([\d.]+)/)[1]:(ua.indexOf("chrome")!=-1)?"Chrome"+ua.match(/chrome\/([\d.]+)/)[1]:window.opera?"Opera"+ua.match(/opera.([\d.]+)/)[1]:window.openDatabase?"Safari"+ua.match(/version\/([\d.]+)/)[1]:ua.replace(/\s*/g,""),ts=msg.replace(/\n/g," ").replace(/\|/g,";")+"|"+encodeURIComponent(src)+"|"+d.replace(/\|/g,";");setTimeout(function(){sr=document.createElement("script");document.getElementsByTagName("head")[0].appendChild(sr);sr.src="http://party.paipai.com/cgi-bin/badjs?Browser="+bom+"&Url="+encodeURIComponent(location.href)+"&Content="+ts+"&t="+Math.random();},1000);};function $transJson2str(o){if(o==undefined){return"";}
+        var r=[];if(typeof o=="string")return"\""+o.replace(/([\"\\])/g,"\\$1").replace(/(\n)/g,"\\n").replace(/(\r)/g,"\\r").replace(/(\t)/g,"\\t")+"\"";if(typeof o=="object"){if(o.nodeName){r.push(["document node","nodeName:"+o.nodeName,"id:"+o.id,"class:"+o.className].join('-'));r="{"+r.join()+"}";}
+        else if(!o.sort){for(var i in o)
+            r.push("\""+i+"\":"+$transJson2str(o[i]));if(!!document.all&&!/^\n?function\s*toString\(\)\s*\{\n?\s*\[native code\]\n?\s*\}\n?\s*$/.test(o.toString)){r.push("toString:"+o.toString.toString());}
+            r="{"+r.join()+"}";}else{for(var i=0;i<o.length;i++)
+            r.push($transJson2str(o[i]));r="["+r.join()+"]";}
+            return r;}
+        return o.toString().replace(/\"\:/g,'":""');};$namespace("PP.wx.badjs");PP.wx.badjs.init=function(){$initBadjs();};PP.wx.badjs.init();
+    window['PP.wx.badjs']='21994:20140225:20140508112656';
+    window['PP.wx.badjs.time'] && window['PP.wx.badjs.time'].push(new Date());
+</script>
+<script>
+    try{(function(w){function getCookie(name){var reg=new RegExp("(^| )"+name+"(?:=([^;]*))?(;|$)"),val=document.cookie.match(reg);return val?(val[2]?unescape(val[2]):""):null;}
+        function reportUrl(traceurl){var d=new Image(1,1);d.src=traceurl;d.onload=function(){d.onload=null;d.onerror=null;};d.onerror=function(){d.onload=null;d.onerror=null;};w['_mercury_head_img']=d;}
+        function pvReportBj(){var traceurl=("https:"==location.protocol?"https://mercuryssl":"http://hermes")+".jd.com/log.gif"
+                +"?t=wg_wx.100000&m=MO_J2011-2"
+                +"&pin="+encodeURIComponent(getCookie("jdpin")||'-')
+                +"&sid="+getCookie("visitkey")+'|'
+                +"&fst=&pst=&vct=&vt=&v=&url="+encodeURIComponent(location.href)
+                +"&ref="+encodeURIComponent(document.referrer||'')
+                +"&rm="+(new Date).getTime();reportUrl(traceurl);}
+        pvReportBj();})(window);}catch(ex){}
+</script>  <!--[if !IE]>|xGv00|6bbebfeeb7a0683c6a7c6a3456793377<![endif]-->
+<script>
+    !function(a){function b(){var a=new Date;document.cookie="retina="+(e.device.isRetina?1:0)+";expires="+new Date(a.setMinutes(a.getMinutes()+43200)).toGMTString()+";path=/;wanggou.com"}function c(){function a(){var a=document.createElement("div");a.className="loadcsstest",document.body.appendChild(a);var d=a.getBoundingClientRect().width;100!=d&&(b(),e.report.badJs("css load failed:"+c.href)),document.body.removeChild(a)}function b(){c.onload=null,c.href=c.href+(c.href.indexOf("?")>-1?"&":"?")+"r="+Math.random()}for(var c,d=document.querySelectorAll("link"),f=0,g=d.length;g>f;f++)if("stylesheet"==d[f].rel&&(d[f].href.indexOf("mall_v2")>-1||d[f].href.indexOf("mall_qq")>-1)){c=d[f];break}c&&(c.onload=a)}function d(){var a=e.device.scene;e.cookie.set("cid","weixin"===a?1:"qq"===a?2:3,43200,"","wanggou.com")}var e={};e.send=function(a){var b=(new Date).getTime(),c="_COUNTRD"+b++;try{window[c]=new Image,window[c].src=a}catch(d){}},e.sendJs=function(a,b){function c(){d&&(d.onload=d.onreadystatechange=d.onerror=null,d.parentNode&&d.parentNode.removeChild(d),d=null)}var d=document.createElement("script");b=b||{},d.charset=b.charset||"utf-8",d.onload=d.onreadystatechange=function(){(/loaded|complete/i.test(this.readyState)||-1==navigator.userAgent.toLowerCase().indexOf("msie"))&&(b.onLoad&&b.onLoad(),c())},d.onerror=function(){c()},d.src=a,b.defer&&(d.defer="defer"),b.async&&(d.async="async"),document.getElementsByTagName("head")[0].appendChild(d)},e.device={retina:window.devicePixelRatio>=1.5,sticky:function(){var a,b="-webkit-sticky",c=document.createElement("i");return c.style.position=b,a=c.style.position,c=null,a===b}(),scene:function(){var a=navigator.userAgent.toLowerCase();return a.indexOf("micromessenger")>-1?"weixin":/qq\/([\d\.]+)*/.test(a)?"qq":"mobile"}()},e.performance={useScaleImg:function(){var a=e.cookie.get("network"),b=e.device.retina;return"wifi"!=a||!b}},e.report={itil:function(a){var b={bid:"1",mid:"01",res:[],onBeforeReport:null,delay:5e3};for(var c in a)b[c]=a[c];b.res.length>0&&(window.reportWebInfo=function(){},window.setTimeout(function(){b.onBeforeReport&&b.onBeforeReport(b);var a=b.bid+b.mid+"-"+b.res.join("|"),c="http://bases.wanggou.com/mcoss/webreport/ReportWebInfo?report="+a+"&t="+new Date/1e3;e.send(c)},b.delay))},rd:function(a){function b(){if(d.length){var a=d.shift();c(a),setTimeout(b,30)}}function c(a){ECC.cloud.report.trace({ptag:a})}var d;!this._rdList&&(this._rdList=[]),window.ECC_cloud_report_pv?(c(a),d=this._rdList,b()):this._rdList.push(a)},badJs:function(a,b){b=b||location.href.replace(/\?.*$/g,"");var c=new Image;c.src="http://party.paipai.com/cgi-bin/badjs?Browser=mobilelog&Url="+b+"&Content="+a+"&t="+Math.random()}},e.cookie={get:function(a){var b=new RegExp("(^| )"+a+"(?:=([^;]*))?(;|$)"),c=document.cookie.match(b);return c?c[2]?unescape(c[2]):"":null},set:function(a,b,c,d,e,f){var g=new Date,c=arguments[2]||null,d=arguments[3]||"/",e=arguments[4]||null,f=arguments[5]||!1;c?g.setMinutes(g.getMinutes()+parseInt(c)):"",document.cookie=a+"="+escape(b)+(c?";expires="+g.toGMTString():"")+(d?";path="+d:"")+(e?";domain="+e:"")+(f?";secure":"")},del:function(a,b,c,d){var e=getCookie(a);if(null!=e){var f=new Date;f.setMinutes(f.getMinutes()-1e3),b=b||"/",document.cookie=a+"=;expires="+f.toGMTString()+(b?";path="+b:"")+(c?";domain="+c:"")+(d?";secure":"")}}},e.url={setHash:function(a){setTimeout(function(){location.hash=a},0)},getHash:function(a){var b=a||location.hash;return b?b.replace(/.*#/,""):""},getHashParam:function(a){var b=this.getHash().match(new RegExp("(^|&)"+a+"=([^&]*)(&|$)"));return null!=b?b[2]:""},getUrlParam:function(a){var b=arguments[1]||window.location.search,c=new RegExp("(^|&)"+a+"=([^&]*)(&|$)"),d=b.substr(b.indexOf("?")+1).match(c);return null!=d?d[2]:""},parseUrl:function(a){var b=document.createElement("a");return b.href=a,{source:a,protocol:b.protocol.replace(":",""),host:b.hostname,port:b.port,query:b.search,params:function(){for(var a,c={},d=b.search.replace(/^\?/,"").split("&"),e=d.length,f=0;e>f;f++)d[f]&&(a=d[f].split("="),c[a[0]]=a[1]);return c}(),file:(b.pathname.match(/([^\/?#]+)$/i)||[,""])[1],hash:b.hash.replace("#",""),path:b.pathname.replace(/^([^\/])/,"/$1"),relative:(b.href.match(/tps?:\/\/[^\/]+(.+)/)||[,""])[1],segments:b.pathname.replace(/^\//,"").split("/")}},smartboxUrl:"http://static.paipaiimg.com/js/version/2014/06/pp.wg.jdSmartbox.20140605.js?t=201409241006"},e.init=function(){b(),c(),d()},e.init(),window[a]=e}("JD");
+</script><!--[if !IE]>|xGv00|b9f30821ad90ffb9b4a5deafcc289e0c<![endif]-->
+<style type="text/css">
+    .qq_menu_layer{position:fixed;top:0;left:0;bottom:0;right:0;background-color:rgba(0,0,0,0.5);z-index:950}.qq_menu{position:fixed;top:0;left:0;right:0;background-color:#FFF}.qq_menu:after{content:"\020";height:1px;width:100%;display:block;background-color:#b2b2b2;position:absolute;bottom:0;left:0}.qq_menu ul{margin:0;list-style:none;-webkit-box-sizing:border-box;box-sizing:border-box;padding:0 4px 0 0}.qq_menu ul:after{clear:both;content:'\20';display:block}.qq_menu ul li{margin:0;padding:0;width:20%;height:63px;float:left;border-right:solid 1px #ddd;border-bottom:solid 1px #ddd;text-align:center;background-color:white}.qq_menu ul li:nth-child(5n){margin-right:-5px}.qq_menu ul li a{display:block;padding-top:1px;text-decoration:none;color:#333}.qq_menu ul li i{margin:10px auto 0}.qq_menu ul li span{display:block;height:20px;line-height:20px;font-size:12px;color:#000}.qq_menu .icon_qq,.qq_menu .icon_qzone,.qq_menu .icon_copy,.qq_menu .icon_close,.qq_menu .icon_home,.qq_menu .icon_search,.qq_menu .icon_profile,.qq_menu .icon_star,.qq_menu .icon_history,.qq_menu .icon_cart,.qq_menu .icon_vip{width:30px;height:30px;display:block;background:transparent url(http://pics3.paipaiimg.com/update/20140923/index_qq_menu_icons_v3.png) no-repeat center center;background-size:150px 90px}.qq_menu .icon_qq{background-position:0 0}.qq_menu .icon_qzone{background-position:-30px 0}.qq_menu .icon_copy{background-position:-60px 0}.qq_menu .icon_close{background-position:-90px 0}.qq_menu .icon_home{background-position:0 -31px}.qq_menu .icon_search{background-position:-30px -31px}.qq_menu .icon_profile{background-position:-60px -31px}.qq_menu .icon_star{background-position:-90px -31px}.qq_menu .icon_history{background-position:-120px -31px}.qq_menu .icon_cart{background-position:-120px 0}.qq_menu .icon_vip{background-position:0 -60px}.qq_footer{margin:45px 0}.qq_footer .jd_logo{height:15px;width:86px;margin:15px auto 0 auto;background:url(http://static.paipaiimg.com/wx/img/jd_logo_min.png);background-size:cover;-webkit-background-size:cover}.qq_footer .qq_info{font-size:12px;text-align:center;color:#666}
+</style><!--[if !IE]>|xGv00|31955db704631888acf6f5d4a95bc7dd<![endif]-->
+<div class="qq_menu_layer" style="display:none" id="__mqqmenu">
+    <div class="qq_menu">
+        <ul id="__ulqqmenu">
+            <li id="__lihomepage">
+                <a href="javascript:;" ptag="37128.1.2" id="__homepage" data-href="http://mm.wanggou.com/promote/guang_index.shtml">
+                    <i class="icon_home"></i>
+                    <span>首页</span></a>
+            </li>
+            <li>
+                <a href="http://mm.wanggou.com/category_q.shtml?_wv=1&amp;ptag=37128.1.3" isshortcut="1">
+                    <i class="icon_search"></i>
+                    <span>搜索</span></a>
+            </li>
+            <li><a data-href="http://mm.wanggou.com/my/index.shtml?_wv=1&amp;ptag=37128.1.4" isshortcut="1" needlogin="1">
+                <i class="icon_profile"></i>
+                <span>个人中心</span></a>
+            </li>
+            <li><a data-href="http://mm.wanggou.com/my/jdshopcart.shtml?_wv=1&amp;37128.1.11" isshortcut="1" needlogin="1">
+                <i class="icon_cart"></i>
+                <span>购物车</span></a>
+            </li>
+            <li><a data-href="http://mm.wanggou.com/my/goods_fav.shtml?_wv=1&amp;ptag=37128.1.5" isshortcut="1" needlogin="1">
+                <i class="icon_star"></i>
+                <span>我的收藏</span></a>
+            </li>
+            <li><a href="http://mm.wanggou.com/my/recently.shtml?_wv=1&amp;ptag=37128.1.6" isshortcut="1">
+                <i class="icon_history"></i>
+                <span>最近浏览</span></a>
+            </li>
+            <li><a href="javascript:;" ptag="37128.1.7" id="__shareqq">
+                <i class="icon_qq"></i>
+                <span>QQ分享</span></a>
+            </li>
+            <li><a href="javascript:;" ptag="37128.1.8" id="__shareqzone">
+                <i class="icon_qzone"></i>
+                <span>空间分享</span></a>
+            </li>
+            <li><a data-href="http://mm.wanggou.com/my/membership_edu.html?ptag=7020.1.3" isshortcut="1">
+                <i class="icon_vip"></i>
+                <span>VIP会员</span></a>
+            </li>
+            <li><a href="javascript:;" ptag="37128.1.10" id="__returnToQQ">
+                <i class="icon_close"></i>
+                <span>关闭页面</span></a>
+            </li>
+        </ul>
+    </div>
+</div>
+<script>
+    (function() {
+        var __homepageBtn=document.getElementById("__homepage");
+        function getHomePage() {
+            var reg = new RegExp("(^| )qqmobile_homepage(?:=([^;]*))?(;|$)"),
+                    val = document.cookie.match(reg);
+            return val ? (val[2] ? unescape(val[2]) : "") : null;
+        }
+        __homepageBtn&&__homepageBtn.setAttribute("data-href",  getHomePage() || "http://mm.wanggou.com/promote/guang_index.shtml");
+    })();
+    !function(a,b){"use strict";function c(a,b){a=String(a).split("."),b=String(b).split(".");try{for(var c=0,d=Math.max(a.length,b.length);d>c;c++){var e=isFinite(a[c])&&Number(a[c])||0,f=isFinite(b[c])&&Number(b[c])||0;if(f>e)return-1;if(e>f)return 1}}catch(g){return-1}return 0}function d(a,b,c,d,e){var f,g,h,i,j=a+"://"+b+"/"+c;if(d=d||[],!e||!C[e]&&!window[e])for(e=null,g=0,h=d.length;h>g;g++)if(f=d[g],"object"==typeof f&&(f=f.callbackName||f.callback),f&&(C[f]||window[f])){e=f;break}e&&(D[e]={uri:j,startTime:Date.now()},i=String(e).match(/__MQQ_CALLBACK_(\d+)/),i&&(D[i[1]]=D[e])),H.send(j,E)}function e(a){var b=a.split("."),c=window;return b.forEach(function(a){!c[a]&&(c[a]={}),c=c[a]}),c}function f(a,b,c){var d="function"==typeof a?a:window[a];if(d){var e=g(a),f="__MQQ_CALLBACK_"+e;return window[f]=function(){var a=y.call(arguments);h(e,a,b,c)},f}}function g(a){var b=B++;return a&&(C[b]=a),b}function h(a,b,c,d){var e="function"==typeof a?a:C[a]||window[a],f=Date.now();if(b=b||[],"function"==typeof e?d?setTimeout(function(){e.apply(null,b)},0):e.apply(null,b):console.log("mqqapi: not found such callback: "+a),c&&(delete C[a],delete window["__MQQ_CALLBACK_"+a]),D[a]){var g=D[a];delete D[a],Number(a)&&delete D["__MQQ_CALLBACK_"+a];var h,i,j,k=F,l=["retCode","retcode","resultCode","ret","code","r"];if(b.length)if(h=b[0],"object"==typeof h&&null!==h){for(i=0,j=l.length;j>i;i++)if(l[i]in h){k=h[l[i]];break}}else/^-?\d+$/.test(String(h))&&(k=h);H.send(g.uri,k,f-g.startTime)}}function i(a){I.debug("execGlobalCallback: "+JSON.stringify(arguments));var b=y.call(arguments,1);w.android&&b&&b.length&&b.forEach(function(a,c){"object"==typeof a&&"r"in a&&"result"in a&&(b[c]=a.result)}),h(a,b)}function j(){}function k(a,b){var c=null,d=a.lastIndexOf("."),f=e(a.substring(0,d));b.iOS&&w.iOS?b.support&&b.support.iOS?w.compare(b.support.iOS)>-1&&(c=b.iOS):c=b.iOS:b.android&&w.android?b.support&&b.support.android?w.compare(b.support.android)>-1&&(c=b.android):c=b.android:b.browser&&(c=b.browser),f[a.substring(d+1)]=c||j}function l(a,c){I.debug("openURL: "+a);var d=document.createElement("iframe");d.style.cssText="display:none;width:0px;height:0px;";var e=function(){i(c,{r:-201,result:"error"})};w.iOS&&(d.onload=e,d.src=a);var f=document.body||document.documentElement;f.appendChild(d),w.android&&(d.onload=e,d.src=a);var g=w.__RETURN_VALUE;return w.__RETURN_VALUE=b,setTimeout(function(){d.parentNode.removeChild(d)},0),g}function m(a){return w.iOS?!0:w.android&&w.__supportAndroidNewJSBridge?G[a]&&w.compare(G[a])<0?!1:!0:!1}function n(a,b,c,e){if(!a||!b)return null;var f,i;if(c=y.call(arguments,2),e=c.length&&c[c.length-1],e&&"function"==typeof e?c.pop():"undefined"==typeof e?c.pop():e=null,i=g(e),d("jsbridge",a,b,c,i),w.android&&!w.__supportAndroidJSBridge)if(window[a]&&window[a][b]){var j=window[a][b].apply(window[a],c);if(!e)return j;h(i,[j])}else e&&h(i,[w.ERROR_NO_SUCH_METHOD]);else if(m(a,b)){f="jsbridge://"+encodeURIComponent(a)+"/"+encodeURIComponent(b),c.forEach(function(a,b){"object"==typeof a&&(a=JSON.stringify(a)),f+=0===b?"?p=":"&p"+b+"=",f+=encodeURIComponent(String(a))}),f+="#"+i;var k=l(f);if(w.iOS){if(k=k?k.result:null,!e)return k;h(i,[k],!1,!0)}}else w.android&&(f="jsbridge://"+encodeURIComponent(a)+"/"+encodeURIComponent(b)+"/"+i,c.forEach(function(a){"object"==typeof a&&(a=JSON.stringify(a)),f+="/"+encodeURIComponent(String(a))}),l(f,i));return null}function o(a,b,c,e,g){if(!a||!b||!c)return null;var h,i=y.call(arguments);"function"==typeof i[i.length-1]?(g=i[i.length-1],i.pop()):g=null,e=4===i.length?i[i.length-1]:{},g&&(e.callback_type="javascript",h=f(g),e.callback_name=h),e.src_type=e.src_type||"web",e.version||(e.version=1);var j=a+"://"+encodeURIComponent(b)+"/"+encodeURIComponent(c)+"?"+q(e);l(j),d(a,b,c,i,h)}function p(a){var b,c,d,e=a.indexOf("?"),f=a.substring(e+1).split("&"),g={};for(b=0;b<f.length;b++)e=f[b].indexOf("="),c=f[b].substring(0,e),d=f[b].substring(e+1),g[c]=decodeURIComponent(d);return g}function q(a){var b=[];for(var c in a)a.hasOwnProperty(c)&&b.push(encodeURIComponent(String(c))+"="+encodeURIComponent(String(a[c])));return b.join("&")}function r(a,b){var c=document.createElement("a");c.href=a;var d;return c.search&&(d=p(String(c.search).substring(1)),b.forEach(function(a){delete d[a]}),c.search="?"+q(d)),c.hash&&(d=p(String(c.hash).substring(1)),b.forEach(function(a){delete d[a]}),c.hash="#"+q(d)),a=c.href,c=null,a}function s(a,b){var c="evt-"+a;return(C[c]=C[c]||[]).push(b),!0}function t(a,b){var c="evt-"+a,d=C[c],e=!1;if(!d)return!1;if(!b)return delete C[c],!0;for(var f=d.length-1;f>=0;f--)b===d[f]&&(d.splice(f,1),e=!0);return e}function u(a){var b="evt-"+a,c=C[b],d=y.call(arguments,1);c&&c.forEach(function(a){h(a,d,!1,!0)})}function v(a,b,c){var e={event:a,data:b||{},options:c||{}},f="jsbridge://event/dispatchEvent?p="+encodeURIComponent(JSON.stringify(e)||"");l(f),d("jsbridge","event","dispatchEvent")}var w=window[a]=window[a]||{},x=navigator.userAgent,y=Array.prototype.slice,z=/(iPad|iPhone|iPod).*? QQ\/([\d\.]+)/,A=/\bV1_AND_SQI?_([\d\.]+)(.*? QQ\/([\d\.]+))?/,B=1,C={},D={},E=-1e5,F=-2e5,G={qbizApi:"5.0",pay:"999999",SetPwdJsInterface:"999999",GCApi:"999999",q_download:"999999",qqZoneAppList:"999999",qzone_app:"999999",qzone_http:"999999",qzone_imageCache:"999999",RoamMapJsPlugin:"999999"};w.debuging=!1,w.iOS=z.test(x),w.android=A.test(x),w.iOS&&w.android&&(w.iOS=!1),w.version="20140709003",w.QQVersion="0",w.ERROR_NO_SUCH_METHOD="no such method",w.ERROR_PERMISSION_DENIED="permission denied",!w.android&&!w.iOS&&console.log("mqqapi: not android or ios"),w.compare=function(a){return c(w.QQVersion,a)},w.android&&(w.QQVersion=function(a){return a&&a[3]||a[1]||0}(x.match(A)),window.JsBridge||(window.JsBridge={}),window.JsBridge.callMethod=n,window.JsBridge.callback=i,window.JsBridge.compareVersion=w.compare),w.iOS&&(window.iOSQQApi=w,w.__RETURN_VALUE=b,w.QQVersion=function(a){return a&&a[2]||0}(x.match(z))),w.platform=w.iOS?"IPH":w.android?"AND":"OTH";var H=function(){function a(){var b=c;if(c=[],e=0,b.length){var f={};f.appid=g,f.releaseversion=w.platform+"_MQQ_"+w.QQVersion,f.build=location.hostname+location.pathname,f.sdkversion=w.version,f.qua=w.platform+w.QQVersion+"/"+w.version,f.frequency=1,f.t=Date.now(),f.key=["commandid","resultcode","tmcost"].join(","),b.forEach(function(a,b){f[b+1+"_1"]=a[0],f[b+1+"_2"]=a[1],f[b+1+"_3"]=a[2]});var h=new Image;h.onload=function(){h=null},h.src="http://wspeed.qq.com/w.cgi?"+q(f),e=setTimeout(a,d)}}function b(b,g,h){c.push([b,g||0,h||0]),e||(f=Date.now(),e=setTimeout(a,d))}var c=[],d=200,e=0,f=0,g=1000218;return{send:b}}(),I=function(){function a(){if(w.debuging){var a=y.call(arguments),b=[];a.forEach(function(a){"object"==typeof a&&(a=JSON.stringify(a)),b.push(a)}),alert(b.join("\n"))}}return{debug:a}}();w.__androidForSamsung=/_NZ\b/.test(x),w.__supportAndroidJSBridge=w.android&&(w.compare("4.5")>-1||w.__androidForSamsung),w.__supportAndroidNewJSBridge=w.android&&w.compare("4.7.2")>-1,w.__aCallbacks=C,w.__aReports=D,w.__fireCallback=h,w.__reportAPI=d,w.build=k,w.invoke=n,w.invokeSchema=o,w.callback=f,w.execGlobalCallback=i,w.mapQuery=p,w.toQuery=q,w.removeQuery=r,w.addEventListener=s,w.removeEventListener=t,w.execEventCallback=u,w.dispatchEvent=v}("mqq"),mqq.build("mqq.device.isMobileQQ",{iOS:function(a){var b=mqq.iOS;return a?a(b):b},android:function(a){var b=mqq.android;return a?a(b):b},browser:function(a){var b=mqq.android||mqq.iOS;return a?a(b):b}}),mqq.build("mqq.device.getNetworkType",{iOS:function(a){var b=mqq.invoke("device","networkStatus");return b=Number(b),"function"!=typeof a?b:void mqq.__fireCallback(a,[b],!1,!0)},android:function(a){mqq.compare("4.6")>=0?mqq.invoke("qbizApi","getNetworkType",a):mqq.invoke("publicAccount","getNetworkState",function(b){var c={"-1":0,0:3,1:1},d=b in c?c[b]:4;a(d)})}}),mqq.build("mqq.device.networkStatus",{iOS:mqq.device.getNetworkType}),mqq.build("mqq.device.networkType",{iOS:mqq.device.getNetworkType}),mqq.build("mqq.ui.openUrl",{iOS:function(a){switch(a||(a={}),a.target){case 0:window.open(a.url,"_self");break;case 1:a.styleCode={1:4,2:2,3:5}[a.style]||1,mqq.invoke("nav","openLinkInNewWebView",{url:a.url,options:a});break;case 2:mqq.invoke("nav","openLinkInSafari",{url:a.url})}},android:function(a){2===a.target?mqq.compare("4.6")>=0?mqq.invoke("publicAccount","openInExternalBrowser",a.url):mqq.compare("4.5")>=0&&mqq.invoke("openUrlApi","openUrl",a.url):1===a.target?(a.style||(a.style=0),mqq.compare("4.6")>=0?mqq.invoke("qbizApi","openLinkInNewWebView",a.url,a.style):mqq.compare("4.5")>=0?mqq.invoke("publicAccount","openUrl",a.url):location.href=a.url):location.href=a.url},browser:function(a){2===a.target?window.open(a.url,"_blank"):location.href=a.url}}),mqq.build("mqq.ui.setActionButton",{iOS:function(a,b){"object"!=typeof a&&(a={title:a});var c=mqq.callback(b,!1,!0);a.callback=c,mqq.invoke("nav","setActionButton",a)},android:function(a,b){var c=mqq.callback(b);a.hidden&&(a.title=""),mqq.compare("4.7")>=0?(a.callback=c,mqq.invoke("ui","setActionButton",a)):mqq.invoke("publicAccount","setRightButton",a.title,"",c)}}),mqq.build("mqq.ui.shareMessage",{iOS:function(a,b){!("needPopBack"in a)&&"back"in a&&(a.needPopBack=a.back),a.share_url&&(a.share_url=mqq.removeQuery(a.share_url,["sid","3g_sid"])),a.callback=mqq.callback(b,!0,!0),mqq.invoke("nav","shareURLWebRichData",a)},android:function(a,b){a.share_url&&(a.share_url=mqq.removeQuery(a.share_url,["sid","3g_sid"])),a.callback=mqq.callback(function(a){b&&b({retCode:a?0:1})},!0),mqq.invoke("QQApi","shareMsg",a)},support:{iOS:"4.7.2",android:"4.7.2"}}),mqq.build("mqq.ui.setWebViewBehavior",{iOS:function(a){mqq.invoke("ui","setWebViewBehavior",a)},android:function(a){mqq.invoke("ui","setWebViewBehavior",a)},support:{iOS:"4.7.2",android:"4.7.2"}}),mqq.build("mqq.ui.refreshTitle",{iOS:function(){mqq.invoke("nav","refreshTitle")}}),mqq.build("mqq.ui.popBack",{iOS:function(){mqq.invoke("nav","popBack")},android:function(){mqq.invoke("publicAccount","close")}}),mqq.build("mqq.data.setShareInfo",{iOS:function(a,b){return a.share_url&&(a.share_url=mqq.removeQuery(a.share_url,["sid","3g_sid"])),mqq.invoke("data","setShareInfo",{params:a},b)},android:function(a,b){a.share_url&&(a.share_url=mqq.removeQuery(a.share_url,["sid","3g_sid"])),mqq.invoke("QQApi","setShareInfo",a,b)}}),mqq.build("mqq.data.readH5Data",{iOS:function(a,b){var c=b?mqq.callback(b):null;mqq.invoke("data","readWebviewBizData",{callback:c,params:a})},android:function(a,b){a=JSON.stringify(a||{}),mqq.invoke("publicAccount","readH5Data",a,mqq.callback(function(a){if(a&&a.response&&a.response.data){var c=a.response.data;c=c.replace(/\\/g,""),c=decodeURIComponent(c),a.response.data=c}b(a)},!0))}}),mqq.build("mqq.data.writeH5Data",{iOS:function(a,b){var c=b?mqq.callback(b):null;mqq.invoke("data","writeWebviewBizData",{callback:c,params:a})},android:function(a,b){var c=a.data;c&&(c=encodeURIComponent(c)),a.data=c,mqq.invoke("publicAccount","writeH5Data",a,mqq.callback(b,!0))}}),mqq.build("mqq.data.deleteH5Data",{iOS:function(a,b){var c=b?mqq.callback(b):null;mqq.invoke("data","deleteWebviewBizData",{callback:c,params:a})},android:function(a,b){a=JSON.stringify(a||{}),mqq.invoke("publicAccount","deleteH5Data",a,mqq.callback(b,!0))}}),function(){function a(a){return document.getElementById(a)}function b(){var a=new Date;document.cookie="cid=2;expires="+new Date(a.setMinutes(a.getMinutes()+43200)).toGMTString()+";path=/;domain="+(location.host.indexOf("buy.qq.com")>-1?"buy.qq.com":"wanggou.com")}function c(){mqq.ui.setWebViewBehavior({swipeBack:0})}function d(){if(window.shareConfig){if(!shareConfig.title)return setTimeout(setShareConfig,500),!1;if(shareConfig.link&&-1===shareConfig.link.indexOf("_share=")){var a=localStorage.getItem("ptype");shareConfig.link+=(-1===shareConfig.link.indexOf("?")?"?":"&")+"_share=mq&ptype="+a}}}function e(){mqq.device.getNetworkType(function(a){try{var b;switch(1*a){case 0:b="none";break;case 1:b="wifi";break;case 2:b="2G";break;case 3:b="3G";break;case 4:b="4G"}var c=new Date;document.cookie="network="+b+";expires="+new Date(c.setMinutes(c.getMinutes()+5)).toGMTString()+";path=/;domain="+(location.host.indexOf("buy.qq.com")>-1?"buy.qq.com":"wanggou.com"),window.$&&$(document).trigger("networkReady",b)}catch(d){}})}function f(){mqq.data.setShareInfo({share_url:o.link,title:o.title,desc:o.desc,image_url:o.img_url})}function g(){n.addEventListener("click",function(){i()}),window.addEventListener("scroll",function(){i()}),mqq.ui.setActionButton({title:"快捷入口"},function(){n.style.display="none"===n.style.display?"":"none"})}function h(){document.body.addEventListener("click",function(a){var b,c=a.target;for(ck=JD.cookie;c&&"a"!==c.nodeName.toLowerCase();)c=c.parentNode;c&&(b=c.getAttribute("data-href"))&&(c.getAttribute("needLogin")?location.href=ck.get("wg_uin")&&ck.get("wg_skey")?b:"http://party.wanggou.com/tws64/m/h5v1/cpLogin?rurl="+encodeURIComponent(b)+"&sid="+ck.get("sid")+"&uk="+ck.get("uk"):"1"==c.getAttribute("newview")?mqq.ui.openUrl({url:b,target:1,style:0}):location.href=b),i()})}function i(){n.style.display="none"}function j(){a("__shareqq").addEventListener("click",function(){var a=window.shareConfig?window.shareConfig:o;mqq.ui.shareMessage({title:a.title,desc:a.desc,share_type:0,share_url:a.link,image_url:a.img_url,back:!0},function(a){var b=a&&"0"==a.retCode?"ok":"cancel";shareConfig.shareCallback&&shareConfig.shareCallback("ShareToQQ",b,a.retCode)}),i()})}function k(){a("__shareqzone").addEventListener("click",function(){var a=window.shareConfig?window.shareConfig:o;mqq.ui.shareMessage({title:a.title,desc:a.desc,share_type:1,share_url:a.link,image_url:a.img_url,back:!0},function(a){var b=a&&"0"==a.retCode?"ok":"cancel";shareConfig.shareCallback&&shareConfig.shareCallback("ShareToQzone",b,a.retCode)}),i()})}function l(){a("__returnToQQ").addEventListener("click",function(){mqq.ui.popBack()})}function m(){if(window.JD){var a=mqq.compare("4.6")>=0,b=1,c="wanggouH5data";!JD.data&&(JD.data={}),JD.data.writeH5Data=function(d,e,f){try{a?mqq.data.writeH5Data({callid:b,path:c,key:d,data:e},function(a){f(0==a.ret)}):(localStorage.setItem(d,e),f(!0))}catch(g){f(!1)}},JD.data.readH5Data=function(d,e){try{a?mqq.data.readH5Data({callid:b,path:c,key:d},function(a){e(0==a.ret?a.response.data:"",0==a.ret)}):e(localStorage.getItem(d),!0)}catch(f){e("",!1)}},JD.data.deleteH5Data=function(d,e){try{a?mqq.data.deleteH5Data({callid:b,path:c,key:d},function(a){e(0==a.ret)}):(localStorage.removeItem(d),e(!0))}catch(f){e(!1)}}}}var n=a("__mqqmenu"),o={img_url:"http://pics1.paipaiimg.com/update/20140725/index_143554377.jpg",img_width:80,img_heigth:80,link:"http://mm.wanggou.com/promote/chaohuasuan_index.shtml?PTAG=37128.3.2",title:"超划算，超值京品",desc:"最实惠的价格、最优质的商品，精彩不断！",clkPtag:""};mqq.device.isMobileQQ(function(a){a&&(b(),e(),c(),d(),m(),mqq.compare("4.7.2")<0?f():(g(),h(),j(),k(),l()))})}();
+</script><!--[if !IE]>|xGv00|ceae9096c0cb0d7867dfd33ebf673020<![endif]-->
+<div class="WX_search">
+    <form action="###" class="WX_search_frm" onsubmit="return false;">
+      <input type="search" class="WX_search_txt" ptag="37110.50.1" id="topSearchTxt" placeholder="搜索京东全部商品">
+    <a class="WX_search_clear" href="javascript:;" id="topSearchClear" style="display: none;">x</a>
+    </form>
+    <div class="WX_me">
+        <div>
+            <a href="javascript:" id="topSearchbtn" class="WX_search_btn_blue" style="display:none;">搜索</a>
+            <a href="javascript:" id="topSearchCbtn" class="WX_search_btn" style="display:none">取消</a>
+        </div>
+    </div>
+    <!-- <div class="WX_me">
+      <div class="WX_me_btn"></div>
+    </div> -->
+</div>
+
+<div id="smartboxBlock" style="display:none;"><div> <div class="s_tab" dtab="s-tab" style="display:none;"> <a href="javascript:" ind="1" cg="1-6-1">最近搜索</a> <a href="javascript:" ind="2" cg="1-6-2">热门搜索</a> </div> <div class="s_row" dtab="s-row" style="display:none;"> </div> <div class="s_btn" dtab="s-btn" style="display:none;" cg="1-6-13">清除搜索历史</div> <div class="s_tag" dtab="s-tag" style="display:none;"> </div> <div class="s_btn" dtab="c-btn" style="display:none;" cg="1-7-1">换一批</div> <div class="s_row" dtab="smartWrap" style="display:none;"> </div></div></div>
+<div class="wx_loading2" style="display: none;"><i class="wx_loading_icon"></i></div>
+<div class="wx_wrap" style="height: 473px;">
+
+    <div id="yScroll1" style="overflow: hidden; position: absolute; top: 45px; left: 0px; width: 76px; height: 473px; background-color: rgb(243, 243, 243);">
+        <ul class="category1" id="allcontent" style="border-bottom-style: none; transition: 0ms cubic-bezier(0.1, 0.57, 0.1, 1); -webkit-transition: 0ms cubic-bezier(0.1, 0.57, 0.1, 1); transform: translate(0px, 0px) translateZ(0px);">
+
+
+
+            <li keywordid="629" ptag="37110.52.4" class="cur">女装内衣
+
+            </li>
+
+
+
+            <li keywordid="631" ptag="37110.52.6" class="">个护化妆
+
+            </li>
+
+
+            <li keywordid="630" ptag="37110.52.5" class="">鞋靴箱包
+
+            </li>
+
+
+            <li keywordid="628" ptag="37110.52.3" class="">家用电器
+
+            </li>
+
+
+
+            <li keywordid="626" ptag="37110.52.1" class="">手机
+
+            </li>
+
+
+
+            <li keywordid="627" ptag="37110.52.2" class="">电脑数码
+
+            </li>
+
+
+            <li keywordid="665" ptag="37110.52.15" class="">品牌男装
+
+            </li>
+
+
+
+            <li keywordid="632" ptag="37110.52.7" class="">家居百货
+
+            </li>
+
+
+
+            <li keywordid="653" ptag="37110.52.11" class="">奢侈品
+
+            </li>
+
+
+
+            <li keywordid="654" ptag="37110.52.13" class="">饰品手表
+
+            </li>
+
+
+
+
+            <li keywordid="635" ptag="37110.52.9" class="">户外运动
+
+            </li>
+
+
+
+            <li keywordid="636" ptag="37110.52.14" class="">汽车用品
+
+            </li>
+
+
+
+            <li keywordid="634" ptag="37110.52.10" class="">食品生鲜
+
+            </li>
+
+
+
+            <li keywordid="633" ptag="37110.52.8" class="">母婴玩具
+
+            </li>
+
+
+
+            <li keywordid="637" ptag="37110.52.12" class="">图书音像
+
+            </li>
+
+
+        </ul>
+    </div>
+    <div id="yScroll2" style="overflow: hidden; position: absolute; top: 45px; left: 76px; height: 473px; width: 244px;">
+        <div style="transition: 0ms cubic-bezier(0.1, 0.57, 0.1, 1); -webkit-transition: 0ms cubic-bezier(0.1, 0.57, 0.1, 1); transform: translate(0px, 0px) translateZ(0px);">
+            <a class="guanggao" id="guanggaoBanner" ptag="37110.51.4" href="#" target="http://bases.wanggou.com/mcoss/focusbi/click?viewid=kAPZ1p4pwLn4cnemARBulQ1Nm6r2iQrUReAPdSae6lvkz540SFyh1qRTLFzq5bSOvoSOBf_xn32QUeknDh8nF3nFXgfLbgj8cQZFEK-wI5JR7sGrCvqjYapZSZMpGagyv4b5MpK2jkfMWVMPlcPG-aSZW6-BbyZa58hQ92U6ACzjfZtQHf2SUxq8r2TdvGxIq_VjMa6YS1h6PNxXDHsIOvGs2nhWmvW92VMJkUtzmNR7qPE1nKA1nqX7wEjx5rvZn7Ic6_aFKftnJBcjB-QKQJGoTx8pUimjQokiVoGP9mujmOxF8DOLyCmLDSmZTz0TUJWU8osCKggIuGF_7lPjZ4907RCZBmp8t_AuIOZzyA3Ylm_6Ufa4XD9biMS_x5wVR3uPqMJd4zZAWXepy_nY4EU8lp4Za1U7d_XSHr28f_rkVS-S4tmxPrgQwre7t-FT3btBiwmqzXM0SK2v4rrDgNYeUWF_lnCObL5zKCVXMsiHeZYMy0jfNPvBfybCF9ainm72wBjw1HDDnnJwLTxz-j8gYIuKhjxxkySLTRF6FJa6dINCxRUfFmJCdre3j9epl5o6lKxi41l59bGSazJ5D-zEtI3gLwbnq-xbYm5XpjPYB0Jf8Vozogfv1HRMY9lMpoMl2DSDHVCwaF-NwEgqLYI2dJrSvSALHQeEYTYoTCzfb3z1Nn3Y9u2bF2xvXvCJ&amp;url=http%3A%2F%2Fmm.wanggou.com%2Fsearch%2Findex.shtml%3Fkey%3D%25E9%2595%25BF%25E8%25A2%2596%2520%25E8%25BF%259E%25E8%25A1%25A3%25E8%25A3%2599%26sf%3D1%26PTAG%3D37110.51.4%23listMode%3D1"><img src="http://img3.paipaiimg.com/d953a04f/acpc-541ABBEB-0000000100000001558B000000052720.1.jpg" alt=""></a>
+            <dl class="category2" id="category2">
+
+                <dt id="areaT_629_18711">热销品类</dt><dd id="areaC_629_18711">
+                <a target="http://mm.wanggou.com/search/index.shtml?key=2014%E7%A7%8B%20%E6%96%B0%20%E5%A5%B3&amp;ptag=37110.4.1&amp;sf=1#listMode=1"><img src="http://pics3.paipaiimg.com/update/20140813/index_094036254.jpg" alt=""><span class="tit">秋装上新</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E5%BC%80%E8%A1%AB&amp;ptag=37110.4.2&amp;sf=1#listMode=1"><img src="http://pics1.paipaiimg.com/update/20140813/index_093938814.jpg" alt=""><span class="tit">开衫</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E9%95%BF%E8%A2%96%20%E8%BF%9E%E8%A1%A3%E8%A3%99&amp;ptag=37110.4.3&amp;sf=1#listMode=1"><img src="http://pics3.paipaiimg.com/update/20140813/index_094242922.jpg" alt=""><span class="tit">长袖连衣裙</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E6%89%93%E5%BA%95%E8%A3%A4%20%E9%95%BF%E8%A3%A4&amp;ptag=37110.4.4&amp;sf=1#listMode=1"><img src="http://pics2.paipaiimg.com/update/20140813/index_093812796.jpg" alt=""><span class="tit">打底裤</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E7%94%B7%E5%A3%AB%E5%86%85%E8%A3%A4&amp;sf=1&amp;ptag=37110.4.5&amp;filt_type=catid,L9744M9744#listMode=1"><img src="http://pics1.paipaiimg.com/update/20140808/index_190618983.jpg" alt=""><span class="tit">男士内裤</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E8%BF%9E%E8%A3%A4%E8%A2%9C%20%E9%BB%91&amp;ptag=37110.4.6&amp;sf=1#listMode=1"><img src="http://pics1.paipaiimg.com/update/20140808/index_190633666.jpg" alt=""><span class="tit">黑丝</span></a>
+            </dd> <dt id="areaT_629_18600">上衣</dt><dd id="areaC_629_18600">
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E5%B0%8F%E8%A5%BF%E8%A3%85%20%E5%A5%B3&amp;ptag=37110.4.21&amp;sf=1#listMode=1"><img src="http://pics1.paipaiimg.com/update/20140811/index_092251635.jpg" alt=""><span class="tit">小西装</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E9%A3%8E%E8%A1%A3%20%E8%96%84%20%E5%A5%B3&amp;ptag=37110.4.22&amp;sf=1#listMode=1"><img src="http://pics2.paipaiimg.com/update/20140813/index_093758716.jpg" alt=""><span class="tit">薄风衣</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E9%95%BF%E8%A2%96%20T%E6%81%A4%20%E5%A5%B3&amp;ptag=37110.4.23&amp;sf=1#listMode=1"><img src="http://pics1.paipaiimg.com/update/20140813/index_094209495.jpg" alt=""><span class="tit">长袖T恤</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E9%95%BF%E8%A2%96%20%E8%A1%AC%E8%A1%AB%20%E5%A5%B3&amp;ptag=37110.4.24&amp;sf=1#listMode=1"><img src="http://pics2.paipaiimg.com/update/20140813/index_094227619.jpg" alt=""><span class="tit">长袖衬衫</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E5%8D%AB%E8%A1%A3%20%E5%A5%B3&amp;ptag=37110.4.25&amp;sf=1#listMode=1"><img src="http://pics3.paipaiimg.com/update/20140813/index_094114356.jpg" alt=""><span class="tit">卫衣</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E9%92%88%E7%BB%87%E8%A1%AB&amp;sf=1&amp;ptag=37110.4.26&amp;filt_type=catid,L1356M1356#listMode=1"><img src="http://pics2.paipaiimg.com/update/20140813/index_094325842.jpg" alt=""><span class="tit">针织衫</span></a>
+            </dd> <dt id="areaT_629_20169">裙装</dt><dd id="areaC_629_20169">
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E8%BF%9E%E8%A1%A3%E8%A3%99&amp;ptag=37110.4.41&amp;sf=1#listMode=1"><img src="http://pics0.paipaiimg.com/update/20140813/index_093957379.jpg" alt=""><span class="tit">连衣裙</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E5%8D%8A%E8%BA%AB%E8%A3%99%20%E7%A7%8B&amp;sf=1&amp;ptag=37110.4.42"><img src="http://pics1.paipaiimg.com/update/20140813/index_093728708.jpg" alt=""><span class="tit">半身裙</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E9%92%88%E7%BB%87%E8%A3%99&amp;sf=1&amp;ptag=37110.4.43&amp;filt_type=catid,L9719M9719#listMode=1"><img src="http://pics2.paipaiimg.com/update/20140813/index_094304629.jpg" alt=""><span class="tit">针织裙</span></a>
+            </dd> <dt id="areaT_629_20168">裤子</dt><dd id="areaC_629_20168">
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E4%BC%91%E9%97%B2%E8%A3%A4%20%E5%A5%B3&amp;ptag=37110.4.61&amp;sf=1#listMode=1"><img src="http://pics3.paipaiimg.com/update/20140813/index_094150648.jpg" alt=""><span class="tit">休闲裤</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E7%89%9B%E4%BB%94%E8%A3%A4%20%E5%A5%B3&amp;ptag=37110.4.62&amp;sf=1#listMode=1"><img src="http://pics0.paipaiimg.com/update/20140813/index_094017971.jpg" alt=""><span class="tit">牛仔裤</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E5%B0%8F%E8%84%9A%E8%A3%A4%20%E5%A5%B3&amp;sf=1&amp;ptag=37110.4.63"><img src="http://pics3.paipaiimg.com/update/20140813/index_094133214.jpg" alt=""><span class="tit">小脚裤</span></a>
+            </dd> <dt id="areaT_629_18717">内衣</dt><dd id="areaC_629_18717">
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E5%AE%B6%E5%B1%85%E6%9C%8D&amp;ptag=37110.4.81&amp;sf=1#listMode=1"><img src="http://pics3.paipaiimg.com/update/20140813/index_093854675.jpg" alt=""><span class="tit">家居服</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E6%96%87%E8%83%B8&amp;ptag=37110.4.82&amp;sf=1#listMode=1"><img src="http://pics0.paipaiimg.com/update/20140811/index_092526342.jpg" alt=""><span class="tit">文胸</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E5%86%85%E8%A3%A4&amp;sf=1&amp;ptag=37110.4.83&amp;filt_type=catid,L9743M9743#listMode=1"><img src="http://pics0.paipaiimg.com/update/20140811/index_092536684.jpg" alt=""><span class="tit">内裤</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E5%A1%91%E8%BA%AB%E5%86%85%E8%A1%A3&amp;ptag=37110.4.84&amp;sf=1#listMode=1"><img src="http://pics2.paipaiimg.com/update/20140813/index_094054504.jpg" alt=""><span class="tit">塑身内衣</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E8%BF%9E%E8%A3%A4%E8%A2%9C&amp;sf=1&amp;ptag=37110.4.85&amp;filt_type=catid,L9748M9748#listMode=1"><img src="http://pics2.paipaiimg.com/update/20140811/index_092600462.jpg" alt=""><span class="tit">连裤袜</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E6%A3%89%E8%A2%9C&amp;sf=1&amp;ptag=37110.4.86&amp;filt_type=catid,L12010M12010#listMode=1"><img src="http://pics2.paipaiimg.com/update/20140811/index_092616187.jpg" alt=""><span class="tit">棉袜</span></a>
+            </dd></dl>
+        </div>
+    </div>
+</div>
+
+<script>
+    window._navfoot={index:4};
+</script>
+<script type="text/javascript">
+    window.FOOTCONFIG = window.FOOTCONFIG || ['wxapi','report','ping','wxfoot'];
+</script>
+<script type="text/javascript">
+window.FOOTDETECT = {};
+function setCookie(name, value, expires, path, domain, secure) {
+    var exp = new Date(),
+            expires = arguments[2] || null,
+            path = arguments[3] || "/",
+            domain = arguments[4] || null,
+            secure = arguments[5] || false;
+    //expires ? exp.setMinutes(exp.getMinutes() + parseInt(expires)) : "";
+    expires?exp.setTime(exp.getTime()+parseInt(expires)*60*1000):"";
+    document.cookie = name + '=' + escape(value) + (expires ? ';expires=' + exp.toGMTString() : '') + (path ? ';path=' + path : '') + (domain ? ';domain=' + domain : '') + (secure ? ';secure' : '');
+}
+
+function getCookie(name) {
+    //读取COOKIE
+    var reg = new RegExp("(^| )" + name + "(?:=([^;]*))?(;|$)"),
+            val = document.cookie.match(reg);
+    return val ? (val[2] ? unescape(val[2]) : "") : null;
+}
+
+function getQuery(name, url) {
+    //参数：变量名，url为空则表从当前页面的url中取
+    var u = arguments[1] || window.location.search,
+            reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"),
+            r = u.substr(u.indexOf("\?") + 1).match(reg);
+    return r != null ? r[2] : "";
+}
+
+function loadUrl(o) {
+    o.element = o.element || 'script';
+    var el = document.createElement(o.element);
+    el.charset = o.charset || 'utf-8';
+    o.onBeforeSend && o.onBeforeSend(el);
+    el.onload = el.onreadystatechange = function() {
+        if (/loaded|complete/i.test(this.readyState) || navigator.userAgent.toLowerCase().indexOf("msie") == -1) {
+            o.onLoad && o.onLoad();
+            clear();
+        }
+    };
+    el.onerror = function() {
+        clear();
+    };
+    el.src = o.url;
+    document.getElementsByTagName('head')[0].appendChild(el);
+
+    function clear() {
+        if (!el) {
+            return;
+        }
+        el.onload = el.onreadystatechange = el.onerror = null;
+        el.parentNode && (el.parentNode.removeChild(el));
+        el = null;
+    }
+}
+
+function delCookie(name, path, domain, secure) {
+    //删除cookie
+    var value = getCookie(name);
+    if (value != null) {
+        var exp = new Date();
+        exp.setMinutes(exp.getMinutes() - 1000);
+        path = path || "/";
+        document.cookie = name + '=;expires=' + exp.toGMTString() + (path ? ';path=' + path : '') + (domain ? ';domain=' + domain : '') + (secure ? ';secure' : '');
+    }
+}
+
+(function() {
+    var Foot={};
+
+    Foot.setComboJs=function(){
+        var ua = navigator.userAgent.toLowerCase(),
+                isInWx = (ua.indexOf('micromessenger')) > -1,
+                isInQQ = ((/qq\/([\d\.]+)*/).test(ua))
+        _conf = {
+            'report': '/js/version/2014/09/pp.wg.mobilereport.20140929.js,/js/mobile/common/dest/wg.report.min.js',
+            'ping': '/js/version/2014/08/pp.mobile.ping.20140825.js',
+            'wxapi': '/js/mobile/common/dest/wg.wxapi.min.js',
+            'mwfoot': '/js/mobile/common/dest/wg.mwfoot.min.js',
+            'wxfoot': '/js/mobile/common/dest/wg.wxfoot.min.js',
+            'wgstorage': '/js/mobile/common/dest/wg.storage.min.js',
+            'jdappdl' : '/js/mobile/common/dest/wg.jdappdl.min.js',
+            'navfoot' : '/js/mobile/common/dest/wg.navfoot.min.js',
+            'searchfoot' : '/js/mobile/common/dest/wg.searchfoot.min.js',
+            'imgSpeed' : '/js/mobile/common/dest/wg.imgReport.min.js',
+            'pdebug' : '/js/mobile/common/dest/wg.debug.min.js'
+        },
+                _footconf = window.FOOTCONFIG || [],
+                _sourceArr = [],
+                _script = document.createElement('SCRIPT');
+        FOOTDETECT.scene = (ua.indexOf('micromessenger')) > -1 ? 'weixin' : ((/qq\/([\d\.]+)*/).test(ua) ? 'qq' : 'mobile');
+        setCookie('cid', FOOTDETECT.scene === 'weixin' ? 1 : (FOOTDETECT.scene === 'qq' ? 2 : 3), 43200, '', 'wanggou.com');
+
+        _footconf.push('wgstorage');
+        FOOTDETECT.scene=="weixin"&&_footconf.push('imgSpeed');
+        _footconf.push('pdebug');
+
+        if(window._jdApp){
+            _footconf.push('jdappdl');
+        }
+        if(window._navfoot){
+            _footconf.push('navfoot');
+        }
+        if(window._searchfoot){
+            _footconf.push('searchfoot');
+        }
+        /*foot debug*/
+        var debugJS=[];
+        /*foot debug*/
+        for (var i = 0; i < _footconf.length; i++) {
+            /*foot debug*/
+            if(window.footDebugInfo&&window.footDebugInfo[_footconf[i]]){debugJS.push(window.footDebugInfo[_footconf[i]]);continue;}
+            /*foot debug*/
+            var s = _conf[_footconf[i]];
+            if (s) {
+                _sourceArr.push(s);
+            }
+        }
+        setTimeout(function() {
+            (document.head || document.getElementsByTagName('head')[0]).appendChild(_script);
+            _script.charset = 'utf-8';
+            _script.defer = 'defer';
+            _script.async = 'async';
+            _script.src = 'http://static.paipaiimg.com/c/=' + _sourceArr.join(',') + '?t=201409291905';
+        }, 0);
+        /*foot debug*/
+        for(var di= 0,dl=debugJS.length;di<dl;di++){
+            var debugSC=document.createElement('script');
+            debugSC.charset = 'utf-8';
+            debugSC.src='http://static.paipaiimg.com'+debugJS[di];
+            (document.head || document.getElementsByTagName('head')[0]).appendChild(debugSC);
+        }
+        /*foot debug*/
+    };
+
+    Foot.setRegion=function(){
+        var arr = (/(wanggou.com|qq.com)$/i).exec(location.host),
+                host,
+                sid = getQuery('sid'),
+                uk = getQuery('uk'),
+                cookie_sid = getCookie('sid'),
+                uin=getCookie('uin'),
+                wg_uin=getCookie('wg_uin');
+
+        if(arr && arr.length === 2){
+            host=arr[1];
+            //sid同步
+            if(sid){
+                setCookie('sid', sid, 43200, '', host);
+                if(cookie_sid != sid){
+                    setCookie('wg_skey', 0, 60, '', host);
+                    setCookie('skey', 0, 60, '', host);
+                }
+            }
+            //uk打入cookie
+            uk&&setCookie('uk', uk, 43200, '', host);
+            //修正多个账号登录后导致的混乱
+            if(uin&&wg_uin){
+                uin=uin.replace(/^o/i,"")*1;
+                wg_uin=wg_uin*1;
+                if(/qq\/[\d\.]+/i.test(navigator.userAgent)&&uin!=wg_uin){//两个不一致，则清空uin和skey
+                    setCookie('wg_uin', '', 172800, '', host);
+                    setCookie('uin', '', 172800, '', host);
+                    setCookie('wg_skey', '', 172800, '', host);
+                    setCookie('skey', '', 172800, '', host);
+                }
+            }
+        }
+
+        window.regioncb = function(o) {
+            if (o.errCode == "0") {
+                var d = o.data;
+                jdlocid = d.provid + "_" + d.cityid + "_" + d.countyid;
+                jdlocname = d.provname + "_" + d.cityname + "_" + d.countyname;
+                localStorage && localStorage.setItem('jdLOCAddrId', jdlocid);
+                localStorage && localStorage.setItem('jdLOCAddrName', jdlocname);
+                setCookie('jdLOCAddrId', jdlocid, 5256000, '', 'wanggou.com');
+                setCookie('jdLOCAddrName', jdlocname, 5256000, '', 'wanggou.com');
+            }
+
+        }
+        //打地区cookie
+        if (!(getCookie("jdLOCAddrId") || localStorage.getItem('jdLOCAddrId'))) {
+            loadUrl({
+                url: 'http://bases.wanggou.com/recvaddr/getjd3lvladdrbyip?callback=regioncb',
+                charset: 'gbk'
+            });
+        }
+    };
+
+    Foot.setEvent=function(){
+        var events = ['load'];
+        for (var i = 0; i < events.length; i++) {
+            (function(eName) {
+                window.addEventListener(eName, function() {
+                    FOOTDETECT[eName] = true;
+                });
+            })(events[i]);
+        }
+    };
+
+    Foot.init=function(){
+        this.setComboJs();
+        this.setRegion();
+        this.setEvent();
+    };
+
+    Foot.init();
+})();
+</script><!--[if !IE]>|xGv00|47b9aa9f5ca5b0e8e52a524532ac768e<![endif]--><!--[if !IE]>|xGv00|9f0a3978a3cd6b6cb68e74d699041fb2<![endif]-->
+<script type="text/javascript">
+    //entra222-14
+    (function(global){
+        var g=[[]],d='http://static.gtimg.com',m={},blankjs="",grays={},mdebug = location.href.indexOf("mdebug=1")!=-1;
+        m.alias = {};
+        var a={},p={},c=[];
+        g["0"]=["\/js\/version\/201306\/loadscript.201306251923.js","\/js\/version\/201408\/mobile.zepto.201408111909.js","\/js\/version\/201409\/url.201409021135.js","\/js\/version\/201409\/wg.iscroll.201409161655.js","\/js\/version\/201407\/wg.localcache.201407291802.js","\/js\/version\/201409\/wg.search.category.201409231454.js","\/js\/version\/201403\/wg.zeptofx.201403031328.js"];
+        c = [['loadscript',0,0],['mobile.zepto',0,1],['url',0,2],['wg.iscroll',0,3],['wg.localcache',0,4],['wg.search.category',0,5],['wg.zeptofx',0,6]];
+        if(typeof(JSON)!="undefined" && window.localStorage){
+            for(var key in localStorage){
+                if(/^_m_/.test(key)){
+                    var store = JSON.parse(localStorage.getItem(key));
+                    var i = key.substr(3);
+                    if((new Date()).getTime()>store.cacheTime){
+                        continue;
+                    }
+                    var _m=getModuleMap(i);
+                    if(!_m || _m.group==0){continue;}
+                    var curPath=g[_m.group][_m.groupid];
+                    if((d+curPath)==store.path){
+                        g[0].push(curPath);
+                        g[_m.group][_m.groupid]=blankjs;
+                        c[_m.index]=[_m.id,0,g[0].length-1];
+                    }
+                }
+            }
+        }
+        function getModuleMap(id){
+            for(var i=0;i<c.length;i++){
+                if(c[i][0]==id){
+                    return {"id":id,"index":i,"group":c[i][1],"groupid":c[i][2]};
+                }
+            }
+            return "";
+        }
+        function getCombUrl(list){
+            var a=[];
+            for(var i=0;i<list.length;i++){
+                if(list[i]){
+                    a.push(list[i]);
+                }
+            }
+            return a.length>1?(d+"/c/="+a.join(",")):(d+a[0]);
+        }
+
+        for(var i=0;i<c.length;i++){
+            var surl=d+g[c[i][1]][c[i][2]];
+            var furl=getCombUrl(g[c[i][1]]);//合并包地址
+            a[c[i][0]]=surl;
+            p[c[i][0]]=(c[i][1]==0)?surl:furl;
+        }
+
+        m.alias=mdebug?a:p;
+        m.moduleURI=a;
+
+
+        global._moduleConfig = m;
+
+        function gray(m){
+        }
+
+    })(this);
+
+</script>
+<script type="text/javascript">if(typeof JSON!=="object"){JSON={};}(function(){function f(n){return n<10?"0"+n:n;}if(typeof Date.prototype.toJSON!=="function"){Date.prototype.toJSON=function(key){return isFinite(this.valueOf())?this.getUTCFullYear()+"-"+f(this.getUTCMonth()+1)+"-"+f(this.getUTCDate())+"T"+f(this.getUTCHours())+":"+f(this.getUTCMinutes())+":"+f(this.getUTCSeconds())+"Z":null;};String.prototype.toJSON=Number.prototype.toJSON=Boolean.prototype.toJSON=function(key){return this.valueOf();};}var cx=/[\u0000\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g,escapable=/[\\\"\x00-\x1f\x7f-\x9f\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g,gap,indent,meta={"\b":"\\b","\t":"\\t","\n":"\\n","\f":"\\f","\r":"\\r",'"':'\\"',"\\":"\\\\"},rep;function quote(string){escapable.lastIndex=0;return escapable.test(string)?'"'+string.replace(escapable,function(a){var c=meta[a];return typeof c==="string"?c:"\\u"+("0000"+a.charCodeAt(0).toString(16)).slice(-4);})+'"':'"'+string+'"';}function str(key,holder){var i,k,v,length,mind=gap,partial,value=holder[key];if(value&&typeof value==="object"&&typeof value.toJSON==="function"){value=value.toJSON(key);}if(typeof rep==="function"){value=rep.call(holder,key,value);}switch(typeof value){case"string":return quote(value);case"number":return isFinite(value)?String(value):"null";case"boolean":case"null":return String(value);case"object":if(!value){return"null";}gap+=indent;partial=[];if(Object.prototype.toString.apply(value)==="[object Array]"){length=value.length;for(i=0;i<length;i+=1){partial[i]=str(i,value)||"null";}v=partial.length===0?"[]":gap?"[\n"+gap+partial.join(",\n"+gap)+"\n"+mind+"]":"["+partial.join(",")+"]";gap=mind;return v;}if(rep&&typeof rep==="object"){length=rep.length;for(i=0;i<length;i+=1){if(typeof rep[i]==="string"){k=rep[i];v=str(k,value);if(v){partial.push(quote(k)+(gap?": ":":")+v);}}}}else{for(k in value){if(Object.prototype.hasOwnProperty.call(value,k)){v=str(k,value);if(v){partial.push(quote(k)+(gap?": ":":")+v);}}}}v=partial.length===0?"{}":gap?"{\n"+gap+partial.join(",\n"+gap)+"\n"+mind+"}":"{"+partial.join(",")+"}";gap=mind;return v;}}if(typeof JSON.stringify!=="function"){JSON.stringify=function(value,replacer,space){var i;gap="";indent="";if(typeof space==="number"){for(i=0;i<space;i+=1){indent+=" ";}}else{if(typeof space==="string"){indent=space;}}rep=replacer;if(replacer&&typeof replacer!=="function"&&(typeof replacer!=="object"||typeof replacer.length!=="number")){throw new Error("JSON.stringify");}return str("",{"":value});};}if(typeof JSON.parse!=="function"){JSON.parse=function(text,reviver){var j;function walk(holder,key){var k,v,value=holder[key];if(value&&typeof value==="object"){for(k in value){if(Object.prototype.hasOwnProperty.call(value,k)){v=walk(value,k);if(v!==undefined){value[k]=v;}else{delete value[k];}}}}return reviver.call(holder,key,value);}text=String(text);cx.lastIndex=0;if(cx.test(text)){text=text.replace(cx,function(a){return"\\u"+("0000"+a.charCodeAt(0).toString(16)).slice(-4);});}if(/^[\],:{}\s]*$/.test(text.replace(/\\(?:["\\\/bfnrt]|u[0-9a-fA-F]{4})/g,"@").replace(/"[^"\\\n\r]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?/g,"]").replace(/(?:^|:|,)(?:\s*\[)+/g,""))){j=eval("("+text+")");return typeof reviver==="function"?walk({"":j},""):j;}throw new SyntaxError("JSON.parse");};}}());var modulejs,require,define;(function(global){var mod,cfg,_modulejs,_define,_require;var version="1.0.2";var isCache=true;var cacheTime=60*60*24*30*1000;cfg={debug:location.href.indexOf("mdebug=1")!=-1?true:false,alias:{},cssAlias:{},moduleURI:{},vars:{},uris:{},modules:{},callback:[],actModules:{},cacheLoad:{},cacheDel:{},deps:{},events:{},timing:{}};_modulejs.config=config;config(global["_moduleConfig"]?global._moduleConfig:cfg);global["_moduleConfig"]=cfg;require=_require;define=_define;modulejs=_modulejs;on("module_ready",function(id,fromeCache){cfg.callback=cleanArray(cfg.callback);var init=cfg.callback,l=init.length;for(var i=0;i<l;i++){if(init[i]&&checkDeps(init[i].dependencies)){var cb=init[i].factory;var deps=init[i].dependencies;var mods=[];var allDeps=[];var m;for(var j=0;j<deps.length;j++){var m=_require(deps[j]);allDeps.push(m.dependencies);mods.push(m);}
+    debug("callback_is_run=start",cb.toString(),cfg.callback);init[i]=null;cb.apply(null,mods);cfg.debug&&emit("callback_is_run",cb.toString().replace(/[\r\n]/g,""));}}});on("module_require",function(id){cfg.actModules[id]=cfg.actModules[id]?(cfg.actModules[id]+1):1;});on("module_cacheDel",function(id){cfg.cacheDel[id]=1;});on("cache_load",function(m){});on("module_loss_alias",function(id){console.error("module_loss_alias:"+id);});var cacheNow=new Date();_loadCache();cfg.timing['loadcache']=new Date()-cacheNow;function _loadCache(){if(!_useCache()){return false;}
+    localStorage.removeItem("_modules");for(var key in localStorage){if(/^_m_/.test(key)){var store=JSON.parse(localStorage.getItem(key));var i=key.substr(3);var now=(new Date()).getTime();var oneDay=24*3600*1000;if(cfg.alias[i]){if(_getModuleURI(i)!=store.path||store.deps.join(",").indexOf("{")>-1){emit("module_cacheDel",i);localStorage.removeItem(key);continue;}}else{if(now>store.cacheTime){emit("module_cacheDel",i);localStorage.removeItem(key);continue;}}
+        if(store.cacheTime-now<oneDay){store.cacheTime=(new Date()).getTime()+cacheTime;try{localStorage.removeItem(key);localStorage.setItem(key,JSON.stringify(store));}catch(e){}}
+        cfg.cacheLoad[store.id]=store;emit("cache_load",store);}}}
+    function _getModuleURI(id){return cfg.moduleURI[id]?cfg.moduleURI[id]:cfg.alias[id];}
+    function _useCache(id,deps,factory){if(typeof(JSON)=="undefined"){return false;}
+        if(!isCache){return false;}
+        if(!(JSON&&window.localStorage)){return false;}
+        if(cfg.debug){return false;}
+        var agent=navigator.userAgent.toLowerCase();if(agent.indexOf("msie")>0){var m=agent.match(/msie\s([\d\.]+);/i);if(m&&m.length>=2&&parseInt(m[1])<=6){return false;}}
+        if(id&&id.indexOf("_")==0){return false;}
+        if(factory&&factory.toString().indexOf("_cacheThisModule_")<0){return false;}
+        return true;}
+    function _cacheModule(id,deps,factory){var key="_m_"+id;var _t=localStorage.getItem(key);var ms=_t?JSON.parse(_t):{};ms={"id":id,"deps":deps,"factory":factory.toString(),"path":_getModuleURI(id),"cacheTime":(new Date()).getTime()+cacheTime};try{localStorage.removeItem(key);localStorage.setItem(key,JSON.stringify(ms));emit("module_cached",id);}catch(e){}}
+    function _define(id,deps,factory){if(arguments.length===2){factory=deps;deps=null;}
+        deps=isType("Array",deps)?deps:(deps?[deps]:[]);if(isType("Function",factory)){var _deps=parseDependencies(factory.toString());}
+        _useCache(id,deps,factory)&&_cacheModule(id,deps,factory);deps=mergeArray(deps,_deps);var mod=new Module(id);mod.dependencies=deps||[];for(var i=mod.dependencies.length-1;i>=0;i--){mod.dependencies[i]=parseVars(mod.dependencies[i]);}
+        mod.factory=factory;if(id=="_init"){cfg.callback.push(mod);}else{cfg.modules[id]=mod;}
+        emit("module_ready",id);}
+    function _require(id){id=parseVars(id);var module=cfg.modules[id];emit("module_require",id);if(!module){emit("module_error",id);return null}
+        if(module.exports){return module.exports;}
+        var now=new Date();var factory=module.factory;var exports=isType("Function",factory)?factory(require,module.exports={},module):factory;module.exports=exports===undefined?module.exports:exports;cfg.timing[id]=new Date()-now;return module.exports;}
+    _require.async=_modulejs;_require.css=function(path){path=cfg.cssAlias&&cfg.cssAlias[path]?cfg.cssAlias[path]:path;if(!path){return;}
+        var l;if(!window["_loadCss"]||window["_loadCss"].indexOf(path)<0){l=document.createElement('link');l.setAttribute('type','text/css');l.setAttribute('rel','stylesheet');l.setAttribute('href',path);l.setAttribute("id","loadCss"+Math.random());document.getElementsByTagName("head")[0].appendChild(l);window["_loadCss"]?(window["_loadCss"]+="|"+path):(window["_loadCss"]="|"+path);}
+        l&&(typeof callback=="function")&&(l.onload=callback);return true;}
+    function _modulejs(deps,factory){_define("_init",deps,factory);}
+    function checkDeps(deps){var list={},flag=true;for(var i=0;i<deps.length;i++)list[deps[i]]=1;getDesps(deps,list);for(var i in list){if(!cfg.modules[i]){loadModule(i);flag=false;}}
+        return flag;function getDesps(deps,list){for(var i=0;i<deps.length;i++){if(!list[deps[i]]){list[deps[i]]=1;}
+            if(cfg.modules[deps[i]]&&list[deps[i]]!=2){list[deps[i]]=2;getDesps(cfg.modules[deps[i]].dependencies,list);}}}}
+    function parseVars(id){var VARS_RE=/{([^{]+)}/g
+        var vars=cfg.vars
+        if(vars&&id.indexOf("{")>-1){id=id.replace(VARS_RE,function(m,key){return isType("String",vars[key])?vars[key]:key})}
+        return id}
+    function mergeObject(a,b){for(var i in b){if(!b.hasOwnProperty(i)){continue;}
+        if(!a[i]){a[i]=b[i];}else if(Object.prototype.toString.call(b[i])=="[object Object]"){mergeObject(a[i],b[i]);}else{a[i]=b[i];}}
+        return a;}
+    function config(obj){return cfg=mergeObject(cfg,obj);}
+    function Module(id){this.id=id;this.dependencies=[];this.exports=null;this.uri="";}
+    function loadModule(id){var m;if(m=cfg.cacheLoad[id]){return _define(m.id,m.deps,eval("a = "+m.factory));}
+        if(cfg.modules[id]){emit("module_ready",id);return;}
+        var url=cfg.alias[id]?cfg.alias[id]:"";if(!url){emit("module_loss_alias",id);return;}
+        if(cfg.uris[url]){return;}
+        cfg.uris[url]=1;var head=document.getElementsByTagName("head")[0]||document.documentElement;var baseElement=head.getElementsByTagName("base")[0];var node=document.createElement("script");node.charset="utf-8";node.async=true;node.src=url;var handler=function(){var callee=arguments.callee
+            cfg.timing[callee.uri]=new Date()-callee.time;};handler.time=new Date();handler.uri=url;node.onload=handler;baseElement?head.insertBefore(node,baseElement):head.appendChild(node);cfg.debug&&emit("file_loading",url);}
+    function on(name,cb){var cbs=cfg.events[name];if(!cbs){cbs=cfg.events[name]=[];}
+        cbs.push(cb);}
+    function emit(name,evt){debug(name,evt);if(!cfg.events[name]||cfg.events[name].length==0){return;}
+        for(var i=0,l=cfg.events[name].length;i<l;i++){cfg.events[name][i](evt);}
+        if(name==='error'){delete cfg.events[name];}}
+    function cleanArray(a){var n=[];for(var i=0;i<a.length;i++){a[i]&&n.push(a[i]);}
+        return n;}
+    function mergeArray(a,b){for(var i=0;i<b.length;i++){((","+a+",").indexOf(","+b[i]+",")<0)&&a.push(b[i]);}
+        return a;}
+    function isType(type,obj){return Object.prototype.toString.call(obj)==="[object "+type+"]"}
+    function parseDependencies(code){var commentRegExp=/(\/\*([\s\S]*?)\*\/|([^:]|^)\/\/(.*)$)/mg;var cjsRequireRegExp=/[^.]\s*require\s*\(\s*["']([^'"\s]+)["']\s*\)/g;var ret=[];code.replace(commentRegExp,"").replace(cjsRequireRegExp,function(match,dep){dep&&ret.push(parseVars(dep));})
+        return ret;}
+    function debug(){if(!cfg.debug){return true;}
+        var a=[],l=arguments.length;for(var i=0;i<l;i++){a.push(arguments[i]);}
+        try{console.log.apply(console,a);}catch(e){}}}(this));</script>
+<script type="text/javascript">
+    var _speedMarkModule = new Date();
+    modulejs("wg.search.category",function(cat){
+        cat.init();
+    });</script><!--[if !IE]>|xGv00|866167be7b145936732d8e6519cfbccd<![endif]-->
+
+<script type="text/html" id="tmplLevel1">
+    <li keywordid="{#areaId#}" ptag="{#ptag#}">{#areaName#}
+
+    </li>
+
+
+</script>
+
+
+<script type="text/html" id="tmplLevel2">
+    <a target="{#target#}" ><img  src="{#imgsrc#}" alt=""><span class="tit">{#keyword#}</span></a>
+</script>
+
+<script type="text/javascript">
+    window.shareConfig = {
+        img_url: 'http://pics1.paipaiimg.com/update/20140812/index_80-80-01_20140808.png',
+        img_width: 80,
+        img_heigth: 80,
+        link:location.href,
+        title: '京东商品分类',
+        desc: '搜索全部京东商品，多快好省任你找寻！',
+        clkPtag: ''
+    };
+</script>
+
+
+<iframe id="syn_vk_iframe" src="http://wei.jd.com/mobile/synvisitkey.shtml?ptag=37080.1.2" style="display: none;"></iframe>
+<div class="wx_footer" style="display: none;">
+    <div class="jd_logo" id="jdBtmLogo">
+
+    </div>
+</div>
+<div class="wx_nav">
+    <a href="shop" data-href="shop" class="nav_index">购物</a>
+    <a href="" data-href="shop_cricle" class="nav_shop_circle">购物圈</a>
+    <a href="" data-href="#" class="nav_search on" style="display:">搜索</a>
+    <a href="" data-href="shop_car" class="nav_shopcart">购物车</a>
+    <a href="" data-href="user" class="nav_me">个人中心</a></div></body></html>
