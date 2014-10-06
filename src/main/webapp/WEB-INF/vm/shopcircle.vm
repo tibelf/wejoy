@@ -47,7 +47,11 @@
         </tr>
     </table>
     <img src = "/image/gouwucircle_zhenren.jpg" style="top:0px;left: 0px; width:100%;height:50px;" />
-    <img src = "/image/gouwucircle_xiuyixiu.jpg" style="top:0px;left: 0px; width:100%;height:400px;" />
+    <img src = "/image/gouwucircle_xiuyixiu.jpg" usemap="#planetmap" style="top:0px;left: 0px; width:100%;height:400px;" />
+    <map name="planetmap" id="planetmap">
+        <area shape="rect" coords="0,0,110,260" href ="sun.html" alt="SunSun" >
+        </area>
+    </map>
     <table>
         <tr>
             <td width="300" id="image"><img src = "/image/gouwucirclr_comment.jpg"/></td>

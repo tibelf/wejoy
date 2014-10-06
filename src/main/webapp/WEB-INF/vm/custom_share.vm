@@ -204,7 +204,9 @@
 </script><!--[if !IE]>|xGv00|ceae9096c0cb0d7867dfd33ebf673020<![endif]-->
     <form id="form1" runat="server" method="post" enctype="multipart/form-data" action="shopcircle_sharesuccess">
         <div>
-            <textarea name="txt" clos="200" rows="5" warp="virtual" value="拜托，拜托啦~~" style="width: 100%"></textarea>
+            <textarea name="txt" clos="200" rows="5" warp="virtual" style="width: 100%" readonly>
+                拜托，拜托啦~~~
+            </textarea>
         </div>
         <ul class="my_list">
             <li class="hr"></li>
