@@ -5,13 +5,13 @@
 <style type="text/css">
 
 </style>
-<title>无标题文档</title>
+<title>秀一秀</title>
 </head>
 
-<body class="">
+<body class="has_wx_download">
 <div style="width:640px; position:relative; left:0px; right:0px;">
-<div style="position:relative; left:0px; right:0px;"><img src="images/xiu_1.jpg" width="640" height="1008" /></div>
-<div style="position:absolute; right:17px; top: 658px; z-index:10px;"><a href="#"><img src="images/Camera.png" width="121" height="108" border="0" /></a></div>
+<div style="position:relative; left:0px; right:0px;"><img src="image/xiu_1.jpg" width="640" height="1008" /></div>
+<div style="position:absolute; right:17px; top: 658px; z-index:10px;"><a href="#"><img src="image/Camera.png" width="121" height="108" border="0" /></a></div>
 </div>
 
 </body>

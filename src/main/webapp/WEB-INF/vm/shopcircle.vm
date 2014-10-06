@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>购物圈</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="//pics0.paipaiimg.com">
+    <link rel="dns-prefetch" href="//pics1.paipaiimg.com">
+    <link rel="dns-prefetch" href="//pics2.paipaiimg.com">
+    <link rel="dns-prefetch" href="//pics3.paipaiimg.com">
+    <link rel="dns-prefetch" href="//static.paipaiimg.com">
+    <link combofile="mall/category_v2.shtml" rel="stylesheet" href="#springUrl('/css/all_gouwucircle.min.css')">
+    <script charset="utf-8" async="" src="http://static.gtimg.com/js/version/201306/loadscript.201306251923.js"></script><script charset="utf-8" defer="" async="" src="http://static.paipaiimg.com/c/=/js/mobile/common/dest/wg.wxapi.min.js,/js/version/2014/09/pp.wg.mobilereport.20140925.js,/js/mobile/common/dest/wg.report.min.js,/js/version/2014/08/pp.mobile.ping.20140825.js,/js/mobile/common/dest/wg.wxfoot.min.js,/js/mobile/common/dest/wg.storage.min.js,/js/mobile/common/dest/wg.debug.min.js,/js/mobile/common/dest/wg.navfoot.min.js?t=201409281905"></script><script charset="gbk" type="text/javascript" src="http://static.paipaiimg.com/js/version/2014/06/pp.wg.jdSmartbox.20140605.js?t=2014007021448"></script><script>var old = null;function asplay_top(c){var audio = document.createElement("audio");if(audio != null && audio.canPlayType && audio.canPlayType("audio/mpeg")){if(old){old.pause();}audio.src = c;old = audio;audio.play();}}</script><link type="text/css" rel="stylesheet" href="http://static.paipaiimg.com/wx/css/mall/search_panel.s.min.css?t=201407301111" id="loadCss0.17307894048281014">
+    <style type="text/css">
+        body p {
+            text-align: right;
+        }
+        #image {
+            text-align: right;
+        }
+        #text {
+            vertical-align:bottom;
+        }
+        .pai{
+            overflow:hidden;
+            height:130px;
+            border-top:1px solid #ddd;
+            position:fixed;
+            z-index:900;
+            width:100%;
+            bottom: 100px;
+            left:250px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <img src = "/image/gouwucircle.jpg" style="top:0px;left: 0px; width:100%;height:50px;" />
+    <img src = "/image/gouwucircle_xiaohuli.jpg" style="top:0px;left: 0px; width:100%;height:200px;" />
+    <table>
+        <tr>
+            <td width="260" id="image"><a href="/dasan"><img src = "/image/gouwucirclr_dasan.jpg"/></a></td>
+            <td width="40" id="image"><img src = "/image/gouwucirclr_comment.jpg"/></td>
+        </tr>
+    </table>
+    <img src = "/image/gouwucircle_zhenren.jpg" style="top:0px;left: 0px; width:100%;height:50px;" />
+    <img src = "/image/gouwucircle_xiuyixiu.jpg" style="top:0px;left: 0px; width:100%;height:400px;" />
+    <table>
+        <tr>
+            <td width="300" id="image"><img src = "/image/gouwucirclr_comment.jpg"/></td>
+        </tr>
+    </table>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div class="pai">
+        <img src = "/image/gouwucircle_camera.png" style="width: 60px;height: 53px;"/>
+    </div>
+</div>
+<div class="wx_nav">
+    <a href="" data-href="shop" class="nav_index">购物</a>
+    <a href="" data-href="#" class="nav_shop_circle on" style="display:">购物圈</a>
+    <a href="" data-href="#" class="nav_search" >搜索</a>
+    <a href="" data-href="shop_car" class="nav_shopcart">购物车</a>
+    <a href="" data-href="user" class="nav_me">个人中心</a></div></body></html>

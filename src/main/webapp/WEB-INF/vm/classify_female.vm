@@ -1,64 +1,18 @@
 <html lang="zh-CN"><head>
-    <script type="text/javascript">
-        var speedTimePoint = [[(new Date()), 1470, 117, 1,1470,117,4,1470,117,5]];
-        speedTimePoint.rptTime = -1;
-        speedTimePoint.diffNetwork=true;
-
-    </script>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
-    <meta name="author" content="qinuoli">
-
-
-
-
-    <style type="text/css">
-        ._box
-        {
-            position: relative;
-            width: 320px;
-            height: 37px;
-            /*background-color: #53AD3F;*/
-            /*background-image: url(images/bg.png);*/
-            background-repeat: no-repeat;
-            background-position: 0 0;
-            background-attachment: scroll;
-            line-height: 37px;
-            text-align: center;
-            color: white;
-            cursor: pointer;
-            overflow: hidden;
-            z-index: 1;
-        }
-        ._box input
-        {
-            position: absolute;
-            width: 320px;
-            height: 40px;
-            line-height: 40px;
-            font-size: 23px;
-            opacity: 0;
-            filter: "alpha(opacity=0)";
-            filter: alpha(opacity=0);
-            -moz-opacity: 0;
-            left: -5px;
-            top: -2px;
-            cursor: pointer;
-            z-index: 2;
-        }
-    </style>
-    <title>发表文字</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>搜索</title>
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no">
-
-
-    <link combofile="my/my_v2.shtml" rel="stylesheet" href="http://static.paipaiimg.com/c/=/wx/css/common/gb_v3.s.min.css,/wx/css/my/my_v2.s.min.css?t=1409800182"><!--[if !IE]>|xGv00|e94c4f6f94ed2bd6561128016a22087d<![endif]-->
-
-    <script type="text/javascript">
-        speedTimePoint[1]=new Date();
-    </script>
-    <script charset="utf-8" async="" src="http://static.gtimg.com/js/version/201409/wg.my.201409241731.js"></script><script charset="utf-8" async="" src="http://static.gtimg.com/js/version/201306/loadscript.201306251923.js"></script><script>var old = null;function asplay_top(c){var audio = document.createElement("audio");if(audio != null && audio.canPlayType && audio.canPlayType("audio/mpeg")){if(old){old.pause();}audio.src = c;old = audio;audio.play();}}</script></head>
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="//pics0.paipaiimg.com">
+    <link rel="dns-prefetch" href="//pics1.paipaiimg.com">
+    <link rel="dns-prefetch" href="//pics2.paipaiimg.com">
+    <link rel="dns-prefetch" href="//pics3.paipaiimg.com">
+    <link rel="dns-prefetch" href="//static.paipaiimg.com">
+    <link combofile="mall/category_v2.shtml" rel="stylesheet" href="http://static.paipaiimg.com/c/=//wx/css/mall/mall_v2.s.min.css,//wx/css/mall/category_v2.s.min.css?t=1411096027"><!--[if !IE]>|xGv00|81b7c1bc84f0d8d9f9f008ed93ebdc43<![endif]-->
+    <script charset="utf-8" async="" src="http://static.gtimg.com/js/version/201306/loadscript.201306251923.js"></script><script charset="utf-8" defer="" async="" src="http://static.paipaiimg.com/c/=/js/mobile/common/dest/wg.wxapi.min.js,/js/version/2014/09/pp.wg.mobilereport.20140929.js,/js/mobile/common/dest/wg.report.min.js,/js/version/2014/08/pp.mobile.ping.20140825.js,/js/mobile/common/dest/wg.wxfoot.min.js,/js/mobile/common/dest/wg.storage.min.js,/js/mobile/common/dest/wg.debug.min.js,/js/mobile/common/dest/wg.navfoot.min.js?t=201409291905"></script><script charset="gbk" type="text/javascript" src="http://static.paipaiimg.com/js/version/2014/06/pp.wg.jdSmartbox.20140605.js?t=2014007021448"></script><script>var old = null;function asplay_top(c){var audio = document.createElement("audio");if(audio != null && audio.canPlayType && audio.canPlayType("audio/mpeg")){if(old){old.pause();}audio.src = c;old = audio;audio.play();}}</script><link type="text/css" rel="stylesheet" href="http://static.paipaiimg.com/wx/css/mall/search_panel.s.min.css?t=201407301111" id="loadCss0.05438660876825452"></head>
 <body>
 <script>
     gSupport = {
@@ -202,73 +156,401 @@
     })();
     !function(a,b){"use strict";function c(a,b){a=String(a).split("."),b=String(b).split(".");try{for(var c=0,d=Math.max(a.length,b.length);d>c;c++){var e=isFinite(a[c])&&Number(a[c])||0,f=isFinite(b[c])&&Number(b[c])||0;if(f>e)return-1;if(e>f)return 1}}catch(g){return-1}return 0}function d(a,b,c,d,e){var f,g,h,i,j=a+"://"+b+"/"+c;if(d=d||[],!e||!C[e]&&!window[e])for(e=null,g=0,h=d.length;h>g;g++)if(f=d[g],"object"==typeof f&&(f=f.callbackName||f.callback),f&&(C[f]||window[f])){e=f;break}e&&(D[e]={uri:j,startTime:Date.now()},i=String(e).match(/__MQQ_CALLBACK_(\d+)/),i&&(D[i[1]]=D[e])),H.send(j,E)}function e(a){var b=a.split("."),c=window;return b.forEach(function(a){!c[a]&&(c[a]={}),c=c[a]}),c}function f(a,b,c){var d="function"==typeof a?a:window[a];if(d){var e=g(a),f="__MQQ_CALLBACK_"+e;return window[f]=function(){var a=y.call(arguments);h(e,a,b,c)},f}}function g(a){var b=B++;return a&&(C[b]=a),b}function h(a,b,c,d){var e="function"==typeof a?a:C[a]||window[a],f=Date.now();if(b=b||[],"function"==typeof e?d?setTimeout(function(){e.apply(null,b)},0):e.apply(null,b):console.log("mqqapi: not found such callback: "+a),c&&(delete C[a],delete window["__MQQ_CALLBACK_"+a]),D[a]){var g=D[a];delete D[a],Number(a)&&delete D["__MQQ_CALLBACK_"+a];var h,i,j,k=F,l=["retCode","retcode","resultCode","ret","code","r"];if(b.length)if(h=b[0],"object"==typeof h&&null!==h){for(i=0,j=l.length;j>i;i++)if(l[i]in h){k=h[l[i]];break}}else/^-?\d+$/.test(String(h))&&(k=h);H.send(g.uri,k,f-g.startTime)}}function i(a){I.debug("execGlobalCallback: "+JSON.stringify(arguments));var b=y.call(arguments,1);w.android&&b&&b.length&&b.forEach(function(a,c){"object"==typeof a&&"r"in a&&"result"in a&&(b[c]=a.result)}),h(a,b)}function j(){}function k(a,b){var c=null,d=a.lastIndexOf("."),f=e(a.substring(0,d));b.iOS&&w.iOS?b.support&&b.support.iOS?w.compare(b.support.iOS)>-1&&(c=b.iOS):c=b.iOS:b.android&&w.android?b.support&&b.support.android?w.compare(b.support.android)>-1&&(c=b.android):c=b.android:b.browser&&(c=b.browser),f[a.substring(d+1)]=c||j}function l(a,c){I.debug("openURL: "+a);var d=document.createElement("iframe");d.style.cssText="display:none;width:0px;height:0px;";var e=function(){i(c,{r:-201,result:"error"})};w.iOS&&(d.onload=e,d.src=a);var f=document.body||document.documentElement;f.appendChild(d),w.android&&(d.onload=e,d.src=a);var g=w.__RETURN_VALUE;return w.__RETURN_VALUE=b,setTimeout(function(){d.parentNode.removeChild(d)},0),g}function m(a){return w.iOS?!0:w.android&&w.__supportAndroidNewJSBridge?G[a]&&w.compare(G[a])<0?!1:!0:!1}function n(a,b,c,e){if(!a||!b)return null;var f,i;if(c=y.call(arguments,2),e=c.length&&c[c.length-1],e&&"function"==typeof e?c.pop():"undefined"==typeof e?c.pop():e=null,i=g(e),d("jsbridge",a,b,c,i),w.android&&!w.__supportAndroidJSBridge)if(window[a]&&window[a][b]){var j=window[a][b].apply(window[a],c);if(!e)return j;h(i,[j])}else e&&h(i,[w.ERROR_NO_SUCH_METHOD]);else if(m(a,b)){f="jsbridge://"+encodeURIComponent(a)+"/"+encodeURIComponent(b),c.forEach(function(a,b){"object"==typeof a&&(a=JSON.stringify(a)),f+=0===b?"?p=":"&p"+b+"=",f+=encodeURIComponent(String(a))}),f+="#"+i;var k=l(f);if(w.iOS){if(k=k?k.result:null,!e)return k;h(i,[k],!1,!0)}}else w.android&&(f="jsbridge://"+encodeURIComponent(a)+"/"+encodeURIComponent(b)+"/"+i,c.forEach(function(a){"object"==typeof a&&(a=JSON.stringify(a)),f+="/"+encodeURIComponent(String(a))}),l(f,i));return null}function o(a,b,c,e,g){if(!a||!b||!c)return null;var h,i=y.call(arguments);"function"==typeof i[i.length-1]?(g=i[i.length-1],i.pop()):g=null,e=4===i.length?i[i.length-1]:{},g&&(e.callback_type="javascript",h=f(g),e.callback_name=h),e.src_type=e.src_type||"web",e.version||(e.version=1);var j=a+"://"+encodeURIComponent(b)+"/"+encodeURIComponent(c)+"?"+q(e);l(j),d(a,b,c,i,h)}function p(a){var b,c,d,e=a.indexOf("?"),f=a.substring(e+1).split("&"),g={};for(b=0;b<f.length;b++)e=f[b].indexOf("="),c=f[b].substring(0,e),d=f[b].substring(e+1),g[c]=decodeURIComponent(d);return g}function q(a){var b=[];for(var c in a)a.hasOwnProperty(c)&&b.push(encodeURIComponent(String(c))+"="+encodeURIComponent(String(a[c])));return b.join("&")}function r(a,b){var c=document.createElement("a");c.href=a;var d;return c.search&&(d=p(String(c.search).substring(1)),b.forEach(function(a){delete d[a]}),c.search="?"+q(d)),c.hash&&(d=p(String(c.hash).substring(1)),b.forEach(function(a){delete d[a]}),c.hash="#"+q(d)),a=c.href,c=null,a}function s(a,b){var c="evt-"+a;return(C[c]=C[c]||[]).push(b),!0}function t(a,b){var c="evt-"+a,d=C[c],e=!1;if(!d)return!1;if(!b)return delete C[c],!0;for(var f=d.length-1;f>=0;f--)b===d[f]&&(d.splice(f,1),e=!0);return e}function u(a){var b="evt-"+a,c=C[b],d=y.call(arguments,1);c&&c.forEach(function(a){h(a,d,!1,!0)})}function v(a,b,c){var e={event:a,data:b||{},options:c||{}},f="jsbridge://event/dispatchEvent?p="+encodeURIComponent(JSON.stringify(e)||"");l(f),d("jsbridge","event","dispatchEvent")}var w=window[a]=window[a]||{},x=navigator.userAgent,y=Array.prototype.slice,z=/(iPad|iPhone|iPod).*? QQ\/([\d\.]+)/,A=/\bV1_AND_SQI?_([\d\.]+)(.*? QQ\/([\d\.]+))?/,B=1,C={},D={},E=-1e5,F=-2e5,G={qbizApi:"5.0",pay:"999999",SetPwdJsInterface:"999999",GCApi:"999999",q_download:"999999",qqZoneAppList:"999999",qzone_app:"999999",qzone_http:"999999",qzone_imageCache:"999999",RoamMapJsPlugin:"999999"};w.debuging=!1,w.iOS=z.test(x),w.android=A.test(x),w.iOS&&w.android&&(w.iOS=!1),w.version="20140709003",w.QQVersion="0",w.ERROR_NO_SUCH_METHOD="no such method",w.ERROR_PERMISSION_DENIED="permission denied",!w.android&&!w.iOS&&console.log("mqqapi: not android or ios"),w.compare=function(a){return c(w.QQVersion,a)},w.android&&(w.QQVersion=function(a){return a&&a[3]||a[1]||0}(x.match(A)),window.JsBridge||(window.JsBridge={}),window.JsBridge.callMethod=n,window.JsBridge.callback=i,window.JsBridge.compareVersion=w.compare),w.iOS&&(window.iOSQQApi=w,w.__RETURN_VALUE=b,w.QQVersion=function(a){return a&&a[2]||0}(x.match(z))),w.platform=w.iOS?"IPH":w.android?"AND":"OTH";var H=function(){function a(){var b=c;if(c=[],e=0,b.length){var f={};f.appid=g,f.releaseversion=w.platform+"_MQQ_"+w.QQVersion,f.build=location.hostname+location.pathname,f.sdkversion=w.version,f.qua=w.platform+w.QQVersion+"/"+w.version,f.frequency=1,f.t=Date.now(),f.key=["commandid","resultcode","tmcost"].join(","),b.forEach(function(a,b){f[b+1+"_1"]=a[0],f[b+1+"_2"]=a[1],f[b+1+"_3"]=a[2]});var h=new Image;h.onload=function(){h=null},h.src="http://wspeed.qq.com/w.cgi?"+q(f),e=setTimeout(a,d)}}function b(b,g,h){c.push([b,g||0,h||0]),e||(f=Date.now(),e=setTimeout(a,d))}var c=[],d=200,e=0,f=0,g=1000218;return{send:b}}(),I=function(){function a(){if(w.debuging){var a=y.call(arguments),b=[];a.forEach(function(a){"object"==typeof a&&(a=JSON.stringify(a)),b.push(a)}),alert(b.join("\n"))}}return{debug:a}}();w.__androidForSamsung=/_NZ\b/.test(x),w.__supportAndroidJSBridge=w.android&&(w.compare("4.5")>-1||w.__androidForSamsung),w.__supportAndroidNewJSBridge=w.android&&w.compare("4.7.2")>-1,w.__aCallbacks=C,w.__aReports=D,w.__fireCallback=h,w.__reportAPI=d,w.build=k,w.invoke=n,w.invokeSchema=o,w.callback=f,w.execGlobalCallback=i,w.mapQuery=p,w.toQuery=q,w.removeQuery=r,w.addEventListener=s,w.removeEventListener=t,w.execEventCallback=u,w.dispatchEvent=v}("mqq"),mqq.build("mqq.device.isMobileQQ",{iOS:function(a){var b=mqq.iOS;return a?a(b):b},android:function(a){var b=mqq.android;return a?a(b):b},browser:function(a){var b=mqq.android||mqq.iOS;return a?a(b):b}}),mqq.build("mqq.device.getNetworkType",{iOS:function(a){var b=mqq.invoke("device","networkStatus");return b=Number(b),"function"!=typeof a?b:void mqq.__fireCallback(a,[b],!1,!0)},android:function(a){mqq.compare("4.6")>=0?mqq.invoke("qbizApi","getNetworkType",a):mqq.invoke("publicAccount","getNetworkState",function(b){var c={"-1":0,0:3,1:1},d=b in c?c[b]:4;a(d)})}}),mqq.build("mqq.device.networkStatus",{iOS:mqq.device.getNetworkType}),mqq.build("mqq.device.networkType",{iOS:mqq.device.getNetworkType}),mqq.build("mqq.ui.openUrl",{iOS:function(a){switch(a||(a={}),a.target){case 0:window.open(a.url,"_self");break;case 1:a.styleCode={1:4,2:2,3:5}[a.style]||1,mqq.invoke("nav","openLinkInNewWebView",{url:a.url,options:a});break;case 2:mqq.invoke("nav","openLinkInSafari",{url:a.url})}},android:function(a){2===a.target?mqq.compare("4.6")>=0?mqq.invoke("publicAccount","openInExternalBrowser",a.url):mqq.compare("4.5")>=0&&mqq.invoke("openUrlApi","openUrl",a.url):1===a.target?(a.style||(a.style=0),mqq.compare("4.6")>=0?mqq.invoke("qbizApi","openLinkInNewWebView",a.url,a.style):mqq.compare("4.5")>=0?mqq.invoke("publicAccount","openUrl",a.url):location.href=a.url):location.href=a.url},browser:function(a){2===a.target?window.open(a.url,"_blank"):location.href=a.url}}),mqq.build("mqq.ui.setActionButton",{iOS:function(a,b){"object"!=typeof a&&(a={title:a});var c=mqq.callback(b,!1,!0);a.callback=c,mqq.invoke("nav","setActionButton",a)},android:function(a,b){var c=mqq.callback(b);a.hidden&&(a.title=""),mqq.compare("4.7")>=0?(a.callback=c,mqq.invoke("ui","setActionButton",a)):mqq.invoke("publicAccount","setRightButton",a.title,"",c)}}),mqq.build("mqq.ui.shareMessage",{iOS:function(a,b){!("needPopBack"in a)&&"back"in a&&(a.needPopBack=a.back),a.share_url&&(a.share_url=mqq.removeQuery(a.share_url,["sid","3g_sid"])),a.callback=mqq.callback(b,!0,!0),mqq.invoke("nav","shareURLWebRichData",a)},android:function(a,b){a.share_url&&(a.share_url=mqq.removeQuery(a.share_url,["sid","3g_sid"])),a.callback=mqq.callback(function(a){b&&b({retCode:a?0:1})},!0),mqq.invoke("QQApi","shareMsg",a)},support:{iOS:"4.7.2",android:"4.7.2"}}),mqq.build("mqq.ui.setWebViewBehavior",{iOS:function(a){mqq.invoke("ui","setWebViewBehavior",a)},android:function(a){mqq.invoke("ui","setWebViewBehavior",a)},support:{iOS:"4.7.2",android:"4.7.2"}}),mqq.build("mqq.ui.refreshTitle",{iOS:function(){mqq.invoke("nav","refreshTitle")}}),mqq.build("mqq.ui.popBack",{iOS:function(){mqq.invoke("nav","popBack")},android:function(){mqq.invoke("publicAccount","close")}}),mqq.build("mqq.data.setShareInfo",{iOS:function(a,b){return a.share_url&&(a.share_url=mqq.removeQuery(a.share_url,["sid","3g_sid"])),mqq.invoke("data","setShareInfo",{params:a},b)},android:function(a,b){a.share_url&&(a.share_url=mqq.removeQuery(a.share_url,["sid","3g_sid"])),mqq.invoke("QQApi","setShareInfo",a,b)}}),mqq.build("mqq.data.readH5Data",{iOS:function(a,b){var c=b?mqq.callback(b):null;mqq.invoke("data","readWebviewBizData",{callback:c,params:a})},android:function(a,b){a=JSON.stringify(a||{}),mqq.invoke("publicAccount","readH5Data",a,mqq.callback(function(a){if(a&&a.response&&a.response.data){var c=a.response.data;c=c.replace(/\\/g,""),c=decodeURIComponent(c),a.response.data=c}b(a)},!0))}}),mqq.build("mqq.data.writeH5Data",{iOS:function(a,b){var c=b?mqq.callback(b):null;mqq.invoke("data","writeWebviewBizData",{callback:c,params:a})},android:function(a,b){var c=a.data;c&&(c=encodeURIComponent(c)),a.data=c,mqq.invoke("publicAccount","writeH5Data",a,mqq.callback(b,!0))}}),mqq.build("mqq.data.deleteH5Data",{iOS:function(a,b){var c=b?mqq.callback(b):null;mqq.invoke("data","deleteWebviewBizData",{callback:c,params:a})},android:function(a,b){a=JSON.stringify(a||{}),mqq.invoke("publicAccount","deleteH5Data",a,mqq.callback(b,!0))}}),function(){function a(a){return document.getElementById(a)}function b(){var a=new Date;document.cookie="cid=2;expires="+new Date(a.setMinutes(a.getMinutes()+43200)).toGMTString()+";path=/;domain="+(location.host.indexOf("buy.qq.com")>-1?"buy.qq.com":"wanggou.com")}function c(){mqq.ui.setWebViewBehavior({swipeBack:0})}function d(){if(window.shareConfig){if(!shareConfig.title)return setTimeout(setShareConfig,500),!1;if(shareConfig.link&&-1===shareConfig.link.indexOf("_share=")){var a=localStorage.getItem("ptype");shareConfig.link+=(-1===shareConfig.link.indexOf("?")?"?":"&")+"_share=mq&ptype="+a}}}function e(){mqq.device.getNetworkType(function(a){try{var b;switch(1*a){case 0:b="none";break;case 1:b="wifi";break;case 2:b="2G";break;case 3:b="3G";break;case 4:b="4G"}var c=new Date;document.cookie="network="+b+";expires="+new Date(c.setMinutes(c.getMinutes()+5)).toGMTString()+";path=/;domain="+(location.host.indexOf("buy.qq.com")>-1?"buy.qq.com":"wanggou.com"),window.$&&$(document).trigger("networkReady",b)}catch(d){}})}function f(){mqq.data.setShareInfo({share_url:o.link,title:o.title,desc:o.desc,image_url:o.img_url})}function g(){n.addEventListener("click",function(){i()}),window.addEventListener("scroll",function(){i()}),mqq.ui.setActionButton({title:"快捷入口"},function(){n.style.display="none"===n.style.display?"":"none"})}function h(){document.body.addEventListener("click",function(a){var b,c=a.target;for(ck=JD.cookie;c&&"a"!==c.nodeName.toLowerCase();)c=c.parentNode;c&&(b=c.getAttribute("data-href"))&&(c.getAttribute("needLogin")?location.href=ck.get("wg_uin")&&ck.get("wg_skey")?b:"http://party.wanggou.com/tws64/m/h5v1/cpLogin?rurl="+encodeURIComponent(b)+"&sid="+ck.get("sid")+"&uk="+ck.get("uk"):"1"==c.getAttribute("newview")?mqq.ui.openUrl({url:b,target:1,style:0}):location.href=b),i()})}function i(){n.style.display="none"}function j(){a("__shareqq").addEventListener("click",function(){var a=window.shareConfig?window.shareConfig:o;mqq.ui.shareMessage({title:a.title,desc:a.desc,share_type:0,share_url:a.link,image_url:a.img_url,back:!0},function(a){var b=a&&"0"==a.retCode?"ok":"cancel";shareConfig.shareCallback&&shareConfig.shareCallback("ShareToQQ",b,a.retCode)}),i()})}function k(){a("__shareqzone").addEventListener("click",function(){var a=window.shareConfig?window.shareConfig:o;mqq.ui.shareMessage({title:a.title,desc:a.desc,share_type:1,share_url:a.link,image_url:a.img_url,back:!0},function(a){var b=a&&"0"==a.retCode?"ok":"cancel";shareConfig.shareCallback&&shareConfig.shareCallback("ShareToQzone",b,a.retCode)}),i()})}function l(){a("__returnToQQ").addEventListener("click",function(){mqq.ui.popBack()})}function m(){if(window.JD){var a=mqq.compare("4.6")>=0,b=1,c="wanggouH5data";!JD.data&&(JD.data={}),JD.data.writeH5Data=function(d,e,f){try{a?mqq.data.writeH5Data({callid:b,path:c,key:d,data:e},function(a){f(0==a.ret)}):(localStorage.setItem(d,e),f(!0))}catch(g){f(!1)}},JD.data.readH5Data=function(d,e){try{a?mqq.data.readH5Data({callid:b,path:c,key:d},function(a){e(0==a.ret?a.response.data:"",0==a.ret)}):e(localStorage.getItem(d),!0)}catch(f){e("",!1)}},JD.data.deleteH5Data=function(d,e){try{a?mqq.data.deleteH5Data({callid:b,path:c,key:d},function(a){e(0==a.ret)}):(localStorage.removeItem(d),e(!0))}catch(f){e(!1)}}}}var n=a("__mqqmenu"),o={img_url:"http://pics1.paipaiimg.com/update/20140725/index_143554377.jpg",img_width:80,img_heigth:80,link:"http://mm.wanggou.com/promote/chaohuasuan_index.shtml?PTAG=37128.3.2",title:"超划算，超值京品",desc:"最实惠的价格、最优质的商品，精彩不断！",clkPtag:""};mqq.device.isMobileQQ(function(a){a&&(b(),e(),c(),d(),m(),mqq.compare("4.7.2")<0?f():(g(),h(),j(),k(),l()))})}();
 </script><!--[if !IE]>|xGv00|ceae9096c0cb0d7867dfd33ebf673020<![endif]-->
-    <form id="form1" runat="server" method="post" enctype="multipart/form-data" action="tt">
-        <div>
-            <textarea name="txt" clos="200" rows="5" warp="virtual" style="width: 100%"></textarea>
-        </div>
-        <ul class="my_list">
-            <li class="hr"></li>
-            <div>
-                <p><b><font size="6">求打赏</font></b></p>
-                <p>求赞助可以让朋友帮助你,赞助费在7日内筹齐后，将会为您自动下单，或者自己补余差价，否则赞助费会自动返还给朋友</p>
-            </div>
-            <li class="hr"></li>
-            <li class="tiao">
-                <a >
-                    <b>送至</b> 北京市海淀区三环到四环之间...
-                </a>
-            </li>
-            <li class="hr"></li>
-            <div class="_box">
-                <input type="file" id="file_input">
-                <li class="rebound" accept="image/*;capture=camera"><a href="javascript:;">添加回报内容</a></li>
-            </div>
-            <!--  <li class="tiao" data-url="http://mm.wanggou.com/service/myOrder.shtml"><a href="javascript:;">返修/退换货</a></li> -->
-    ##        <li class="tiao" id="helpCenter" data-url="http://weigou.qq.com/wkd/messages/show/cid-cc_idc_212794?_fna=y&amp;jobName=ImmediateMessageTemplate_N_idc1242266_247142"><a href="javascript:;">帮助中心</a></li>
-        </ul>
-        <br/>
-        <div id="rebound_result"></div>
-        <br/>
-        <div style="text-align:center;"><input type="image" src = "/image/btn_fabu.png" alt="submit"/></div>
-
+<div class="WX_search">
+    <form action="###" class="WX_search_frm" onsubmit="return false;">
+      <input type="search" class="WX_search_txt" ptag="37110.50.1" id="topSearchTxt" placeholder="搜索京东全部商品">
+    <a class="WX_search_clear" href="javascript:;" id="topSearchClear" style="display: none;">x</a>
     </form>
-##</div><!-- wx_wrap -->
+    <div class="WX_me">
+        <div>
+            <a href="javascript:" id="topSearchbtn" class="WX_search_btn_blue" style="display:none;">搜索</a>
+            <a href="javascript:" id="topSearchCbtn" class="WX_search_btn" style="display:none">取消</a>
+        </div>
+    </div>
+    <!-- <div class="WX_me">
+      <div class="WX_me_btn"></div>
+    </div> -->
+</div>
 
-<script type="text/javascript">
-    speedTimePoint[2]=new Date();
-    var rebound_result = document.getElementById("rebound_result");
-    var input = document.getElementById("file_input");
+<div id="smartboxBlock" style="display:none;"><div> <div class="s_tab" dtab="s-tab" style="display:none;"> <a href="javascript:" ind="1" cg="1-6-1">最近搜索</a> <a href="javascript:" ind="2" cg="1-6-2">热门搜索</a> </div> <div class="s_row" dtab="s-row" style="display:none;"> </div> <div class="s_btn" dtab="s-btn" style="display:none;" cg="1-6-13">清除搜索历史</div> <div class="s_tag" dtab="s-tag" style="display:none;"> </div> <div class="s_btn" dtab="c-btn" style="display:none;" cg="1-7-1">换一批</div> <div class="s_row" dtab="smartWrap" style="display:none;"> </div></div></div>
+<div class="wx_loading2" style="display: none;"><i class="wx_loading_icon"></i></div>
+<div class="wx_wrap" style="height: 473px;">
 
-    if(typeof FileReader === 'undefined'){
-        rebound_result.innerHTML = "抱歉，你的浏览器不支持 FileReader";
-        input.setAttribute('disabled','disabled');
-    }else{
-        input.addEventListener('change',readFile,false);
-    }
+    <div id="yScroll1" style="overflow: hidden; position: absolute; top: 45px; left: 0px; width: 76px; height: 473px; background-color: rgb(243, 243, 243);">
+        <ul class="category1" id="allcontent" style="border-bottom-style: none; transition: 0ms cubic-bezier(0.1, 0.57, 0.1, 1); -webkit-transition: 0ms cubic-bezier(0.1, 0.57, 0.1, 1); transform: translate(0px, 0px) translateZ(0px);">
 
-    function readFile(){
-        var file = this.files[0];
-        if(!/image\/\w+/.test(file.type)){
-            alert("请确保文件为图像类型");
-            return false;
-        }
-        var reader = new FileReader();
-        reader.readAsDataURL(file);
-        reader.onload = function(e){
-            rebound_result.innerHTML = '<img src="'+this.result+'" alt="" height="100" width="100"/>'
-        }
-    }
+
+
+            <li keywordid="629" ptag="37110.52.4" class="cur">女装内衣
+
+            </li>
+
+
+
+            <li keywordid="631" ptag="37110.52.6" class="">个护化妆
+
+            </li>
+
+
+            <li keywordid="630" ptag="37110.52.5" class="">鞋靴箱包
+
+            </li>
+
+
+            <li keywordid="628" ptag="37110.52.3" class="">家用电器
+
+            </li>
+
+
+
+            <li keywordid="626" ptag="37110.52.1" class="">手机
+
+            </li>
+
+
+
+            <li keywordid="627" ptag="37110.52.2" class="">电脑数码
+
+            </li>
+
+
+            <li keywordid="665" ptag="37110.52.15" class="">品牌男装
+
+            </li>
+
+
+
+            <li keywordid="632" ptag="37110.52.7" class="">家居百货
+
+            </li>
+
+
+
+            <li keywordid="653" ptag="37110.52.11" class="">奢侈品
+
+            </li>
+
+
+
+            <li keywordid="654" ptag="37110.52.13" class="">饰品手表
+
+            </li>
+
+
+
+
+            <li keywordid="635" ptag="37110.52.9" class="">户外运动
+
+            </li>
+
+
+
+            <li keywordid="636" ptag="37110.52.14" class="">汽车用品
+
+            </li>
+
+
+
+            <li keywordid="634" ptag="37110.52.10" class="">食品生鲜
+
+            </li>
+
+
+
+            <li keywordid="633" ptag="37110.52.8" class="">母婴玩具
+
+            </li>
+
+
+
+            <li keywordid="637" ptag="37110.52.12" class="">图书音像
+
+            </li>
+
+
+        </ul>
+    </div>
+    <div id="yScroll2" style="overflow: hidden; position: absolute; top: 45px; left: 76px; height: 473px; width: 244px;">
+        <div style="transition: 0ms cubic-bezier(0.1, 0.57, 0.1, 1); -webkit-transition: 0ms cubic-bezier(0.1, 0.57, 0.1, 1); transform: translate(0px, 0px) translateZ(0px);">
+            <a class="guanggao" id="guanggaoBanner" ptag="37110.51.4" href="#" target="http://bases.wanggou.com/mcoss/focusbi/click?viewid=kAPZ1p4pwLn4cnemARBulQ1Nm6r2iQrUReAPdSae6lvkz540SFyh1qRTLFzq5bSOvoSOBf_xn32QUeknDh8nF3nFXgfLbgj8cQZFEK-wI5JR7sGrCvqjYapZSZMpGagyv4b5MpK2jkfMWVMPlcPG-aSZW6-BbyZa58hQ92U6ACzjfZtQHf2SUxq8r2TdvGxIq_VjMa6YS1h6PNxXDHsIOvGs2nhWmvW92VMJkUtzmNR7qPE1nKA1nqX7wEjx5rvZn7Ic6_aFKftnJBcjB-QKQJGoTx8pUimjQokiVoGP9mujmOxF8DOLyCmLDSmZTz0TUJWU8osCKggIuGF_7lPjZ4907RCZBmp8t_AuIOZzyA3Ylm_6Ufa4XD9biMS_x5wVR3uPqMJd4zZAWXepy_nY4EU8lp4Za1U7d_XSHr28f_rkVS-S4tmxPrgQwre7t-FT3btBiwmqzXM0SK2v4rrDgNYeUWF_lnCObL5zKCVXMsiHeZYMy0jfNPvBfybCF9ainm72wBjw1HDDnnJwLTxz-j8gYIuKhjxxkySLTRF6FJa6dINCxRUfFmJCdre3j9epl5o6lKxi41l59bGSazJ5D-zEtI3gLwbnq-xbYm5XpjPYB0Jf8Vozogfv1HRMY9lMpoMl2DSDHVCwaF-NwEgqLYI2dJrSvSALHQeEYTYoTCzfb3z1Nn3Y9u2bF2xvXvCJ&amp;url=http%3A%2F%2Fmm.wanggou.com%2Fsearch%2Findex.shtml%3Fkey%3D%25E9%2595%25BF%25E8%25A2%2596%2520%25E8%25BF%259E%25E8%25A1%25A3%25E8%25A3%2599%26sf%3D1%26PTAG%3D37110.51.4%23listMode%3D1"><img src="http://img3.paipaiimg.com/d953a04f/acpc-541ABBEB-0000000100000001558B000000052720.1.jpg" alt=""></a>
+            <dl class="category2" id="category2">
+
+                <dt id="areaT_629_18711">热销品类</dt><dd id="areaC_629_18711">
+                <a target="http://mm.wanggou.com/search/index.shtml?key=2014%E7%A7%8B%20%E6%96%B0%20%E5%A5%B3&amp;ptag=37110.4.1&amp;sf=1#listMode=1"><img src="http://pics3.paipaiimg.com/update/20140813/index_094036254.jpg" alt=""><span class="tit">秋装上新</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E5%BC%80%E8%A1%AB&amp;ptag=37110.4.2&amp;sf=1#listMode=1"><img src="http://pics1.paipaiimg.com/update/20140813/index_093938814.jpg" alt=""><span class="tit">开衫</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E9%95%BF%E8%A2%96%20%E8%BF%9E%E8%A1%A3%E8%A3%99&amp;ptag=37110.4.3&amp;sf=1#listMode=1"><img src="http://pics3.paipaiimg.com/update/20140813/index_094242922.jpg" alt=""><span class="tit">长袖连衣裙</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E6%89%93%E5%BA%95%E8%A3%A4%20%E9%95%BF%E8%A3%A4&amp;ptag=37110.4.4&amp;sf=1#listMode=1"><img src="http://pics2.paipaiimg.com/update/20140813/index_093812796.jpg" alt=""><span class="tit">打底裤</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E7%94%B7%E5%A3%AB%E5%86%85%E8%A3%A4&amp;sf=1&amp;ptag=37110.4.5&amp;filt_type=catid,L9744M9744#listMode=1"><img src="http://pics1.paipaiimg.com/update/20140808/index_190618983.jpg" alt=""><span class="tit">男士内裤</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E8%BF%9E%E8%A3%A4%E8%A2%9C%20%E9%BB%91&amp;ptag=37110.4.6&amp;sf=1#listMode=1"><img src="http://pics1.paipaiimg.com/update/20140808/index_190633666.jpg" alt=""><span class="tit">黑丝</span></a>
+            </dd> <dt id="areaT_629_18600">上衣</dt><dd id="areaC_629_18600">
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E5%B0%8F%E8%A5%BF%E8%A3%85%20%E5%A5%B3&amp;ptag=37110.4.21&amp;sf=1#listMode=1"><img src="http://pics1.paipaiimg.com/update/20140811/index_092251635.jpg" alt=""><span class="tit">小西装</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E9%A3%8E%E8%A1%A3%20%E8%96%84%20%E5%A5%B3&amp;ptag=37110.4.22&amp;sf=1#listMode=1"><img src="http://pics2.paipaiimg.com/update/20140813/index_093758716.jpg" alt=""><span class="tit">薄风衣</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E9%95%BF%E8%A2%96%20T%E6%81%A4%20%E5%A5%B3&amp;ptag=37110.4.23&amp;sf=1#listMode=1"><img src="http://pics1.paipaiimg.com/update/20140813/index_094209495.jpg" alt=""><span class="tit">长袖T恤</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E9%95%BF%E8%A2%96%20%E8%A1%AC%E8%A1%AB%20%E5%A5%B3&amp;ptag=37110.4.24&amp;sf=1#listMode=1"><img src="http://pics2.paipaiimg.com/update/20140813/index_094227619.jpg" alt=""><span class="tit">长袖衬衫</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E5%8D%AB%E8%A1%A3%20%E5%A5%B3&amp;ptag=37110.4.25&amp;sf=1#listMode=1"><img src="http://pics3.paipaiimg.com/update/20140813/index_094114356.jpg" alt=""><span class="tit">卫衣</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E9%92%88%E7%BB%87%E8%A1%AB&amp;sf=1&amp;ptag=37110.4.26&amp;filt_type=catid,L1356M1356#listMode=1"><img src="http://pics2.paipaiimg.com/update/20140813/index_094325842.jpg" alt=""><span class="tit">针织衫</span></a>
+            </dd> <dt id="areaT_629_20169">裙装</dt><dd id="areaC_629_20169">
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E8%BF%9E%E8%A1%A3%E8%A3%99&amp;ptag=37110.4.41&amp;sf=1#listMode=1"><img src="http://pics0.paipaiimg.com/update/20140813/index_093957379.jpg" alt=""><span class="tit">连衣裙</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E5%8D%8A%E8%BA%AB%E8%A3%99%20%E7%A7%8B&amp;sf=1&amp;ptag=37110.4.42"><img src="http://pics1.paipaiimg.com/update/20140813/index_093728708.jpg" alt=""><span class="tit">半身裙</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E9%92%88%E7%BB%87%E8%A3%99&amp;sf=1&amp;ptag=37110.4.43&amp;filt_type=catid,L9719M9719#listMode=1"><img src="http://pics2.paipaiimg.com/update/20140813/index_094304629.jpg" alt=""><span class="tit">针织裙</span></a>
+            </dd> <dt id="areaT_629_20168">裤子</dt><dd id="areaC_629_20168">
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E4%BC%91%E9%97%B2%E8%A3%A4%20%E5%A5%B3&amp;ptag=37110.4.61&amp;sf=1#listMode=1"><img src="http://pics3.paipaiimg.com/update/20140813/index_094150648.jpg" alt=""><span class="tit">休闲裤</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E7%89%9B%E4%BB%94%E8%A3%A4%20%E5%A5%B3&amp;ptag=37110.4.62&amp;sf=1#listMode=1"><img src="http://pics0.paipaiimg.com/update/20140813/index_094017971.jpg" alt=""><span class="tit">牛仔裤</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E5%B0%8F%E8%84%9A%E8%A3%A4%20%E5%A5%B3&amp;sf=1&amp;ptag=37110.4.63"><img src="http://pics3.paipaiimg.com/update/20140813/index_094133214.jpg" alt=""><span class="tit">小脚裤</span></a>
+            </dd> <dt id="areaT_629_18717">内衣</dt><dd id="areaC_629_18717">
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E5%AE%B6%E5%B1%85%E6%9C%8D&amp;ptag=37110.4.81&amp;sf=1#listMode=1"><img src="http://pics3.paipaiimg.com/update/20140813/index_093854675.jpg" alt=""><span class="tit">家居服</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E6%96%87%E8%83%B8&amp;ptag=37110.4.82&amp;sf=1#listMode=1"><img src="http://pics0.paipaiimg.com/update/20140811/index_092526342.jpg" alt=""><span class="tit">文胸</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E5%86%85%E8%A3%A4&amp;sf=1&amp;ptag=37110.4.83&amp;filt_type=catid,L9743M9743#listMode=1"><img src="http://pics0.paipaiimg.com/update/20140811/index_092536684.jpg" alt=""><span class="tit">内裤</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E5%A1%91%E8%BA%AB%E5%86%85%E8%A1%A3&amp;ptag=37110.4.84&amp;sf=1#listMode=1"><img src="http://pics2.paipaiimg.com/update/20140813/index_094054504.jpg" alt=""><span class="tit">塑身内衣</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E8%BF%9E%E8%A3%A4%E8%A2%9C&amp;sf=1&amp;ptag=37110.4.85&amp;filt_type=catid,L9748M9748#listMode=1"><img src="http://pics2.paipaiimg.com/update/20140811/index_092600462.jpg" alt=""><span class="tit">连裤袜</span></a>
+
+                <a target="http://mm.wanggou.com/search/index.shtml?key=%E6%A3%89%E8%A2%9C&amp;sf=1&amp;ptag=37110.4.86&amp;filt_type=catid,L12010M12010#listMode=1"><img src="http://pics2.paipaiimg.com/update/20140811/index_092616187.jpg" alt=""><span class="tit">棉袜</span></a>
+            </dd></dl>
+        </div>
+    </div>
+</div>
+
+<script>
+    window._navfoot={index:4};
 </script>
 <script type="text/javascript">
-    //entra146-14
+    window.FOOTCONFIG = window.FOOTCONFIG || ['wxapi','report','ping','wxfoot'];
+</script>
+<script type="text/javascript">
+window.FOOTDETECT = {};
+function setCookie(name, value, expires, path, domain, secure) {
+    var exp = new Date(),
+            expires = arguments[2] || null,
+            path = arguments[3] || "/",
+            domain = arguments[4] || null,
+            secure = arguments[5] || false;
+    //expires ? exp.setMinutes(exp.getMinutes() + parseInt(expires)) : "";
+    expires?exp.setTime(exp.getTime()+parseInt(expires)*60*1000):"";
+    document.cookie = name + '=' + escape(value) + (expires ? ';expires=' + exp.toGMTString() : '') + (path ? ';path=' + path : '') + (domain ? ';domain=' + domain : '') + (secure ? ';secure' : '');
+}
+
+function getCookie(name) {
+    //读取COOKIE
+    var reg = new RegExp("(^| )" + name + "(?:=([^;]*))?(;|$)"),
+            val = document.cookie.match(reg);
+    return val ? (val[2] ? unescape(val[2]) : "") : null;
+}
+
+function getQuery(name, url) {
+    //参数：变量名，url为空则表从当前页面的url中取
+    var u = arguments[1] || window.location.search,
+            reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"),
+            r = u.substr(u.indexOf("\?") + 1).match(reg);
+    return r != null ? r[2] : "";
+}
+
+function loadUrl(o) {
+    o.element = o.element || 'script';
+    var el = document.createElement(o.element);
+    el.charset = o.charset || 'utf-8';
+    o.onBeforeSend && o.onBeforeSend(el);
+    el.onload = el.onreadystatechange = function() {
+        if (/loaded|complete/i.test(this.readyState) || navigator.userAgent.toLowerCase().indexOf("msie") == -1) {
+            o.onLoad && o.onLoad();
+            clear();
+        }
+    };
+    el.onerror = function() {
+        clear();
+    };
+    el.src = o.url;
+    document.getElementsByTagName('head')[0].appendChild(el);
+
+    function clear() {
+        if (!el) {
+            return;
+        }
+        el.onload = el.onreadystatechange = el.onerror = null;
+        el.parentNode && (el.parentNode.removeChild(el));
+        el = null;
+    }
+}
+
+function delCookie(name, path, domain, secure) {
+    //删除cookie
+    var value = getCookie(name);
+    if (value != null) {
+        var exp = new Date();
+        exp.setMinutes(exp.getMinutes() - 1000);
+        path = path || "/";
+        document.cookie = name + '=;expires=' + exp.toGMTString() + (path ? ';path=' + path : '') + (domain ? ';domain=' + domain : '') + (secure ? ';secure' : '');
+    }
+}
+
+(function() {
+    var Foot={};
+
+    Foot.setComboJs=function(){
+        var ua = navigator.userAgent.toLowerCase(),
+                isInWx = (ua.indexOf('micromessenger')) > -1,
+                isInQQ = ((/qq\/([\d\.]+)*/).test(ua))
+        _conf = {
+            'report': '/js/version/2014/09/pp.wg.mobilereport.20140929.js,/js/mobile/common/dest/wg.report.min.js',
+            'ping': '/js/version/2014/08/pp.mobile.ping.20140825.js',
+            'wxapi': '/js/mobile/common/dest/wg.wxapi.min.js',
+            'mwfoot': '/js/mobile/common/dest/wg.mwfoot.min.js',
+            'wxfoot': '/js/mobile/common/dest/wg.wxfoot.min.js',
+            'wgstorage': '/js/mobile/common/dest/wg.storage.min.js',
+            'jdappdl' : '/js/mobile/common/dest/wg.jdappdl.min.js',
+            'navfoot' : '/js/mobile/common/dest/wg.navfoot.min.js',
+            'searchfoot' : '/js/mobile/common/dest/wg.searchfoot.min.js',
+            'imgSpeed' : '/js/mobile/common/dest/wg.imgReport.min.js',
+            'pdebug' : '/js/mobile/common/dest/wg.debug.min.js'
+        },
+                _footconf = window.FOOTCONFIG || [],
+                _sourceArr = [],
+                _script = document.createElement('SCRIPT');
+        FOOTDETECT.scene = (ua.indexOf('micromessenger')) > -1 ? 'weixin' : ((/qq\/([\d\.]+)*/).test(ua) ? 'qq' : 'mobile');
+        setCookie('cid', FOOTDETECT.scene === 'weixin' ? 1 : (FOOTDETECT.scene === 'qq' ? 2 : 3), 43200, '', 'wanggou.com');
+
+        _footconf.push('wgstorage');
+        FOOTDETECT.scene=="weixin"&&_footconf.push('imgSpeed');
+        _footconf.push('pdebug');
+
+        if(window._jdApp){
+            _footconf.push('jdappdl');
+        }
+        if(window._navfoot){
+            _footconf.push('navfoot');
+        }
+        if(window._searchfoot){
+            _footconf.push('searchfoot');
+        }
+        /*foot debug*/
+        var debugJS=[];
+        /*foot debug*/
+        for (var i = 0; i < _footconf.length; i++) {
+            /*foot debug*/
+            if(window.footDebugInfo&&window.footDebugInfo[_footconf[i]]){debugJS.push(window.footDebugInfo[_footconf[i]]);continue;}
+            /*foot debug*/
+            var s = _conf[_footconf[i]];
+            if (s) {
+                _sourceArr.push(s);
+            }
+        }
+        setTimeout(function() {
+            (document.head || document.getElementsByTagName('head')[0]).appendChild(_script);
+            _script.charset = 'utf-8';
+            _script.defer = 'defer';
+            _script.async = 'async';
+            _script.src = 'http://static.paipaiimg.com/c/=' + _sourceArr.join(',') + '?t=201409291905';
+        }, 0);
+        /*foot debug*/
+        for(var di= 0,dl=debugJS.length;di<dl;di++){
+            var debugSC=document.createElement('script');
+            debugSC.charset = 'utf-8';
+            debugSC.src='http://static.paipaiimg.com'+debugJS[di];
+            (document.head || document.getElementsByTagName('head')[0]).appendChild(debugSC);
+        }
+        /*foot debug*/
+    };
+
+    Foot.setRegion=function(){
+        var arr = (/(wanggou.com|qq.com)$/i).exec(location.host),
+                host,
+                sid = getQuery('sid'),
+                uk = getQuery('uk'),
+                cookie_sid = getCookie('sid'),
+                uin=getCookie('uin'),
+                wg_uin=getCookie('wg_uin');
+
+        if(arr && arr.length === 2){
+            host=arr[1];
+            //sid同步
+            if(sid){
+                setCookie('sid', sid, 43200, '', host);
+                if(cookie_sid != sid){
+                    setCookie('wg_skey', 0, 60, '', host);
+                    setCookie('skey', 0, 60, '', host);
+                }
+            }
+            //uk打入cookie
+            uk&&setCookie('uk', uk, 43200, '', host);
+            //修正多个账号登录后导致的混乱
+            if(uin&&wg_uin){
+                uin=uin.replace(/^o/i,"")*1;
+                wg_uin=wg_uin*1;
+                if(/qq\/[\d\.]+/i.test(navigator.userAgent)&&uin!=wg_uin){//两个不一致，则清空uin和skey
+                    setCookie('wg_uin', '', 172800, '', host);
+                    setCookie('uin', '', 172800, '', host);
+                    setCookie('wg_skey', '', 172800, '', host);
+                    setCookie('skey', '', 172800, '', host);
+                }
+            }
+        }
+
+        window.regioncb = function(o) {
+            if (o.errCode == "0") {
+                var d = o.data;
+                jdlocid = d.provid + "_" + d.cityid + "_" + d.countyid;
+                jdlocname = d.provname + "_" + d.cityname + "_" + d.countyname;
+                localStorage && localStorage.setItem('jdLOCAddrId', jdlocid);
+                localStorage && localStorage.setItem('jdLOCAddrName', jdlocname);
+                setCookie('jdLOCAddrId', jdlocid, 5256000, '', 'wanggou.com');
+                setCookie('jdLOCAddrName', jdlocname, 5256000, '', 'wanggou.com');
+            }
+
+        }
+        //打地区cookie
+        if (!(getCookie("jdLOCAddrId") || localStorage.getItem('jdLOCAddrId'))) {
+            loadUrl({
+                url: 'http://bases.wanggou.com/recvaddr/getjd3lvladdrbyip?callback=regioncb',
+                charset: 'gbk'
+            });
+        }
+    };
+
+    Foot.setEvent=function(){
+        var events = ['load'];
+        for (var i = 0; i < events.length; i++) {
+            (function(eName) {
+                window.addEventListener(eName, function() {
+                    FOOTDETECT[eName] = true;
+                });
+            })(events[i]);
+        }
+    };
+
+    Foot.init=function(){
+        this.setComboJs();
+        this.setRegion();
+        this.setEvent();
+    };
+
+    Foot.init();
+})();
+</script><!--[if !IE]>|xGv00|47b9aa9f5ca5b0e8e52a524532ac768e<![endif]--><!--[if !IE]>|xGv00|9f0a3978a3cd6b6cb68e74d699041fb2<![endif]-->
+<script type="text/javascript">
+    //entra222-14
     (function(global){
         var g=[[]],d='http://static.gtimg.com',m={},blankjs="",grays={},mdebug = location.href.indexOf("mdebug=1")!=-1;
         m.alias = {};
         var a={},p={},c=[];
-        g["1"]=["\/js\/version\/201309\/cookie.201309291040.js","\/js\/version\/201403\/md5.201403071107.js","\/js\/version\/201408\/mobile.zepto.201408111909.js","\/js\/version\/201408\/wg.speedtime.201408281525.js"];
-        g["2"]=["\/js\/version\/201306\/loadscript.201306251923.js","\/js\/version\/201409\/wg.loadJs.201409181648.js","\/js\/version\/201409\/wg.util.201409171653.js"];
-        g["0"]=["\/js\/version\/201409\/wg.my.201409241731.js"];
-        c = [['cookie',1,0],['loadscript',2,0],['md5',1,1],['mobile.zepto',1,2],['wg.loadJs',2,1],['wg.my',0,0],['wg.speedtime',1,3],['wg.util',2,2]];
+        g["0"]=["\/js\/version\/201306\/loadscript.201306251923.js","\/js\/version\/201408\/mobile.zepto.201408111909.js","\/js\/version\/201409\/url.201409021135.js","\/js\/version\/201409\/wg.iscroll.201409161655.js","\/js\/version\/201407\/wg.localcache.201407291802.js","\/js\/version\/201409\/wg.search.category.201409231454.js","\/js\/version\/201403\/wg.zeptofx.201403031328.js"];
+        c = [['loadscript',0,0],['mobile.zepto',0,1],['url',0,2],['wg.iscroll',0,3],['wg.localcache',0,4],['wg.search.category',0,5],['wg.zeptofx',0,6]];
         if(typeof(JSON)!="undefined" && window.localStorage){
             for(var key in localStorage){
                 if(/^_m_/.test(key)){
@@ -387,59 +669,45 @@
         try{console.log.apply(console,a);}catch(e){}}}(this));</script>
 <script type="text/javascript">
     var _speedMarkModule = new Date();
-    modulejs("wg.my",function(myEnter){
-        myEnter.init();
-    });</script><!--[if !IE]>|xGv00|977f8be0229c7fe122bb691956206746<![endif]-->
+    modulejs("wg.search.category",function(cat){
+        cat.init();
+    });</script><!--[if !IE]>|xGv00|866167be7b145936732d8e6519cfbccd<![endif]-->
+
+<script type="text/html" id="tmplLevel1">
+    <li keywordid="{#areaId#}" ptag="{#ptag#}">{#areaName#}
+
+    </li>
+
+
+</script>
+
+
+<script type="text/html" id="tmplLevel2">
+    <a target="{#target#}" ><img  src="{#imgsrc#}" alt=""><span class="tit">{#keyword#}</span></a>
+</script>
 
 <script type="text/javascript">
-    window.FOOTDETECT = {scene:JD.device.scene};
-    window.addEventListener("load", function() {
-        FOOTDETECT.load = true;
-    });
-
-
-
-    (function(){
-        var _conf = {
-                    'mobilereport':'/js/version/2014/09/pp.wg.mobilereport.20140929.js',
-                    'report': '/js/mobile/common/dest/wg.report.min.js',
-                    'ping': '/js/version/2014/08/pp.mobile.ping.20140825.js',
-                    'wxapi': '/js/mobile/common/dest/wg.wxapi.min.js',
-                    'mwfoot': '/js/mobile/common/dest/wg.mwfoot.min.js',
-                    'wxfoot': '/js/mobile/common/dest/wg.wxfoot.min.js',
-                    'wgstorage': '/js/mobile/common/dest/wg.storage.min.js',
-                    'jdappdl' : '/js/mobile/common/dest/wg.jdappdl.min.js',
-                    'navfoot' : '/js/mobile/common/dest/wg.navfoot.min.js',
-                    'searchfoot' : '/js/mobile/common/dest/wg.searchfoot.min.js',
-                    'imgSpeed' : '/js/mobile/common/dest/wg.imgReport.min.js',
-                    'cookieReset' : '/js/mobile/common/dest/wg.cookieReset.min.js'
-                },
-        //isDev=/^(172|10)\./.test('10.198.11.171'),
-                isAct=location.href.replace(/(\?|#).*$/,"").indexOf("event")>-1,
-                arr = ['mobilereport','report','ping'];
-
-        if(JD.device.scene=="weixin"){
-            arr.push('imgSpeed');
-            arr.push('wxapi');
-        }
-        if(!isAct){
-            JD.device.scene=="weixin"?arr.push('wxfoot'):arr.push('mwfoot');
-        }
-        window._jdApp&&arr.push('jdappdl');
-        window._navfoot&&arr.push('navfoot');
-        window._searchfoot&&arr.push('searchfoot');
-        arr.push('wgstorage');
-
-        if(window.debug){
-            arr.forEach(function(key){
-                JD.sendJs('http://static.paipaiimg.com' + _conf[key].replace("/dest/","/src/").replace(".min.js",".js")+"?t="+Math.random(),{defer:true,async:true});
-            });
-        }else{
-            JD.sendJs('http://static.paipaiimg.com/c/=' + arr.map(function(key){return _conf[key]}).join(',') + '?t=201409291905',{defer:true,async:true});
-        }
-    })();
+    window.shareConfig = {
+        img_url: 'http://pics1.paipaiimg.com/update/20140812/index_80-80-01_20140808.png',
+        img_width: 80,
+        img_heigth: 80,
+        link:location.href,
+        title: '京东商品分类',
+        desc: '搜索全部京东商品，多快好省任你找寻！',
+        clkPtag: ''
+    };
 </script>
-<!--[if !IE]>|xGv00|b21a636c8e4d5ab702bca6739ba1f514<![endif]-->
 
-##<iframe id="syn_vk_iframe" src="http://wei.jd.com/mobile/synvisitkey.shtml?ptag=37080.1.4" style="display: none;"></iframe><div class="qq_footer"><div class="jd_logo" id="jdBtmLogo"></div><div class="qq_info">页面内容由京东提供</div></div>
-</body></html>
+
+<iframe id="syn_vk_iframe" src="http://wei.jd.com/mobile/synvisitkey.shtml?ptag=37080.1.2" style="display: none;"></iframe>
+<div class="wx_footer" style="display: none;">
+    <div class="jd_logo" id="jdBtmLogo">
+
+    </div>
+</div>
+<div class="wx_nav">
+    <a href="shop" data-href="shop" class="nav_index">购物</a>
+    <a href="" data-href="shop_cricle" class="nav_shop_circle">购物圈</a>
+    <a href="" data-href="#" class="nav_search on" style="display:">搜索</a>
+    <a href="" data-href="shop_car" class="nav_shopcart">购物车</a>
+    <a href="" data-href="user" class="nav_me">个人中心</a></div></body></html>

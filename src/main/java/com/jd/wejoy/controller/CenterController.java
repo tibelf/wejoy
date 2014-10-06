@@ -43,7 +43,7 @@ public class CenterController extends HttpServlet {
         //	        model.addAttribute("message", "wejoy，demo");
         //	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
         //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
-        return "classify";
+        return "classify_female";
     }
 
     @RequestMapping(value="/custom_watch_detail",  method = RequestMethod.GET)
@@ -101,17 +101,12 @@ public class CenterController extends HttpServlet {
         //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
         return "record";
     }
-    
-    @RequestMapping(value="/index",  method = {RequestMethod.GET, RequestMethod.POST})
-    public String index(ModelMap model) {
-//	        model.addAttribute("message", "wejoy，demo");
-//	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
-//	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
 
-        return "index";
+    @RequestMapping(value="/shopcircle",  method = RequestMethod.GET)
+    public String shopcircle(ModelMap model) {
+        //	        model.addAttribute("message", "wejoy，demo");
+        //	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
+        //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
+        return "shopcircle";
     }
-    
-    
-    
-    
 }

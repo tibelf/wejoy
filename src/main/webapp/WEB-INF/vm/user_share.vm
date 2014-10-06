@@ -22,7 +22,7 @@
     </script>
     <script charset="utf-8" async="" src="http://static.gtimg.com/js/version/201409/wg.my.201409241731.js"></script><script charset="utf-8" async="" src="http://static.gtimg.com/js/version/201306/loadscript.201306251923.js"></script><script>var old = null;function asplay_top(c){var audio = document.createElement("audio");if(audio != null && audio.canPlayType && audio.canPlayType("audio/mpeg")){if(old){old.pause();}audio.src = c;old = audio;audio.play();}}</script></head>
     <body>
-        <img src = "/image/share.jpg" style="top:0px;left: 0px; width:100%;height:50px;" />
+        <img src = "/image/share.jpg" style="top:0px;left: 0px; width:100%;height:100px;" />
         <br></br>
         <table>
             <tr>

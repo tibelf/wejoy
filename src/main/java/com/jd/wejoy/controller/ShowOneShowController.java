@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class ShowOneShowController {
-	@RequestMapping(value="/shopcicle",  method = {RequestMethod.GET, RequestMethod.POST})
+	@RequestMapping(value="/shopxiu",  method = {RequestMethod.GET, RequestMethod.POST})
 	public String shopcicle(ModelMap model) {
-		return "shopcicle";
+		return "shopxiu";
 	}
 	
 }
