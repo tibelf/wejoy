@@ -21,4 +21,8 @@ public class ShowOneShowController {
 		return "shopxiu";
 	}
 	
+	@RequestMapping(value="/shopaddsign",  method = {RequestMethod.GET, RequestMethod.POST})
+	public String shopget(ModelMap model) {
+		return "shopaddsign";
+	}
 }

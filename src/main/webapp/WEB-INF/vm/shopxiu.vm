@@ -1,18 +1,69 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<style type="text/css">
-
-</style>
+<!DOCTYPE HTML>
+<html lang="zh-CN"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>秀一秀</title>
+<link type="text/css" rel="stylesheet" href="css/all_gouwucircle.min.css">
+<script >
+
+ function show(){
+	document.getElementById("shopget").style.display="";
+ }
+ 
+function hidden(){
+	document.getElementById("shopget").style.display="none";
+}
+  
+function F_Open_dialog() 
+{ 
+        document.getElementById("btn_file").click(); 
+} 
+
+function addsign(){
+	window.location.href="/shopaddsign"
+}
+
+
+</script>
+	
 </head>
 
-<body class="has_wx_download">
-<div style="width:640px; position:relative; left:0px; right:0px;">
-<div style="position:relative; left:0px; right:0px;"><img src="image/xiu_1.jpg" width="640" height="1008" /></div>
-<div style="position:absolute; right:17px; top: 658px; z-index:10px;"><a href="#"><img src="image/Camera.png" width="121" height="108" border="0" /></a></div>
+<body>
+
+<div style="width: 100%;height: auto;overflow: hidden;padding-bottom: 20px;  position:relative; left:0px; right:0px;">
+<div style="height: auto;overflow: hidden; position:relative; left:0px; right:0px; z-index:2px;"><img src="image/xiu_2.jpg" style="width:100%"></div>
+<div style="position:absolute; right:10%;top:50%; z-index:10px;"><a href="javascript:show();"><img src="image/Camera.png" style="min-width: 30px;max-width: 121px; min-height:27px;;max-height:108px;"  border="0" /></a></div>
+</div>
+<div class="wx_nav">
+    <a href="shop?actid=35011&tab=2" data-href="#" class="nav_index">购物</a>
+	<a href="/shopcircle" data-href="#" class="nav_shop_circle">购物圈</a>
+    <a href="#" data-href="http://mm.wanggou.com/category_m.shtml?PTAG=37080.1.2&shownav=1" class="nav_search" style="display:">搜索</a>
+    <a href="#" data-href="http://mm.wanggou.com/my/jdshopcart.shtml?PTAG=37080.1.3&shownav=1" class="nav_shopcart">购物车</a>
+    <a href="#" data-href="http://mm.wanggou.com/my/index.shtml?PTAG=37080.1.4&shownav=1" class="nav_me">个人中心</a>
 </div>
 
-</body>
+<!-- 选择图片 (Dynamic Panel) -->
+<div  style="position:relative; display:none"  id="shopget" >
+    <div id="u71_state0" class="panel_state" data-label="State1" style="position: absolute; bottom:1px; z-index:20px; background-color: #e3e4e8; padding:5px;">
+      <div id="u71_state0_content" class="panel_state_content" >
+        <div id="u72" class="ax_shape" style=" height: auto;overflow: hidden; margin:22px;">
+			<a href="javascript:alert('此功能暂未实现')" ><img id="u72_img" class="img " style="width:100%" src="image/Camera_btn.png"/></a>
+        </div>
+         <div id="u74" class="ax_shape" style=" height: auto;overflow: hidden; margin:22px;">
+			<a href="javascript:F_Open_dialog();" >
+				<img id="u74_img" class="img" style="width:100%" src="image/Camera_btn_image.png"/>
+			</a>
+        </div>
+        
+		<div style="display:none">
+            <input type="file" id="btn_file" name="btn_file"  style="display:none"  onchange="javascript:addsign();"  >
+            <li class="rebound" accept="image/*;capture=camera"></li>
+        </div>
+        <div id="u76" class="ax_shape" style=" height: auto;overflow: hidden; margin:22px;">
+          <a href="javascript:hidden();" ><img id="u76_img" class="img " style="width:100%" src="image/Camera_btn-delete.png"/></a>
+        </div>
+      </div>
+    </div>
+</div>
+	</body>
 </html>
