@@ -11,7 +11,7 @@
     <link rel="dns-prefetch" href="//pics2.paipaiimg.com">
     <link rel="dns-prefetch" href="//pics3.paipaiimg.com">
     <link rel="dns-prefetch" href="//static.paipaiimg.com">
-    <link combofile="mall/category_v2.shtml" rel="stylesheet" href="http://static.paipaiimg.com/c/=//wx/css/mall/mall_v2.s.min.css,//wx/css/mall/category_v2.s.min.css?t=1411096027"><!--[if !IE]>|xGv00|81b7c1bc84f0d8d9f9f008ed93ebdc43<![endif]-->
+    <link combofile="mall/category_v2.shtml" rel="stylesheet" href="#springUrl('/css/all_classify.min.css')"><!--[if !IE]>|xGv00|81b7c1bc84f0d8d9f9f008ed93ebdc43<![endif]-->
     <script charset="utf-8" async="" src="http://static.gtimg.com/js/version/201306/loadscript.201306251923.js"></script><script charset="utf-8" defer="" async="" src="http://static.paipaiimg.com/c/=/js/mobile/common/dest/wg.wxapi.min.js,/js/version/2014/09/pp.wg.mobilereport.20140929.js,/js/mobile/common/dest/wg.report.min.js,/js/version/2014/08/pp.mobile.ping.20140825.js,/js/mobile/common/dest/wg.wxfoot.min.js,/js/mobile/common/dest/wg.storage.min.js,/js/mobile/common/dest/wg.debug.min.js,/js/mobile/common/dest/wg.navfoot.min.js?t=201409291905"></script><script charset="gbk" type="text/javascript" src="http://static.paipaiimg.com/js/version/2014/06/pp.wg.jdSmartbox.20140605.js?t=2014007021448"></script><script>var old = null;function asplay_top(c){var audio = document.createElement("audio");if(audio != null && audio.canPlayType && audio.canPlayType("audio/mpeg")){if(old){old.pause();}audio.src = c;old = audio;audio.play();}}</script><link type="text/css" rel="stylesheet" href="http://static.paipaiimg.com/wx/css/mall/search_panel.s.min.css?t=201407301111" id="loadCss0.05438660876825452"></head>
 <body>
 <script>
@@ -707,7 +707,7 @@ function delCookie(name, path, domain, secure) {
 </div>
 <div class="wx_nav">
     <a href="shop" data-href="shop" class="nav_index">购物</a>
-    <a href="" data-href="shop_cricle" class="nav_shop_circle">购物圈</a>
+    <a href="shopcircle" data-href="shop_cricle" class="nav_shop_circle">购物圈</a>
     <a href="" data-href="#" class="nav_search on" style="display:">搜索</a>
     <a href="" data-href="shop_car" class="nav_shopcart">购物车</a>
     <a href="" data-href="user" class="nav_me">个人中心</a></div></body></html>

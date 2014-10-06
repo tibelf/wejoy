@@ -46,10 +46,25 @@
     <link rel="dns-prefetch" href="//img5.paipaiimg.com">
     <link rel="dns-prefetch" href="//img6.paipaiimg.com">
     <link rel="dns-prefetch" href="//img7.paipaiimg.com">
-    <link combofile="mall/gouwu_v3.shtml" rel="stylesheet" href="http://static.paipaiimg.com/c/=/wx/css/mall/mall_v2.s.min.css,/wx/css/mall/ju_v3.s.min.css,/wx/css/mall/brand_v8.s.min.css,/wx/css/mall/xin_v3.s.min.css?t=1411549196"><!--[if !IE]>|xGv00|85703231e19cd4acb609915041eb48b2<![endif]-->
+    <link combofile="mall/gouwu_v3.shtml" rel="stylesheet" href="#springUrl('/css/all_shop.min.css')"><!--[if !IE]>|xGv00|85703231e19cd4acb609915041eb48b2<![endif]-->
     <script>speedTimePoint[1]=new Date();//css加载时间  </script>
     <script charset="utf-8" async="" src="http://static.gtimg.com/c/=/js/version/201409/wg.favtool.201409291030.js,/js/version/201409/wg.wx.xin.201409291030.js"></script><script charset="gbk" type="text/javascript" src="http://static.paipaiimg.com/js/version/2014/06/pp.wg.jdSmartbox.20140605.js?t=201409241006"></script><script charset="utf-8" defer="" async="" src="http://static.paipaiimg.com/c/=/js/mobile/common/dest/wg.wxapi.min.js,/js/version/2014/09/pp.wg.mobilereport.20140925.js,/js/mobile/common/dest/wg.report.min.js,/js/version/2014/08/pp.mobile.ping.20140825.js,/js/mobile/common/dest/wg.wxfoot.min.js,/js/mobile/common/dest/wg.storage.min.js,/js/mobile/common/dest/wg.debug.min.js,/js/mobile/common/dest/wg.jdappdl.min.js,/js/mobile/common/dest/wg.navfoot.min.js?t=201409281905"></script><script>var old = null;function asplay_top(c){var audio = document.createElement("audio");if(audio != null && audio.canPlayType && audio.canPlayType("audio/mpeg")){if(old){old.pause();}audio.src = c;old = audio;audio.play();}}</script><script charset="utf-8" async="" src="http://static.gtimg.com/js/version/201409/wg.ui.page.201409291030.js"></script><link type="text/css" rel="stylesheet" href="http://static.paipaiimg.com/wx/css/mall/search_panel.s.min.css?t=201407301111" id="loadCss0.09457416599616408"><link type="text/css" rel="stylesheet" href="http://static.paipaiimg.com/wx/css/common/gb_v3.s.min.css"><script charset="utf-8" src="http://bases.wanggou.com/mcoss/mportal/show?tabid=3&amp;ptype=1&amp;tpl=6&amp;actid=35228&amp;callback=juhuiBack&amp;pi=1&amp;pc=20&amp;t=1411970537433&amp;g_ty=ls"></script><script charset="utf-8" src="http://bases.wanggou.com/mcoss/focusbi/show?gids=1906&amp;pcs=&amp;callback=processXinFocusData&amp;adposid=&amp;pps=&amp;g_ty=ls&amp;t=1411970537449&amp;g_ty=ls"></script><script charset="utf-8" src="http://bases.wanggou.com/mcoss/mportal/show?tabid=1&amp;tpl=2&amp;pc=10&amp;sorttype=0&amp;exclarea=xin&amp;actid=35011&amp;callback=guangList1&amp;areaid=&amp;pi=1&amp;pc=10&amp;sorttype=0&amp;t=4706568&amp;tabid=1&amp;g_ty=ls"></script><script charset="utf-8" src="http://bases.wanggou.com/mcoss/mportal/show?tabid=2&amp;tpl=4&amp;actid=1562&amp;pi=1&amp;pc=20&amp;cgid=&amp;showtype=1|4&amp;ch=8&amp;extid=1&amp;callback=getBrandData&amp;g_ty=ls"></script><script charset="utf-8" src="http://bases.wanggou.com/mcoss/focusbi/show?gids=1907&amp;pc=1&amp;callback=bannerAd&amp;g_ty=ls"></script></head>
-<body class="has_wx_download">
+##<html lang="zh-CN"><head>
+##    <meta charset="utf-8">
+##    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+##    <title>购物</title>
+##    <meta name="apple-mobile-web-app-capable" content="yes">
+##    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+##    <meta name="format-detection" content="telephone=no">
+##    <meta http-equiv="x-dns-prefetch-control" content="on">
+##    <link rel="dns-prefetch" href="//pics0.paipaiimg.com">
+##    <link rel="dns-prefetch" href="//pics1.paipaiimg.com">
+##    <link rel="dns-prefetch" href="//pics2.paipaiimg.com">
+##    <link rel="dns-prefetch" href="//pics3.paipaiimg.com">
+##    <link rel="dns-prefetch" href="//static.paipaiimg.com">
+##    <link combofile="mall/category_v2.shtml" rel="stylesheet" href="#springUrl('/css/all_shop.min.css')">
+##    <script charset="utf-8" async="" src="http://static.gtimg.com/js/version/201306/loadscript.201306251923.js"></script><script charset="utf-8" defer="" async="" src="http://static.paipaiimg.com/c/=/js/mobile/common/dest/wg.wxapi.min.js,/js/version/2014/09/pp.wg.mobilereport.20140925.js,/js/mobile/common/dest/wg.report.min.js,/js/version/2014/08/pp.mobile.ping.20140825.js,/js/mobile/common/dest/wg.wxfoot.min.js,/js/mobile/common/dest/wg.storage.min.js,/js/mobile/common/dest/wg.debug.min.js,/js/mobile/common/dest/wg.navfoot.min.js?t=201409281905"></script><script charset="gbk" type="text/javascript" src="http://static.paipaiimg.com/js/version/2014/06/pp.wg.jdSmartbox.20140605.js?t=2014007021448"></script><script>var old = null;function asplay_top(c){var audio = document.createElement("audio");if(audio != null && audio.canPlayType && audio.canPlayType("audio/mpeg")){if(old){old.pause();}audio.src = c;old = audio;audio.play();}}</script><link type="text/css" rel="stylesheet" href="http://static.paipaiimg.com/wx/css/mall/search_panel.s.min.css?t=201407301111" id="loadCss0.17307894048281014"></head>
+<body>
 <script>
     gSupport = {
         retina: window.devicePixelRatio >= 1.5 ? 1 : 0,
@@ -1180,8 +1195,8 @@ function delCookie(name, path, domain, secure) {
 <iframe id="cacheProxyIfr" src="http://mm.wanggou.com/plugin/cache_proxy.shtml"
         style="height: 0px; width: 0px; visibility: hidden;"></iframe>
 <div class="wx_nav">
-    <a href="#" data-href="#" class="nav_index on">购物</a>
-	<a href="/shopcicle" data-href="#" class="nav_index">购物圈</a>
-    <a href="#" data-href="http://mm.wanggou.com/category_m.shtml?PTAG=37080.1.2&shownav=1" class="nav_search" style="display:">搜索</a>
-    <a href="#" data-href="http://mm.wanggou.com/my/jdshopcart.shtml?PTAG=37080.1.3&shownav=1" class="nav_shopcart">购物车</a>
-    <a href="#" data-href="http://mm.wanggou.com/my/index.shtml?PTAG=37080.1.4&shownav=1" class="nav_me">个人中心</a></div></body></html>
+    <a href="" data-href="#" class="nav_index on">购物</a>
+    <a href="" data-href="shop_cricle" class="nav_shop_circle">购物圈</a>
+    <a href="" data-href="search" class="nav_search" style="display:">搜索</a>
+    <a href="" data-href="shop_car" class="nav_shopcart">购物车</a>
+    <a href="" data-href="user" class="nav_me">个人中心</a></div></body></html>

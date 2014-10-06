@@ -109,4 +109,28 @@ public class CenterController extends HttpServlet {
         //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
         return "shopcircle";
     }
+
+    @RequestMapping(value="/shopcircle_sharesuccess",  method = {RequestMethod.GET, RequestMethod.POST})
+    public String shopcircle_sharesuccess(ModelMap model) {
+        //	        model.addAttribute("message", "wejoy，demo");
+        //	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
+        //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
+        return "shopcircle_sharesuccess";
+    }
+
+    @RequestMapping(value="/dasan",  method = {RequestMethod.GET, RequestMethod.POST})
+    public String dasan(ModelMap model) {
+        //	        model.addAttribute("message", "wejoy，demo");
+        //	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
+        //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
+        return "dasan";
+    }
+
+    @RequestMapping(value="/shopcircle_dasansuccess",  method = {RequestMethod.GET, RequestMethod.POST})
+    public String dasansuccess(ModelMap model) {
+        //	        model.addAttribute("message", "wejoy，demo");
+        //	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
+        //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
+        return "shopcircle_dasansuccess";
+    }
 }
