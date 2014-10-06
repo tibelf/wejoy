@@ -101,4 +101,12 @@ public class CenterController extends HttpServlet {
         //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
         return "record";
     }
+
+    @RequestMapping(value="/shopcircle",  method = RequestMethod.GET)
+    public String shopcircle(ModelMap model) {
+        //	        model.addAttribute("message", "wejoy，demo");
+        //	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
+        //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
+        return "shopcircle";
+    }
 }
