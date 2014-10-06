@@ -24,6 +24,16 @@
         #text {
             vertical-align:bottom;
         }
+        .pai{
+            overflow:hidden;
+            height:130px;
+            border-top:1px solid #ddd;
+            position:fixed;
+            z-index:900;
+            width:100%;
+            bottom: 100px;
+            left:250px;
+        }
     </style>
 </head>
 <body>
@@ -32,7 +42,7 @@
     <img src = "/image/gouwucircle_xiaohuli.jpg" style="top:0px;left: 0px; width:100%;height:200px;" />
     <table>
         <tr>
-            <td width="260" id="image"><img src = "/image/gouwucirclr_dasan.jpg"/></td>
+            <td width="260" id="image"><a href="/dasan"><img src = "/image/gouwucirclr_dasan.jpg"/></a></td>
             <td width="40" id="image"><img src = "/image/gouwucirclr_comment.jpg"/></td>
         </tr>
     </table>
@@ -47,6 +57,9 @@
     <br/>
     <br/>
     <br/>
+    <div class="pai">
+        <img src = "/image/gouwucircle_camera.png" style="width: 60px;height: 53px;"/>
+    </div>
 </div>
 <div class="wx_nav">
     <a href="" data-href="shop" class="nav_index">购物</a>
