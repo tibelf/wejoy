@@ -706,7 +706,7 @@ function delCookie(name, path, domain, secure) {
     </div>
 </div>
 <div class="wx_nav">
-    <a href="shop" data-href="shop" class="nav_index">购物</a>
+    <a href="shop?gender=female" data-href="shop" class="nav_index">购物</a>
     <a href="shopcircle" data-href="shop_cricle" class="nav_shop_circle">购物圈</a>
     <a href="" data-href="#" class="nav_search on" style="display:">搜索</a>
     <a href="" data-href="shop_car" class="nav_shopcart">购物车</a>
