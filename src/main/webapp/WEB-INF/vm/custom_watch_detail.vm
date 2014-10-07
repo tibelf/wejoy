@@ -21,7 +21,7 @@
     <link rel="dns-prefetch" href="//static.paipaiimg.com">
     <link combofile="detail/detail_standard_v2.shtml" rel="stylesheet" href="#springUrl('/css/custom_detail.min.css')"><!--[if !IE]>|xGv00|011d8858e337f5b3040ad6d5fa54ae7c<![endif]-->
     <script>speedTimePoint[1] = new Date();</script>
-    <script type="text/javascript" charset="gb2312" src="http://yx.3.cn/service/info.action?callback=_initLite&amp;id=1091303652&amp;area=19_1601_50258&amp;u_source=qq&amp;t=0.3976589178200811"></script><script charset="utf-8" defer="" async="" src="http://static.paipaiimg.com/c/=/js/mobile/common/dest/wg.wxapi.min.js,/js/version/2014/09/pp.wg.mobilereport.20140929.js,/js/mobile/common/dest/wg.report.min.js,/js/version/2014/08/pp.mobile.ping.20140825.js,/js/mobile/common/dest/wg.storage.min.js,/js/mobile/common/dest/wg.debug.min.js,/js/mobile/common/dest/wg.jdappdl.min.js?t=201409291905"></script><script>var old = null;function asplay_top(c){var audio = document.createElement("audio");if(audio != null && audio.canPlayType && audio.canPlayType("audio/mpeg")){if(old){old.pause();}audio.src = c;old = audio;audio.play();}}</script><script charset="utf-8" src="http://st.3.cn/gds.html?callback=stockCallback&amp;originid=3&amp;id=1091303652&amp;skuid=1091303652&amp;provinceid=19&amp;cityid=1601&amp;areaid=50258&amp;townid=0&amp;sortid1=0&amp;sortid2=0&amp;sortid3=0&amp;t=0.5021422733552754&amp;g_tk=946035177&amp;g_ty=ls"></script><script charset="utf-8" src="http://pe.3.cn/prices/mgets?skuids=1091351470,1091303652,1091303653,1091303656,1091303657&amp;origin=4&amp;area=19_1601_50258&amp;callback=skuPrice&amp;t=0.7508200239390135&amp;g_tk=946035177&amp;g_ty=ls"></script><script charset="utf-8" src="http://ad.3.cn/ads/mgets?skuids=AD_1091351470,AD_1091303652,AD_1091303653,AD_1091303656,AD_1091303657&amp;areaCode=19_1601_50258&amp;callback=skuDesc&amp;t=0.6676717791706324&amp;g_tk=946035177&amp;g_ty=ls"></script><script charset="utf-8" src="http://club.jd.com/clubservice/summary-m-1091351470,1091303652,1091303653,1091303656,1091303657.html?callback=skuSummary&amp;t=0.4258328035939485&amp;g_tk=946035177&amp;g_ty=ls"></script><script charset="utf-8" src="http://club.jd.com/productpage/p-1091303652-s-0-t-3-p-0.html?callback=skuJDEval&amp;t=0.323415688239038&amp;g_tk=946035177&amp;g_ty=ls"></script><script charset="utf-8" src="http://pi.3.cn/promoinfo/get?id=1091303652&amp;origin=5&amp;area=19_1601_50258&amp;callback=Promotions.set&amp;g_tk=946035177&amp;g_ty=ls"></script><script charset="utf-8" src="http://diviner.jd.com/diviner?p=902026&amp;uuid=20140917&amp;sku=1091303652&amp;pin=&amp;c1=5025&amp;c2=5026&amp;c3=12091&amp;lid=19&amp;lim=30&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=utf-8&amp;callback=cb902026&amp;t=0.7902964896056801&amp;g_tk=946035177&amp;g_ty=ls"></script><script charset="utf-8" src="http://st.3.cn/gvi.html?callback=setPopInfo&amp;type=popdeliver&amp;skuid=1091303652&amp;g_tk=946035177&amp;g_ty=ls"></script></head>
+##    <script type="text/javascript" charset="gb2312" src="http://yx.3.cn/service/info.action?callback=_initLite&amp;id=1091303652&amp;area=19_1601_50258&amp;u_source=qq&amp;t=0.3976589178200811"></script><script charset="utf-8" defer="" async="" src="http://static.paipaiimg.com/c/=/js/mobile/common/dest/wg.wxapi.min.js,/js/version/2014/09/pp.wg.mobilereport.20140929.js,/js/mobile/common/dest/wg.report.min.js,/js/version/2014/08/pp.mobile.ping.20140825.js,/js/mobile/common/dest/wg.storage.min.js,/js/mobile/common/dest/wg.debug.min.js,/js/mobile/common/dest/wg.jdappdl.min.js?t=201409291905"></script><script>var old = null;function asplay_top(c){var audio = document.createElement("audio");if(audio != null && audio.canPlayType && audio.canPlayType("audio/mpeg")){if(old){old.pause();}audio.src = c;old = audio;audio.play();}}</script><script charset="utf-8" src="http://st.3.cn/gds.html?callback=stockCallback&amp;originid=3&amp;id=1091303652&amp;skuid=1091303652&amp;provinceid=19&amp;cityid=1601&amp;areaid=50258&amp;townid=0&amp;sortid1=0&amp;sortid2=0&amp;sortid3=0&amp;t=0.5021422733552754&amp;g_tk=946035177&amp;g_ty=ls"></script><script charset="utf-8" src="http://pe.3.cn/prices/mgets?skuids=1091351470,1091303652,1091303653,1091303656,1091303657&amp;origin=4&amp;area=19_1601_50258&amp;callback=skuPrice&amp;t=0.7508200239390135&amp;g_tk=946035177&amp;g_ty=ls"></script><script charset="utf-8" src="http://ad.3.cn/ads/mgets?skuids=AD_1091351470,AD_1091303652,AD_1091303653,AD_1091303656,AD_1091303657&amp;areaCode=19_1601_50258&amp;callback=skuDesc&amp;t=0.6676717791706324&amp;g_tk=946035177&amp;g_ty=ls"></script><script charset="utf-8" src="http://club.jd.com/clubservice/summary-m-1091351470,1091303652,1091303653,1091303656,1091303657.html?callback=skuSummary&amp;t=0.4258328035939485&amp;g_tk=946035177&amp;g_ty=ls"></script><script charset="utf-8" src="http://club.jd.com/productpage/p-1091303652-s-0-t-3-p-0.html?callback=skuJDEval&amp;t=0.323415688239038&amp;g_tk=946035177&amp;g_ty=ls"></script><script charset="utf-8" src="http://pi.3.cn/promoinfo/get?id=1091303652&amp;origin=5&amp;area=19_1601_50258&amp;callback=Promotions.set&amp;g_tk=946035177&amp;g_ty=ls"></script><script charset="utf-8" src="http://diviner.jd.com/diviner?p=902026&amp;uuid=20140917&amp;sku=1091303652&amp;pin=&amp;c1=5025&amp;c2=5026&amp;c3=12091&amp;lid=19&amp;lim=30&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=utf-8&amp;callback=cb902026&amp;t=0.7902964896056801&amp;g_tk=946035177&amp;g_ty=ls"></script><script charset="utf-8" src="http://st.3.cn/gvi.html?callback=setPopInfo&amp;type=popdeliver&amp;skuid=1091303652&amp;g_tk=946035177&amp;g_ty=ls"></script></head>
 <body>
 <script>
     gSupport = {
@@ -498,553 +498,553 @@
 <!-- common part  -->
 
 
-<script type="text/html" id="evalTpl">
-    <li>
-        <div class="cmt_user">
-            <span class="user">{#name#}</span>
-            <span class="tip">{#levelName#}</span>
-            <span class="credit"><span style="width:{#score_code#}%"></span></span>
-            <span class="date">{#creationTime#}</span>
-        </div>
-        <div class="cmt_cnt">{#content#}</div>
-        <div class="cmt_att">{#shaidanImg#}</div>
-        <div class="cmt_sku">{#sku#}</div>
-    </li>
-</script>
-<script type="text/html" id="evalHeadTpl">
-    <div class="cmt_tab" id="evalTab">
-        <span class="cur" no="0" ptag="7001.1.30">全部<em>{#CommentCount#}</em></span>
-        <span no="3" ptag="7001.1.31">好评<em>{#GoodCount#}</em></span>
-        <span no="2" ptag="7001.1.32">中评<em>{#GeneralCount#}</em></span>
-        <span no="1" ptag="7001.1.33">差评<em>{#PoorCount#}</em></span>
-        <span no="4" ptag="7001.1.34">晒单<em>{#ShowCount#}</em></span>
-    </div>
-</script>
-<script type="text/html" id="evalHeadTpl2">
-    <div class="cmt_view">
-        <div class="per">
-            <em>{#GoodRateShow#}%</em>
-            <span>好评率</span>
-        </div>
-        <div class="tips">
-            <div class="line">
-                好评
-                <span class="box"><b style="width:{#GoodRateShow#}%"></b></span>
-                <span class="num">{#GoodRateShow#}%</span>
-            </div>
-            <div class="line">
-                中评
-                <span class="box"><b style="width:{#GeneralRateShow#}%"></b></span>
-                <span class="num">{#GeneralRateShow#}%</span>
-            </div>
-            <div class="line">
-                差评
-                <span class="box"><b style="width:{#PoorRateShow#}%"></b></span>
-                <span class="num">{#PoorRateShow#}%</span>
-            </div>
-        </div>
-    </div>
-</script>
-<script type="text/html" id="serviceTpl">
-    <li>
-        <i class="icon_service {#iconCode#}"></i>
-        <div class="service_txt">{#iconSrc#}</div>
-        <div class="service_desc">{#iconTip#}</div>
-    </li>
-</script>
-
-<script type="text/javascript">
-    window._simpSea2Detail = '0';  //搜索('0':关闭,'1':开启)
-    window.isCrashStatus = false; //商祥进入容灾模式     false:关闭, true:开启
-</script><!--[if !IE]>|xGv00|7f066614a8d2df95a283004803e620e5<![endif]-->
-
-<script>
-
-
-    window.isCrashStatus = false;
-
-
-
-    window._skuTpl = '<div class="sku" id="sku{no}" ptag="7001.1.5"><h3>{name}</h3><div class="sku_list">{option}</div></div>';
-    function $id(id){
-        return document.getElementById(id) || document.createElement('span');
-    }
-    function $attr(em, n){
-        return em.getAttribute(n);
-    }
-    function $getQuery(name,url){
-        var u  = arguments[1] || window.location.search,
-                reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"),
-                r = u.substr(u.indexOf("\?")+1).match(reg);
-        return r!=null?r[2]:"";
-    }
-    function getCookie(name) {
-        var reg = new RegExp("(^| )" + name + "(?:=([^;]*))?(;|$)"), val = document.cookie.match(reg);
-        return val ? (val[2] ? unescape(val[2]) : "") : '';
-    }
-    function getAddrInfo(){
-        return {
-            id:  localStorage.getItem('jdAddrId') || getCookie('jdAddrId') ||localStorage.getItem('jdLOCAddrId') ||getCookie('jdLOCAddrId') || '1_72_4139',
-            name:localStorage.getItem('jdAddrName') ||getCookie('jdAddrName') ||localStorage.getItem('jdLOCAddrName') || getCookie('jdLOCAddrName') || '北京_北京市_北苑'
-        };
-    }
-
-    var skuid = $getQuery('sku'), price = $getQuery('price'),  network = getCookie("network");
-    window.isRetina = getCookie('retina') == '1' && (!network || network=="wifi");
-    //window.isRetina = network=="wifi" || getCookie('retina') == '1';
-    window.isTouchView = (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent));
-    if(!window.isTouchView && $getQuery('iscossview') != 1) window.location.href = 'http://item.jd.com/'+skuid+'.html';
-
-    window.is_xbox_yuyue = skuid == 1177070 || skuid == 1179024;
-    window.xbox_price = '&yen;4299.00';
-
-    (function(){
-        window._itemInfo = null;
-        if(price && parseInt(price)>0){
-                $id('priceSale').innerHTML = (parseInt(price)).toFixed(2);
-        }
-        if(!skuid || window.isCrashStatus){
-            return;
-        }
-
-        window._initLite = function(json){
-            if(!speedTimePoint[3]) speedTimePoint[3] = new Date();
-            window._itemInfo = json;
-            if(window._itemDeatail){
-                window._itemDeatail.skuJson[skuid] = json;
-                window._itemDeatail.setItemInfo();
-                return;
-            }
-            //if(json.errCode != '0') return;
-            var p = json.Price * 1 > 0 ? json.Price : 0, m = json.MarketPrice * 1 > 0 ? json.MarketPrice : 0;
-            //$id('priceSale').innerHTML = (p ? ('&yen;'+p):'暂无定价');
-            //$id('priceMarket').innerHTML = (m ? ('&yen;'+m):'暂无定价');
-            if(window.is_xbox_yuyue && window.xbox_price){
-                    $id('priceSale').innerHTML = window.xbox_price;
-                    $id('priceMarket').innerHTML = window.xbox_price;
-            }
-            json.sales = json.sales||"0-0";
-            //$id('saleNo').innerHTML = json.sales.split('-')[1];
-                $id('itemName').innerHTML = json.skuName;
-                $id('priceSale').getAttribute('price', $id('priceSale').innerHTML);
-                $id('priceSale').getAttribute('p', p);
-            var arr = json.ColorSize||[], skus={color:{}, size:{}}, name={color:'颜色', size:'尺寸'};
-            for (var i=0; i < arr.length; i++) {
-                skus.color[arr[i].Color] = skus.color[arr[i].Color] || arr[i].SkuId == skuid;
-                skus.size[arr[i].Size]  = skus.size[arr[i].Size] || arr[i].SkuId == skuid;
-            };
-            var str='', i=1;
-            for(k in skus){
-                var html=[];
-                for(s in skus[k]){
-                    if(!(s.replace(/\s+/g, ''))) continue;
-                    html.push('<span class="option'+(skus[k][s] ? ' option_selected' : '')+'">'+s+'</span>');
-                }
-                if(html.length)str += window._skuTpl.replace('{no}', i++).replace('{name}', name[k]).replace('{option}', html.join(''));
-            }
-                $id('propertyDiv').innerHTML = str;
-            if(json.image.length){
-                var img = 'http://img14.360buyimg.com/n'+(window.isRetina ? '1':'7')+'/'+json.image[0];
-                    $id('loopImgUl').innerHTML = '<li><img onload="if(!speedTimePoint[7]) speedTimePoint[7]= new Date();" src="'+img+'"></li>';
-                var wli = $id('loopImgUl').getElementsByTagName('li'), wb = document.body.clientWidth;
-                    $id('loopImgUl').style.left=(wb-wli[0].offsetWidth)/2 + 'px';
-            }
-        };
-
-        var addr=getAddrInfo(), s=document.createElement('script');
-        s.setAttribute('type','text/javascript');
-        s.setAttribute('charset','gb2312');
-        s.setAttribute('src', 'http://yx.3.cn/service/info.action?callback=_initLite&id='+skuid+'&area='+addr.id+'&u_source='+(_iswx?'weixin':'qq')+'&t='+Math.random());
-        document.getElementsByTagName("head")[0].appendChild(s);
-
-            $id('addrName').innerHTML = addr.name.split('_')[0];
-    })();
-
-    window.shareConfig = {
-        img_url: '',
-        img_width: "100",
-        img_height: "100",
-        link: location.href,
-        title: '',
-        desc: "京东正品"
-    };
-</script>
-
-<script>
-    window.hideHis = true; //不显示最近浏览
-    //限流sku列表
-    window._LIMIT_SKUS = ',1165981,1165980,1175411,1175411,1163613,1165978,1175409,';
-    //拼购sku列表
-    window._PING_GOU_SKU = ',833315,1267970331,647948,1038956,1113169,941189,620876,1199715,1032698,990705,';
-    window.MANUAL_PV = true; //自动上报pv
-    //objMsg = {sku:'', shop:'', leaf:'', isJD:''};
-</script>
-
-<script type="text/javascript">
-    (function(){
-        if(Math.random()>0.5) return;
-        window._jdApp = {
-            //ignoreWx : true,
-            index:10,//index的值10（三栏目继续用9-大图）
-            androidindex:8,
-            closeHide : false,
-            appdlCon : 'appdlCon',
-            androidUrl : 'http://storage.jd.com/jdmobile/jd-wxmall7.apk?Expires=1714044388&AccessKey=77a2f170807670c5afd3cccf63deaee9ca2f4714&Signature=fArtrQsJYowYivhDRmw%2F%2BZJIhPg%3D&ptag=7005.7.1',
-            iosUrl : 'https://itunes.apple.com/cn/app/jing-dong/id414245413?mt=8&ptag=7005.7.2',
-
-            fixed : false
-        }
-    })()
-</script>
-
-<script type="text/javascript">
-    //entra432-14
-    (function(global){
-        var g=[[]],d='http://static.gtimg.com',m={},blankjs="",grays={},mdebug = location.href.indexOf("mdebug=1")!=-1;
-        m.alias = {};
-        var a={},p={},c=[];
-        g["1"]=["\/js\/version\/201309\/cookie.201309291040.js","\/js\/version\/201409\/jd.address.201409171654.js","\/js\/version\/201409\/jd.promotions.201409281725.js","\/js\/version\/201409\/url.201409021135.js","\/js\/version\/201407\/wg.loopSrcoll.201407160949.js","\/js\/version\/201409\/wg.util.201409171653.js"];
-        g["0"]=["\/js\/version\/201408\/mobile.zepto.201408111909.js","\/js\/version\/201409\/wg.loadJs.201409181648.js"];
-        g["2"]=["\/js\/version\/201409\/wg.itemV5.201409300950.js"];
-        c = [['cookie',1,0],['jd.address',1,1],['jd.promotions',1,2],['mobile.zepto',0,0],['url',1,3],['wg.itemV5',2,0],['wg.loadJs',0,1],['wg.loopSrcoll',1,4],['wg.util',1,5]];
-        if(typeof(JSON)!="undefined" && window.localStorage){
-            for(var key in localStorage){
-                if(/^_m_/.test(key)){
-                    var store = JSON.parse(localStorage.getItem(key));
-                    var i = key.substr(3);
-                    if((new Date()).getTime()>store.cacheTime){
-                        continue;
-                    }
-                    var _m=getModuleMap(i);
-                    if(!_m || _m.group==0){continue;}
-                    var curPath=g[_m.group][_m.groupid];
-                    if((d+curPath)==store.path){
-                        g[0].push(curPath);
-                        g[_m.group][_m.groupid]=blankjs;
-                        c[_m.index]=[_m.id,0,g[0].length-1];
-                    }
-                }
-            }
-        }
-        function getModuleMap(id){
-            for(var i=0;i<c.length;i++){
-                if(c[i][0]==id){
-                    return {"id":id,"index":i,"group":c[i][1],"groupid":c[i][2]};
-                }
-            }
-            return "";
-        }
-        function getCombUrl(list){
-            var a=[];
-            for(var i=0;i<list.length;i++){
-                if(list[i]){
-                    a.push(list[i]);
-                }
-            }
-            return a.length>1?(d+"/c/="+a.join(",")):(d+a[0]);
-        }
-
-        for(var i=0;i<c.length;i++){
-            var surl=d+g[c[i][1]][c[i][2]];
-            var furl=getCombUrl(g[c[i][1]]);//合并包地址
-            a[c[i][0]]=surl;
-            p[c[i][0]]=(c[i][1]==0)?surl:furl;
-        }
-
-        m.alias=mdebug?a:p;
-        m.moduleURI=a;
-
-
-        global._moduleConfig = m;
-
-        function gray(m){
-        }
-
-    })(this);
-
-</script>
-<script type="text/javascript">if(typeof JSON!=="object"){JSON={};}(function(){function f(n){return n<10?"0"+n:n;}if(typeof Date.prototype.toJSON!=="function"){Date.prototype.toJSON=function(key){return isFinite(this.valueOf())?this.getUTCFullYear()+"-"+f(this.getUTCMonth()+1)+"-"+f(this.getUTCDate())+"T"+f(this.getUTCHours())+":"+f(this.getUTCMinutes())+":"+f(this.getUTCSeconds())+"Z":null;};String.prototype.toJSON=Number.prototype.toJSON=Boolean.prototype.toJSON=function(key){return this.valueOf();};}var cx=/[\u0000\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g,escapable=/[\\\"\x00-\x1f\x7f-\x9f\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g,gap,indent,meta={"\b":"\\b","\t":"\\t","\n":"\\n","\f":"\\f","\r":"\\r",'"':'\\"',"\\":"\\\\"},rep;function quote(string){escapable.lastIndex=0;return escapable.test(string)?'"'+string.replace(escapable,function(a){var c=meta[a];return typeof c==="string"?c:"\\u"+("0000"+a.charCodeAt(0).toString(16)).slice(-4);})+'"':'"'+string+'"';}function str(key,holder){var i,k,v,length,mind=gap,partial,value=holder[key];if(value&&typeof value==="object"&&typeof value.toJSON==="function"){value=value.toJSON(key);}if(typeof rep==="function"){value=rep.call(holder,key,value);}switch(typeof value){case"string":return quote(value);case"number":return isFinite(value)?String(value):"null";case"boolean":case"null":return String(value);case"object":if(!value){return"null";}gap+=indent;partial=[];if(Object.prototype.toString.apply(value)==="[object Array]"){length=value.length;for(i=0;i<length;i+=1){partial[i]=str(i,value)||"null";}v=partial.length===0?"[]":gap?"[\n"+gap+partial.join(",\n"+gap)+"\n"+mind+"]":"["+partial.join(",")+"]";gap=mind;return v;}if(rep&&typeof rep==="object"){length=rep.length;for(i=0;i<length;i+=1){if(typeof rep[i]==="string"){k=rep[i];v=str(k,value);if(v){partial.push(quote(k)+(gap?": ":":")+v);}}}}else{for(k in value){if(Object.prototype.hasOwnProperty.call(value,k)){v=str(k,value);if(v){partial.push(quote(k)+(gap?": ":":")+v);}}}}v=partial.length===0?"{}":gap?"{\n"+gap+partial.join(",\n"+gap)+"\n"+mind+"}":"{"+partial.join(",")+"}";gap=mind;return v;}}if(typeof JSON.stringify!=="function"){JSON.stringify=function(value,replacer,space){var i;gap="";indent="";if(typeof space==="number"){for(i=0;i<space;i+=1){indent+=" ";}}else{if(typeof space==="string"){indent=space;}}rep=replacer;if(replacer&&typeof replacer!=="function"&&(typeof replacer!=="object"||typeof replacer.length!=="number")){throw new Error("JSON.stringify");}return str("",{"":value});};}if(typeof JSON.parse!=="function"){JSON.parse=function(text,reviver){var j;function walk(holder,key){var k,v,value=holder[key];if(value&&typeof value==="object"){for(k in value){if(Object.prototype.hasOwnProperty.call(value,k)){v=walk(value,k);if(v!==undefined){value[k]=v;}else{delete value[k];}}}}return reviver.call(holder,key,value);}text=String(text);cx.lastIndex=0;if(cx.test(text)){text=text.replace(cx,function(a){return"\\u"+("0000"+a.charCodeAt(0).toString(16)).slice(-4);});}if(/^[\],:{}\s]*$/.test(text.replace(/\\(?:["\\\/bfnrt]|u[0-9a-fA-F]{4})/g,"@").replace(/"[^"\\\n\r]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?/g,"]").replace(/(?:^|:|,)(?:\s*\[)+/g,""))){j=eval("("+text+")");return typeof reviver==="function"?walk({"":j},""):j;}throw new SyntaxError("JSON.parse");};}}());var modulejs,require,define;(function(global){var mod,cfg,_modulejs,_define,_require;var version="1.0.2";var isCache=true;var cacheTime=60*60*24*30*1000;cfg={debug:location.href.indexOf("mdebug=1")!=-1?true:false,alias:{},cssAlias:{},moduleURI:{},vars:{},uris:{},modules:{},callback:[],actModules:{},cacheLoad:{},cacheDel:{},deps:{},events:{},timing:{}};_modulejs.config=config;config(global["_moduleConfig"]?global._moduleConfig:cfg);global["_moduleConfig"]=cfg;require=_require;define=_define;modulejs=_modulejs;on("module_ready",function(id,fromeCache){cfg.callback=cleanArray(cfg.callback);var init=cfg.callback,l=init.length;for(var i=0;i<l;i++){if(init[i]&&checkDeps(init[i].dependencies)){var cb=init[i].factory;var deps=init[i].dependencies;var mods=[];var allDeps=[];var m;for(var j=0;j<deps.length;j++){var m=_require(deps[j]);allDeps.push(m.dependencies);mods.push(m);}
-    debug("callback_is_run=start",cb.toString(),cfg.callback);init[i]=null;cb.apply(null,mods);cfg.debug&&emit("callback_is_run",cb.toString().replace(/[\r\n]/g,""));}}});on("module_require",function(id){cfg.actModules[id]=cfg.actModules[id]?(cfg.actModules[id]+1):1;});on("module_cacheDel",function(id){cfg.cacheDel[id]=1;});on("cache_load",function(m){});on("module_loss_alias",function(id){console.error("module_loss_alias:"+id);});var cacheNow=new Date();_loadCache();cfg.timing['loadcache']=new Date()-cacheNow;function _loadCache(){if(!_useCache()){return false;}
-    localStorage.removeItem("_modules");for(var key in localStorage){if(/^_m_/.test(key)){var store=JSON.parse(localStorage.getItem(key));var i=key.substr(3);var now=(new Date()).getTime();var oneDay=24*3600*1000;if(cfg.alias[i]){if(_getModuleURI(i)!=store.path||store.deps.join(",").indexOf("{")>-1){emit("module_cacheDel",i);localStorage.removeItem(key);continue;}}else{if(now>store.cacheTime){emit("module_cacheDel",i);localStorage.removeItem(key);continue;}}
-        if(store.cacheTime-now<oneDay){store.cacheTime=(new Date()).getTime()+cacheTime;try{localStorage.removeItem(key);localStorage.setItem(key,JSON.stringify(store));}catch(e){}}
-        cfg.cacheLoad[store.id]=store;emit("cache_load",store);}}}
-    function _getModuleURI(id){return cfg.moduleURI[id]?cfg.moduleURI[id]:cfg.alias[id];}
-    function _useCache(id,deps,factory){if(typeof(JSON)=="undefined"){return false;}
-        if(!isCache){return false;}
-        if(!(JSON&&window.localStorage)){return false;}
-        if(cfg.debug){return false;}
-        var agent=navigator.userAgent.toLowerCase();if(agent.indexOf("msie")>0){var m=agent.match(/msie\s([\d\.]+);/i);if(m&&m.length>=2&&parseInt(m[1])<=6){return false;}}
-        if(id&&id.indexOf("_")==0){return false;}
-        if(factory&&factory.toString().indexOf("_cacheThisModule_")<0){return false;}
-        return true;}
-    function _cacheModule(id,deps,factory){var key="_m_"+id;var _t=localStorage.getItem(key);var ms=_t?JSON.parse(_t):{};ms={"id":id,"deps":deps,"factory":factory.toString(),"path":_getModuleURI(id),"cacheTime":(new Date()).getTime()+cacheTime};try{localStorage.removeItem(key);localStorage.setItem(key,JSON.stringify(ms));emit("module_cached",id);}catch(e){}}
-    function _define(id,deps,factory){if(arguments.length===2){factory=deps;deps=null;}
-        deps=isType("Array",deps)?deps:(deps?[deps]:[]);if(isType("Function",factory)){var _deps=parseDependencies(factory.toString());}
-        _useCache(id,deps,factory)&&_cacheModule(id,deps,factory);deps=mergeArray(deps,_deps);var mod=new Module(id);mod.dependencies=deps||[];for(var i=mod.dependencies.length-1;i>=0;i--){mod.dependencies[i]=parseVars(mod.dependencies[i]);}
-        mod.factory=factory;if(id=="_init"){cfg.callback.push(mod);}else{cfg.modules[id]=mod;}
-        emit("module_ready",id);}
-    function _require(id){id=parseVars(id);var module=cfg.modules[id];emit("module_require",id);if(!module){emit("module_error",id);return null}
-        if(module.exports){return module.exports;}
-        var now=new Date();var factory=module.factory;var exports=isType("Function",factory)?factory(require,module.exports={},module):factory;module.exports=exports===undefined?module.exports:exports;cfg.timing[id]=new Date()-now;return module.exports;}
-    _require.async=_modulejs;_require.css=function(path){path=cfg.cssAlias&&cfg.cssAlias[path]?cfg.cssAlias[path]:path;if(!path){return;}
-        var l;if(!window["_loadCss"]||window["_loadCss"].indexOf(path)<0){l=document.createElement('link');l.setAttribute('type','text/css');l.setAttribute('rel','stylesheet');l.setAttribute('href',path);l.setAttribute("id","loadCss"+Math.random());document.getElementsByTagName("head")[0].appendChild(l);window["_loadCss"]?(window["_loadCss"]+="|"+path):(window["_loadCss"]="|"+path);}
-        l&&(typeof callback=="function")&&(l.onload=callback);return true;}
-    function _modulejs(deps,factory){_define("_init",deps,factory);}
-    function checkDeps(deps){var list={},flag=true;for(var i=0;i<deps.length;i++)list[deps[i]]=1;getDesps(deps,list);for(var i in list){if(!cfg.modules[i]){loadModule(i);flag=false;}}
-        return flag;function getDesps(deps,list){for(var i=0;i<deps.length;i++){if(!list[deps[i]]){list[deps[i]]=1;}
-            if(cfg.modules[deps[i]]&&list[deps[i]]!=2){list[deps[i]]=2;getDesps(cfg.modules[deps[i]].dependencies,list);}}}}
-    function parseVars(id){var VARS_RE=/{([^{]+)}/g
-        var vars=cfg.vars
-        if(vars&&id.indexOf("{")>-1){id=id.replace(VARS_RE,function(m,key){return isType("String",vars[key])?vars[key]:key})}
-        return id}
-    function mergeObject(a,b){for(var i in b){if(!b.hasOwnProperty(i)){continue;}
-        if(!a[i]){a[i]=b[i];}else if(Object.prototype.toString.call(b[i])=="[object Object]"){mergeObject(a[i],b[i]);}else{a[i]=b[i];}}
-        return a;}
-    function config(obj){return cfg=mergeObject(cfg,obj);}
-    function Module(id){this.id=id;this.dependencies=[];this.exports=null;this.uri="";}
-    function loadModule(id){var m;if(m=cfg.cacheLoad[id]){return _define(m.id,m.deps,eval("a = "+m.factory));}
-        if(cfg.modules[id]){emit("module_ready",id);return;}
-        var url=cfg.alias[id]?cfg.alias[id]:"";if(!url){emit("module_loss_alias",id);return;}
-        if(cfg.uris[url]){return;}
-        cfg.uris[url]=1;var head=document.getElementsByTagName("head")[0]||document.documentElement;var baseElement=head.getElementsByTagName("base")[0];var node=document.createElement("script");node.charset="utf-8";node.async=true;node.src=url;var handler=function(){var callee=arguments.callee
-            cfg.timing[callee.uri]=new Date()-callee.time;};handler.time=new Date();handler.uri=url;node.onload=handler;baseElement?head.insertBefore(node,baseElement):head.appendChild(node);cfg.debug&&emit("file_loading",url);}
-    function on(name,cb){var cbs=cfg.events[name];if(!cbs){cbs=cfg.events[name]=[];}
-        cbs.push(cb);}
-    function emit(name,evt){debug(name,evt);if(!cfg.events[name]||cfg.events[name].length==0){return;}
-        for(var i=0,l=cfg.events[name].length;i<l;i++){cfg.events[name][i](evt);}
-        if(name==='error'){delete cfg.events[name];}}
-    function cleanArray(a){var n=[];for(var i=0;i<a.length;i++){a[i]&&n.push(a[i]);}
-        return n;}
-    function mergeArray(a,b){for(var i=0;i<b.length;i++){((","+a+",").indexOf(","+b[i]+",")<0)&&a.push(b[i]);}
-        return a;}
-    function isType(type,obj){return Object.prototype.toString.call(obj)==="[object "+type+"]"}
-    function parseDependencies(code){var commentRegExp=/(\/\*([\s\S]*?)\*\/|([^:]|^)\/\/(.*)$)/mg;var cjsRequireRegExp=/[^.]\s*require\s*\(\s*["']([^'"\s]+)["']\s*\)/g;var ret=[];code.replace(commentRegExp,"").replace(cjsRequireRegExp,function(match,dep){dep&&ret.push(parseVars(dep));})
-        return ret;}
-    function debug(){if(!cfg.debug){return true;}
-        var a=[],l=arguments.length;for(var i=0;i<l;i++){a.push(arguments[i]);}
-        try{console.log.apply(console,a);}catch(e){}}}(this));</script>
-<script type="text/javascript">
-    var _speedMarkModule = new Date();
-    modulejs("wg.itemV5",function(itemEnter){
-        itemEnter.init();
-    });</script><!--[if !IE]>|xGv00|8666fab186062d3d447d0473f2dfe98a<![endif]-->
-<script type="text/javascript">
-    window.FOOTCONFIG = window.FOOTCONFIG || ['wxapi','report','ping'];
-</script>
-<script type="text/javascript">
-window.FOOTDETECT = {};
-function setCookie(name, value, expires, path, domain, secure) {
-    var exp = new Date(),
-            expires = arguments[2] || null,
-            path = arguments[3] || "/",
-            domain = arguments[4] || null,
-            secure = arguments[5] || false;
-    //expires ? exp.setMinutes(exp.getMinutes() + parseInt(expires)) : "";
-    expires?exp.setTime(exp.getTime()+parseInt(expires)*60*1000):"";
-    document.cookie = name + '=' + escape(value) + (expires ? ';expires=' + exp.toGMTString() : '') + (path ? ';path=' + path : '') + (domain ? ';domain=' + domain : '') + (secure ? ';secure' : '');
-}
-
-function getCookie(name) {
-    //读取COOKIE
-    var reg = new RegExp("(^| )" + name + "(?:=([^;]*))?(;|$)"),
-            val = document.cookie.match(reg);
-    return val ? (val[2] ? unescape(val[2]) : "") : null;
-}
-
-function getQuery(name, url) {
-    //参数：变量名，url为空则表从当前页面的url中取
-    var u = arguments[1] || window.location.search,
-            reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"),
-            r = u.substr(u.indexOf("\?") + 1).match(reg);
-    return r != null ? r[2] : "";
-}
-
-function loadUrl(o) {
-    o.element = o.element || 'script';
-    var el = document.createElement(o.element);
-    el.charset = o.charset || 'utf-8';
-    o.onBeforeSend && o.onBeforeSend(el);
-    el.onload = el.onreadystatechange = function() {
-        if (/loaded|complete/i.test(this.readyState) || navigator.userAgent.toLowerCase().indexOf("msie") == -1) {
-            o.onLoad && o.onLoad();
-            clear();
-        }
-    };
-    el.onerror = function() {
-        clear();
-    };
-    el.src = o.url;
-    document.getElementsByTagName('head')[0].appendChild(el);
-
-    function clear() {
-        if (!el) {
-            return;
-        }
-        el.onload = el.onreadystatechange = el.onerror = null;
-        el.parentNode && (el.parentNode.removeChild(el));
-        el = null;
-    }
-}
-
-function delCookie(name, path, domain, secure) {
-    //删除cookie
-    var value = getCookie(name);
-    if (value != null) {
-        var exp = new Date();
-        exp.setMinutes(exp.getMinutes() - 1000);
-        path = path || "/";
-        document.cookie = name + '=;expires=' + exp.toGMTString() + (path ? ';path=' + path : '') + (domain ? ';domain=' + domain : '') + (secure ? ';secure' : '');
-    }
-}
-
-(function() {
-    var Foot={};
-
-    Foot.setComboJs=function(){
-        var ua = navigator.userAgent.toLowerCase(),
-                isInWx = (ua.indexOf('micromessenger')) > -1,
-                isInQQ = ((/qq\/([\d\.]+)*/).test(ua))
-        _conf = {
-            'report': '/js/version/2014/09/pp.wg.mobilereport.20140929.js,/js/mobile/common/dest/wg.report.min.js',
-            'ping': '/js/version/2014/08/pp.mobile.ping.20140825.js',
-            'wxapi': '/js/mobile/common/dest/wg.wxapi.min.js',
-            'mwfoot': '/js/mobile/common/dest/wg.mwfoot.min.js',
-            'wxfoot': '/js/mobile/common/dest/wg.wxfoot.min.js',
-            'wgstorage': '/js/mobile/common/dest/wg.storage.min.js',
-            'jdappdl' : '/js/mobile/common/dest/wg.jdappdl.min.js',
-            'navfoot' : '/js/mobile/common/dest/wg.navfoot.min.js',
-            'searchfoot' : '/js/mobile/common/dest/wg.searchfoot.min.js',
-            'imgSpeed' : '/js/mobile/common/dest/wg.imgReport.min.js',
-            'pdebug' : '/js/mobile/common/dest/wg.debug.min.js'
-        },
-                _footconf = window.FOOTCONFIG || [],
-                _sourceArr = [],
-                _script = document.createElement('SCRIPT');
-        FOOTDETECT.scene = (ua.indexOf('micromessenger')) > -1 ? 'weixin' : ((/qq\/([\d\.]+)*/).test(ua) ? 'qq' : 'mobile');
-        setCookie('cid', FOOTDETECT.scene === 'weixin' ? 1 : (FOOTDETECT.scene === 'qq' ? 2 : 3), 43200, '', 'wanggou.com');
-
-        _footconf.push('wgstorage');
-        FOOTDETECT.scene=="weixin"&&_footconf.push('imgSpeed');
-        _footconf.push('pdebug');
-
-        if(window._jdApp){
-            _footconf.push('jdappdl');
-        }
-        if(window._navfoot){
-            _footconf.push('navfoot');
-        }
-        if(window._searchfoot){
-            _footconf.push('searchfoot');
-        }
-        /*foot debug*/
-        var debugJS=[];
-        /*foot debug*/
-        for (var i = 0; i < _footconf.length; i++) {
-            /*foot debug*/
-            if(window.footDebugInfo&&window.footDebugInfo[_footconf[i]]){debugJS.push(window.footDebugInfo[_footconf[i]]);continue;}
-            /*foot debug*/
-            var s = _conf[_footconf[i]];
-            if (s) {
-                _sourceArr.push(s);
-            }
-        }
-        setTimeout(function() {
-            (document.head || document.getElementsByTagName('head')[0]).appendChild(_script);
-            _script.charset = 'utf-8';
-            _script.defer = 'defer';
-            _script.async = 'async';
-            _script.src = 'http://static.paipaiimg.com/c/=' + _sourceArr.join(',') + '?t=201409291905';
-        }, 0);
-        /*foot debug*/
-        for(var di= 0,dl=debugJS.length;di<dl;di++){
-            var debugSC=document.createElement('script');
-            debugSC.charset = 'utf-8';
-            debugSC.src='http://static.paipaiimg.com'+debugJS[di];
-            (document.head || document.getElementsByTagName('head')[0]).appendChild(debugSC);
-        }
-        /*foot debug*/
-    };
-
-    Foot.setRegion=function(){
-        var arr = (/(wanggou.com|qq.com)$/i).exec(location.host),
-                host,
-                sid = getQuery('sid'),
-                uk = getQuery('uk'),
-                cookie_sid = getCookie('sid'),
-                uin=getCookie('uin'),
-                wg_uin=getCookie('wg_uin');
-
-        if(arr && arr.length === 2){
-            host=arr[1];
-            //sid同步
-            if(sid){
-                setCookie('sid', sid, 43200, '', host);
-                if(cookie_sid != sid){
-                    setCookie('wg_skey', 0, 60, '', host);
-                    setCookie('skey', 0, 60, '', host);
-                }
-            }
-            //uk打入cookie
-            uk&&setCookie('uk', uk, 43200, '', host);
-            //修正多个账号登录后导致的混乱
-            if(uin&&wg_uin){
-                uin=uin.replace(/^o/i,"")*1;
-                wg_uin=wg_uin*1;
-                if(/qq\/[\d\.]+/i.test(navigator.userAgent)&&uin!=wg_uin){//两个不一致，则清空uin和skey
-                    setCookie('wg_uin', '', 172800, '', host);
-                    setCookie('uin', '', 172800, '', host);
-                    setCookie('wg_skey', '', 172800, '', host);
-                    setCookie('skey', '', 172800, '', host);
-                }
-            }
-        }
-
-        window.regioncb = function(o) {
-            if (o.errCode == "0") {
-                var d = o.data;
-                jdlocid = d.provid + "_" + d.cityid + "_" + d.countyid;
-                jdlocname = d.provname + "_" + d.cityname + "_" + d.countyname;
-                localStorage && localStorage.setItem('jdLOCAddrId', jdlocid);
-                localStorage && localStorage.setItem('jdLOCAddrName', jdlocname);
-                setCookie('jdLOCAddrId', jdlocid, 5256000, '', 'wanggou.com');
-                setCookie('jdLOCAddrName', jdlocname, 5256000, '', 'wanggou.com');
-            }
-
-        }
-        //打地区cookie
-        if (!(getCookie("jdLOCAddrId") || localStorage.getItem('jdLOCAddrId'))) {
-            loadUrl({
-                url: 'http://bases.wanggou.com/recvaddr/getjd3lvladdrbyip?callback=regioncb',
-                charset: 'gbk'
-            });
-        }
-    };
-
-    Foot.setEvent=function(){
-        var events = ['load'];
-        for (var i = 0; i < events.length; i++) {
-            (function(eName) {
-                window.addEventListener(eName, function() {
-                    FOOTDETECT[eName] = true;
-                });
-            })(events[i]);
-        }
-    };
-
-    Foot.init=function(){
-        this.setComboJs();
-        this.setRegion();
-        this.setEvent();
-    };
-
-    Foot.init();
-})();
-</script><!--[if !IE]>|xGv00|47b9aa9f5ca5b0e8e52a524532ac768e<![endif]--><!--[if !IE]>|xGv00|7e4222a87543868eb9337b2ddbd82a83<![endif]-->
-
-<script>
-    if(location.search.indexOf('debug=true') > -1){
-        setTimeout(function(){localStorage.removeItem('_m_wg.itemV4');}, 2000);
-    }
-</script>
-
-<!--[if !IE]>|xGv00|7c7fcea1c447fd2fa8534b259ad7bafe<![endif]--><iframe id="syn_vk_iframe" src="http://wei.jd.com/mobile/synvisitkey.shtml?ptag=37028.5.1&amp;pps=mart.00000000030001:410BF8E4023A930E0000255B00008A10:0" style="display: none;"></iframe></body></html>
+##<script type="text/html" id="evalTpl">
+##    <li>
+##        <div class="cmt_user">
+##            <span class="user">{#name#}</span>
+##            <span class="tip">{#levelName#}</span>
+##            <span class="credit"><span style="width:{#score_code#}%"></span></span>
+##            <span class="date">{#creationTime#}</span>
+##        </div>
+##        <div class="cmt_cnt">{#content#}</div>
+##        <div class="cmt_att">{#shaidanImg#}</div>
+##        <div class="cmt_sku">{#sku#}</div>
+##    </li>
+##</script>
+##<script type="text/html" id="evalHeadTpl">
+##    <div class="cmt_tab" id="evalTab">
+##        <span class="cur" no="0" ptag="7001.1.30">全部<em>{#CommentCount#}</em></span>
+##        <span no="3" ptag="7001.1.31">好评<em>{#GoodCount#}</em></span>
+##        <span no="2" ptag="7001.1.32">中评<em>{#GeneralCount#}</em></span>
+##        <span no="1" ptag="7001.1.33">差评<em>{#PoorCount#}</em></span>
+##        <span no="4" ptag="7001.1.34">晒单<em>{#ShowCount#}</em></span>
+##    </div>
+##</script>
+##<script type="text/html" id="evalHeadTpl2">
+##    <div class="cmt_view">
+##        <div class="per">
+##            <em>{#GoodRateShow#}%</em>
+##            <span>好评率</span>
+##        </div>
+##        <div class="tips">
+##            <div class="line">
+##                好评
+##                <span class="box"><b style="width:{#GoodRateShow#}%"></b></span>
+##                <span class="num">{#GoodRateShow#}%</span>
+##            </div>
+##            <div class="line">
+##                中评
+##                <span class="box"><b style="width:{#GeneralRateShow#}%"></b></span>
+##                <span class="num">{#GeneralRateShow#}%</span>
+##            </div>
+##            <div class="line">
+##                差评
+##                <span class="box"><b style="width:{#PoorRateShow#}%"></b></span>
+##                <span class="num">{#PoorRateShow#}%</span>
+##            </div>
+##        </div>
+##    </div>
+##</script>
+##<script type="text/html" id="serviceTpl">
+##    <li>
+##        <i class="icon_service {#iconCode#}"></i>
+##        <div class="service_txt">{#iconSrc#}</div>
+##        <div class="service_desc">{#iconTip#}</div>
+##    </li>
+##</script>
+##
+##<script type="text/javascript">
+##    window._simpSea2Detail = '0';  //搜索('0':关闭,'1':开启)
+##    window.isCrashStatus = false; //商祥进入容灾模式     false:关闭, true:开启
+##</script><!--[if !IE]>|xGv00|7f066614a8d2df95a283004803e620e5<![endif]-->
+##
+##<script>
+##
+##
+##    window.isCrashStatus = false;
+##
+##
+##
+##    window._skuTpl = '<div class="sku" id="sku{no}" ptag="7001.1.5"><h3>{name}</h3><div class="sku_list">{option}</div></div>';
+##    function $id(id){
+##        return document.getElementById(id) || document.createElement('span');
+##    }
+##    function $attr(em, n){
+##        return em.getAttribute(n);
+##    }
+##    function $getQuery(name,url){
+##        var u  = arguments[1] || window.location.search,
+##                reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"),
+##                r = u.substr(u.indexOf("\?")+1).match(reg);
+##        return r!=null?r[2]:"";
+##    }
+##    function getCookie(name) {
+##        var reg = new RegExp("(^| )" + name + "(?:=([^;]*))?(;|$)"), val = document.cookie.match(reg);
+##        return val ? (val[2] ? unescape(val[2]) : "") : '';
+##    }
+##    function getAddrInfo(){
+##        return {
+##            id:  localStorage.getItem('jdAddrId') || getCookie('jdAddrId') ||localStorage.getItem('jdLOCAddrId') ||getCookie('jdLOCAddrId') || '1_72_4139',
+##            name:localStorage.getItem('jdAddrName') ||getCookie('jdAddrName') ||localStorage.getItem('jdLOCAddrName') || getCookie('jdLOCAddrName') || '北京_北京市_北苑'
+##        };
+##    }
+##
+##    var skuid = $getQuery('sku'), price = $getQuery('price'),  network = getCookie("network");
+##    window.isRetina = getCookie('retina') == '1' && (!network || network=="wifi");
+##    //window.isRetina = network=="wifi" || getCookie('retina') == '1';
+##    window.isTouchView = (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent));
+##    if(!window.isTouchView && $getQuery('iscossview') != 1) window.location.href = 'http://item.jd.com/'+skuid+'.html';
+##
+##    window.is_xbox_yuyue = skuid == 1177070 || skuid == 1179024;
+##    window.xbox_price = '&yen;4299.00';
+##
+##    (function(){
+##        window._itemInfo = null;
+##        if(price && parseInt(price)>0){
+##                $id('priceSale').innerHTML = (parseInt(price)).toFixed(2);
+##        }
+##        if(!skuid || window.isCrashStatus){
+##            return;
+##        }
+##
+##        window._initLite = function(json){
+##            if(!speedTimePoint[3]) speedTimePoint[3] = new Date();
+##            window._itemInfo = json;
+##            if(window._itemDeatail){
+##                window._itemDeatail.skuJson[skuid] = json;
+##                window._itemDeatail.setItemInfo();
+##                return;
+##            }
+##            //if(json.errCode != '0') return;
+##            var p = json.Price * 1 > 0 ? json.Price : 0, m = json.MarketPrice * 1 > 0 ? json.MarketPrice : 0;
+##            //$id('priceSale').innerHTML = (p ? ('&yen;'+p):'暂无定价');
+##            //$id('priceMarket').innerHTML = (m ? ('&yen;'+m):'暂无定价');
+##            if(window.is_xbox_yuyue && window.xbox_price){
+##                    $id('priceSale').innerHTML = window.xbox_price;
+##                    $id('priceMarket').innerHTML = window.xbox_price;
+##            }
+##            json.sales = json.sales||"0-0";
+##            //$id('saleNo').innerHTML = json.sales.split('-')[1];
+##                $id('itemName').innerHTML = json.skuName;
+##                $id('priceSale').getAttribute('price', $id('priceSale').innerHTML);
+##                $id('priceSale').getAttribute('p', p);
+##            var arr = json.ColorSize||[], skus={color:{}, size:{}}, name={color:'颜色', size:'尺寸'};
+##            for (var i=0; i < arr.length; i++) {
+##                skus.color[arr[i].Color] = skus.color[arr[i].Color] || arr[i].SkuId == skuid;
+##                skus.size[arr[i].Size]  = skus.size[arr[i].Size] || arr[i].SkuId == skuid;
+##            };
+##            var str='', i=1;
+##            for(k in skus){
+##                var html=[];
+##                for(s in skus[k]){
+##                    if(!(s.replace(/\s+/g, ''))) continue;
+##                    html.push('<span class="option'+(skus[k][s] ? ' option_selected' : '')+'">'+s+'</span>');
+##                }
+##                if(html.length)str += window._skuTpl.replace('{no}', i++).replace('{name}', name[k]).replace('{option}', html.join(''));
+##            }
+##                $id('propertyDiv').innerHTML = str;
+##            if(json.image.length){
+##                var img = 'http://img14.360buyimg.com/n'+(window.isRetina ? '1':'7')+'/'+json.image[0];
+##                    $id('loopImgUl').innerHTML = '<li><img onload="if(!speedTimePoint[7]) speedTimePoint[7]= new Date();" src="'+img+'"></li>';
+##                var wli = $id('loopImgUl').getElementsByTagName('li'), wb = document.body.clientWidth;
+##                    $id('loopImgUl').style.left=(wb-wli[0].offsetWidth)/2 + 'px';
+##            }
+##        };
+##
+##        var addr=getAddrInfo(), s=document.createElement('script');
+##        s.setAttribute('type','text/javascript');
+##        s.setAttribute('charset','gb2312');
+##        s.setAttribute('src', 'http://yx.3.cn/service/info.action?callback=_initLite&id='+skuid+'&area='+addr.id+'&u_source='+(_iswx?'weixin':'qq')+'&t='+Math.random());
+##        document.getElementsByTagName("head")[0].appendChild(s);
+##
+##            $id('addrName').innerHTML = addr.name.split('_')[0];
+##    })();
+##
+##    window.shareConfig = {
+##        img_url: '',
+##        img_width: "100",
+##        img_height: "100",
+##        link: location.href,
+##        title: '',
+##        desc: "京东正品"
+##    };
+##</script>
+##
+##<script>
+##    window.hideHis = true; //不显示最近浏览
+##    //限流sku列表
+##    window._LIMIT_SKUS = ',1165981,1165980,1175411,1175411,1163613,1165978,1175409,';
+##    //拼购sku列表
+##    window._PING_GOU_SKU = ',833315,1267970331,647948,1038956,1113169,941189,620876,1199715,1032698,990705,';
+##    window.MANUAL_PV = true; //自动上报pv
+##    //objMsg = {sku:'', shop:'', leaf:'', isJD:''};
+##</script>
+##
+##<script type="text/javascript">
+##    (function(){
+##        if(Math.random()>0.5) return;
+##        window._jdApp = {
+##            //ignoreWx : true,
+##            index:10,//index的值10（三栏目继续用9-大图）
+##            androidindex:8,
+##            closeHide : false,
+##            appdlCon : 'appdlCon',
+##            androidUrl : 'http://storage.jd.com/jdmobile/jd-wxmall7.apk?Expires=1714044388&AccessKey=77a2f170807670c5afd3cccf63deaee9ca2f4714&Signature=fArtrQsJYowYivhDRmw%2F%2BZJIhPg%3D&ptag=7005.7.1',
+##            iosUrl : 'https://itunes.apple.com/cn/app/jing-dong/id414245413?mt=8&ptag=7005.7.2',
+##
+##            fixed : false
+##        }
+##    })()
+##</script>
+##
+##<script type="text/javascript">
+##    //entra432-14
+##    (function(global){
+##        var g=[[]],d='http://static.gtimg.com',m={},blankjs="",grays={},mdebug = location.href.indexOf("mdebug=1")!=-1;
+##        m.alias = {};
+##        var a={},p={},c=[];
+##        g["1"]=["\/js\/version\/201309\/cookie.201309291040.js","\/js\/version\/201409\/jd.address.201409171654.js","\/js\/version\/201409\/jd.promotions.201409281725.js","\/js\/version\/201409\/url.201409021135.js","\/js\/version\/201407\/wg.loopSrcoll.201407160949.js","\/js\/version\/201409\/wg.util.201409171653.js"];
+##        g["0"]=["\/js\/version\/201408\/mobile.zepto.201408111909.js","\/js\/version\/201409\/wg.loadJs.201409181648.js"];
+##        g["2"]=["\/js\/version\/201409\/wg.itemV5.201409300950.js"];
+##        c = [['cookie',1,0],['jd.address',1,1],['jd.promotions',1,2],['mobile.zepto',0,0],['url',1,3],['wg.itemV5',2,0],['wg.loadJs',0,1],['wg.loopSrcoll',1,4],['wg.util',1,5]];
+##        if(typeof(JSON)!="undefined" && window.localStorage){
+##            for(var key in localStorage){
+##                if(/^_m_/.test(key)){
+##                    var store = JSON.parse(localStorage.getItem(key));
+##                    var i = key.substr(3);
+##                    if((new Date()).getTime()>store.cacheTime){
+##                        continue;
+##                    }
+##                    var _m=getModuleMap(i);
+##                    if(!_m || _m.group==0){continue;}
+##                    var curPath=g[_m.group][_m.groupid];
+##                    if((d+curPath)==store.path){
+##                        g[0].push(curPath);
+##                        g[_m.group][_m.groupid]=blankjs;
+##                        c[_m.index]=[_m.id,0,g[0].length-1];
+##                    }
+##                }
+##            }
+##        }
+##        function getModuleMap(id){
+##            for(var i=0;i<c.length;i++){
+##                if(c[i][0]==id){
+##                    return {"id":id,"index":i,"group":c[i][1],"groupid":c[i][2]};
+##                }
+##            }
+##            return "";
+##        }
+##        function getCombUrl(list){
+##            var a=[];
+##            for(var i=0;i<list.length;i++){
+##                if(list[i]){
+##                    a.push(list[i]);
+##                }
+##            }
+##            return a.length>1?(d+"/c/="+a.join(",")):(d+a[0]);
+##        }
+##
+##        for(var i=0;i<c.length;i++){
+##            var surl=d+g[c[i][1]][c[i][2]];
+##            var furl=getCombUrl(g[c[i][1]]);//合并包地址
+##            a[c[i][0]]=surl;
+##            p[c[i][0]]=(c[i][1]==0)?surl:furl;
+##        }
+##
+##        m.alias=mdebug?a:p;
+##        m.moduleURI=a;
+##
+##
+##        global._moduleConfig = m;
+##
+##        function gray(m){
+##        }
+##
+##    })(this);
+##
+##</script>
+##<script type="text/javascript">if(typeof JSON!=="object"){JSON={};}(function(){function f(n){return n<10?"0"+n:n;}if(typeof Date.prototype.toJSON!=="function"){Date.prototype.toJSON=function(key){return isFinite(this.valueOf())?this.getUTCFullYear()+"-"+f(this.getUTCMonth()+1)+"-"+f(this.getUTCDate())+"T"+f(this.getUTCHours())+":"+f(this.getUTCMinutes())+":"+f(this.getUTCSeconds())+"Z":null;};String.prototype.toJSON=Number.prototype.toJSON=Boolean.prototype.toJSON=function(key){return this.valueOf();};}var cx=/[\u0000\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g,escapable=/[\\\"\x00-\x1f\x7f-\x9f\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g,gap,indent,meta={"\b":"\\b","\t":"\\t","\n":"\\n","\f":"\\f","\r":"\\r",'"':'\\"',"\\":"\\\\"},rep;function quote(string){escapable.lastIndex=0;return escapable.test(string)?'"'+string.replace(escapable,function(a){var c=meta[a];return typeof c==="string"?c:"\\u"+("0000"+a.charCodeAt(0).toString(16)).slice(-4);})+'"':'"'+string+'"';}function str(key,holder){var i,k,v,length,mind=gap,partial,value=holder[key];if(value&&typeof value==="object"&&typeof value.toJSON==="function"){value=value.toJSON(key);}if(typeof rep==="function"){value=rep.call(holder,key,value);}switch(typeof value){case"string":return quote(value);case"number":return isFinite(value)?String(value):"null";case"boolean":case"null":return String(value);case"object":if(!value){return"null";}gap+=indent;partial=[];if(Object.prototype.toString.apply(value)==="[object Array]"){length=value.length;for(i=0;i<length;i+=1){partial[i]=str(i,value)||"null";}v=partial.length===0?"[]":gap?"[\n"+gap+partial.join(",\n"+gap)+"\n"+mind+"]":"["+partial.join(",")+"]";gap=mind;return v;}if(rep&&typeof rep==="object"){length=rep.length;for(i=0;i<length;i+=1){if(typeof rep[i]==="string"){k=rep[i];v=str(k,value);if(v){partial.push(quote(k)+(gap?": ":":")+v);}}}}else{for(k in value){if(Object.prototype.hasOwnProperty.call(value,k)){v=str(k,value);if(v){partial.push(quote(k)+(gap?": ":":")+v);}}}}v=partial.length===0?"{}":gap?"{\n"+gap+partial.join(",\n"+gap)+"\n"+mind+"}":"{"+partial.join(",")+"}";gap=mind;return v;}}if(typeof JSON.stringify!=="function"){JSON.stringify=function(value,replacer,space){var i;gap="";indent="";if(typeof space==="number"){for(i=0;i<space;i+=1){indent+=" ";}}else{if(typeof space==="string"){indent=space;}}rep=replacer;if(replacer&&typeof replacer!=="function"&&(typeof replacer!=="object"||typeof replacer.length!=="number")){throw new Error("JSON.stringify");}return str("",{"":value});};}if(typeof JSON.parse!=="function"){JSON.parse=function(text,reviver){var j;function walk(holder,key){var k,v,value=holder[key];if(value&&typeof value==="object"){for(k in value){if(Object.prototype.hasOwnProperty.call(value,k)){v=walk(value,k);if(v!==undefined){value[k]=v;}else{delete value[k];}}}}return reviver.call(holder,key,value);}text=String(text);cx.lastIndex=0;if(cx.test(text)){text=text.replace(cx,function(a){return"\\u"+("0000"+a.charCodeAt(0).toString(16)).slice(-4);});}if(/^[\],:{}\s]*$/.test(text.replace(/\\(?:["\\\/bfnrt]|u[0-9a-fA-F]{4})/g,"@").replace(/"[^"\\\n\r]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?/g,"]").replace(/(?:^|:|,)(?:\s*\[)+/g,""))){j=eval("("+text+")");return typeof reviver==="function"?walk({"":j},""):j;}throw new SyntaxError("JSON.parse");};}}());var modulejs,require,define;(function(global){var mod,cfg,_modulejs,_define,_require;var version="1.0.2";var isCache=true;var cacheTime=60*60*24*30*1000;cfg={debug:location.href.indexOf("mdebug=1")!=-1?true:false,alias:{},cssAlias:{},moduleURI:{},vars:{},uris:{},modules:{},callback:[],actModules:{},cacheLoad:{},cacheDel:{},deps:{},events:{},timing:{}};_modulejs.config=config;config(global["_moduleConfig"]?global._moduleConfig:cfg);global["_moduleConfig"]=cfg;require=_require;define=_define;modulejs=_modulejs;on("module_ready",function(id,fromeCache){cfg.callback=cleanArray(cfg.callback);var init=cfg.callback,l=init.length;for(var i=0;i<l;i++){if(init[i]&&checkDeps(init[i].dependencies)){var cb=init[i].factory;var deps=init[i].dependencies;var mods=[];var allDeps=[];var m;for(var j=0;j<deps.length;j++){var m=_require(deps[j]);allDeps.push(m.dependencies);mods.push(m);}
+##    debug("callback_is_run=start",cb.toString(),cfg.callback);init[i]=null;cb.apply(null,mods);cfg.debug&&emit("callback_is_run",cb.toString().replace(/[\r\n]/g,""));}}});on("module_require",function(id){cfg.actModules[id]=cfg.actModules[id]?(cfg.actModules[id]+1):1;});on("module_cacheDel",function(id){cfg.cacheDel[id]=1;});on("cache_load",function(m){});on("module_loss_alias",function(id){console.error("module_loss_alias:"+id);});var cacheNow=new Date();_loadCache();cfg.timing['loadcache']=new Date()-cacheNow;function _loadCache(){if(!_useCache()){return false;}
+##    localStorage.removeItem("_modules");for(var key in localStorage){if(/^_m_/.test(key)){var store=JSON.parse(localStorage.getItem(key));var i=key.substr(3);var now=(new Date()).getTime();var oneDay=24*3600*1000;if(cfg.alias[i]){if(_getModuleURI(i)!=store.path||store.deps.join(",").indexOf("{")>-1){emit("module_cacheDel",i);localStorage.removeItem(key);continue;}}else{if(now>store.cacheTime){emit("module_cacheDel",i);localStorage.removeItem(key);continue;}}
+##        if(store.cacheTime-now<oneDay){store.cacheTime=(new Date()).getTime()+cacheTime;try{localStorage.removeItem(key);localStorage.setItem(key,JSON.stringify(store));}catch(e){}}
+##        cfg.cacheLoad[store.id]=store;emit("cache_load",store);}}}
+##    function _getModuleURI(id){return cfg.moduleURI[id]?cfg.moduleURI[id]:cfg.alias[id];}
+##    function _useCache(id,deps,factory){if(typeof(JSON)=="undefined"){return false;}
+##        if(!isCache){return false;}
+##        if(!(JSON&&window.localStorage)){return false;}
+##        if(cfg.debug){return false;}
+##        var agent=navigator.userAgent.toLowerCase();if(agent.indexOf("msie")>0){var m=agent.match(/msie\s([\d\.]+);/i);if(m&&m.length>=2&&parseInt(m[1])<=6){return false;}}
+##        if(id&&id.indexOf("_")==0){return false;}
+##        if(factory&&factory.toString().indexOf("_cacheThisModule_")<0){return false;}
+##        return true;}
+##    function _cacheModule(id,deps,factory){var key="_m_"+id;var _t=localStorage.getItem(key);var ms=_t?JSON.parse(_t):{};ms={"id":id,"deps":deps,"factory":factory.toString(),"path":_getModuleURI(id),"cacheTime":(new Date()).getTime()+cacheTime};try{localStorage.removeItem(key);localStorage.setItem(key,JSON.stringify(ms));emit("module_cached",id);}catch(e){}}
+##    function _define(id,deps,factory){if(arguments.length===2){factory=deps;deps=null;}
+##        deps=isType("Array",deps)?deps:(deps?[deps]:[]);if(isType("Function",factory)){var _deps=parseDependencies(factory.toString());}
+##        _useCache(id,deps,factory)&&_cacheModule(id,deps,factory);deps=mergeArray(deps,_deps);var mod=new Module(id);mod.dependencies=deps||[];for(var i=mod.dependencies.length-1;i>=0;i--){mod.dependencies[i]=parseVars(mod.dependencies[i]);}
+##        mod.factory=factory;if(id=="_init"){cfg.callback.push(mod);}else{cfg.modules[id]=mod;}
+##        emit("module_ready",id);}
+##    function _require(id){id=parseVars(id);var module=cfg.modules[id];emit("module_require",id);if(!module){emit("module_error",id);return null}
+##        if(module.exports){return module.exports;}
+##        var now=new Date();var factory=module.factory;var exports=isType("Function",factory)?factory(require,module.exports={},module):factory;module.exports=exports===undefined?module.exports:exports;cfg.timing[id]=new Date()-now;return module.exports;}
+##    _require.async=_modulejs;_require.css=function(path){path=cfg.cssAlias&&cfg.cssAlias[path]?cfg.cssAlias[path]:path;if(!path){return;}
+##        var l;if(!window["_loadCss"]||window["_loadCss"].indexOf(path)<0){l=document.createElement('link');l.setAttribute('type','text/css');l.setAttribute('rel','stylesheet');l.setAttribute('href',path);l.setAttribute("id","loadCss"+Math.random());document.getElementsByTagName("head")[0].appendChild(l);window["_loadCss"]?(window["_loadCss"]+="|"+path):(window["_loadCss"]="|"+path);}
+##        l&&(typeof callback=="function")&&(l.onload=callback);return true;}
+##    function _modulejs(deps,factory){_define("_init",deps,factory);}
+##    function checkDeps(deps){var list={},flag=true;for(var i=0;i<deps.length;i++)list[deps[i]]=1;getDesps(deps,list);for(var i in list){if(!cfg.modules[i]){loadModule(i);flag=false;}}
+##        return flag;function getDesps(deps,list){for(var i=0;i<deps.length;i++){if(!list[deps[i]]){list[deps[i]]=1;}
+##            if(cfg.modules[deps[i]]&&list[deps[i]]!=2){list[deps[i]]=2;getDesps(cfg.modules[deps[i]].dependencies,list);}}}}
+##    function parseVars(id){var VARS_RE=/{([^{]+)}/g
+##        var vars=cfg.vars
+##        if(vars&&id.indexOf("{")>-1){id=id.replace(VARS_RE,function(m,key){return isType("String",vars[key])?vars[key]:key})}
+##        return id}
+##    function mergeObject(a,b){for(var i in b){if(!b.hasOwnProperty(i)){continue;}
+##        if(!a[i]){a[i]=b[i];}else if(Object.prototype.toString.call(b[i])=="[object Object]"){mergeObject(a[i],b[i]);}else{a[i]=b[i];}}
+##        return a;}
+##    function config(obj){return cfg=mergeObject(cfg,obj);}
+##    function Module(id){this.id=id;this.dependencies=[];this.exports=null;this.uri="";}
+##    function loadModule(id){var m;if(m=cfg.cacheLoad[id]){return _define(m.id,m.deps,eval("a = "+m.factory));}
+##        if(cfg.modules[id]){emit("module_ready",id);return;}
+##        var url=cfg.alias[id]?cfg.alias[id]:"";if(!url){emit("module_loss_alias",id);return;}
+##        if(cfg.uris[url]){return;}
+##        cfg.uris[url]=1;var head=document.getElementsByTagName("head")[0]||document.documentElement;var baseElement=head.getElementsByTagName("base")[0];var node=document.createElement("script");node.charset="utf-8";node.async=true;node.src=url;var handler=function(){var callee=arguments.callee
+##            cfg.timing[callee.uri]=new Date()-callee.time;};handler.time=new Date();handler.uri=url;node.onload=handler;baseElement?head.insertBefore(node,baseElement):head.appendChild(node);cfg.debug&&emit("file_loading",url);}
+##    function on(name,cb){var cbs=cfg.events[name];if(!cbs){cbs=cfg.events[name]=[];}
+##        cbs.push(cb);}
+##    function emit(name,evt){debug(name,evt);if(!cfg.events[name]||cfg.events[name].length==0){return;}
+##        for(var i=0,l=cfg.events[name].length;i<l;i++){cfg.events[name][i](evt);}
+##        if(name==='error'){delete cfg.events[name];}}
+##    function cleanArray(a){var n=[];for(var i=0;i<a.length;i++){a[i]&&n.push(a[i]);}
+##        return n;}
+##    function mergeArray(a,b){for(var i=0;i<b.length;i++){((","+a+",").indexOf(","+b[i]+",")<0)&&a.push(b[i]);}
+##        return a;}
+##    function isType(type,obj){return Object.prototype.toString.call(obj)==="[object "+type+"]"}
+##    function parseDependencies(code){var commentRegExp=/(\/\*([\s\S]*?)\*\/|([^:]|^)\/\/(.*)$)/mg;var cjsRequireRegExp=/[^.]\s*require\s*\(\s*["']([^'"\s]+)["']\s*\)/g;var ret=[];code.replace(commentRegExp,"").replace(cjsRequireRegExp,function(match,dep){dep&&ret.push(parseVars(dep));})
+##        return ret;}
+##    function debug(){if(!cfg.debug){return true;}
+##        var a=[],l=arguments.length;for(var i=0;i<l;i++){a.push(arguments[i]);}
+##        try{console.log.apply(console,a);}catch(e){}}}(this));</script>
+##<script type="text/javascript">
+##    var _speedMarkModule = new Date();
+##    modulejs("wg.itemV5",function(itemEnter){
+##        itemEnter.init();
+##    });</script><!--[if !IE]>|xGv00|8666fab186062d3d447d0473f2dfe98a<![endif]-->
+##<script type="text/javascript">
+##    window.FOOTCONFIG = window.FOOTCONFIG || ['wxapi','report','ping'];
+##</script>
+##<script type="text/javascript">
+##window.FOOTDETECT = {};
+##function setCookie(name, value, expires, path, domain, secure) {
+##    var exp = new Date(),
+##            expires = arguments[2] || null,
+##            path = arguments[3] || "/",
+##            domain = arguments[4] || null,
+##            secure = arguments[5] || false;
+##    //expires ? exp.setMinutes(exp.getMinutes() + parseInt(expires)) : "";
+##    expires?exp.setTime(exp.getTime()+parseInt(expires)*60*1000):"";
+##    document.cookie = name + '=' + escape(value) + (expires ? ';expires=' + exp.toGMTString() : '') + (path ? ';path=' + path : '') + (domain ? ';domain=' + domain : '') + (secure ? ';secure' : '');
+##}
+##
+##function getCookie(name) {
+##    //读取COOKIE
+##    var reg = new RegExp("(^| )" + name + "(?:=([^;]*))?(;|$)"),
+##            val = document.cookie.match(reg);
+##    return val ? (val[2] ? unescape(val[2]) : "") : null;
+##}
+##
+##function getQuery(name, url) {
+##    //参数：变量名，url为空则表从当前页面的url中取
+##    var u = arguments[1] || window.location.search,
+##            reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"),
+##            r = u.substr(u.indexOf("\?") + 1).match(reg);
+##    return r != null ? r[2] : "";
+##}
+##
+##function loadUrl(o) {
+##    o.element = o.element || 'script';
+##    var el = document.createElement(o.element);
+##    el.charset = o.charset || 'utf-8';
+##    o.onBeforeSend && o.onBeforeSend(el);
+##    el.onload = el.onreadystatechange = function() {
+##        if (/loaded|complete/i.test(this.readyState) || navigator.userAgent.toLowerCase().indexOf("msie") == -1) {
+##            o.onLoad && o.onLoad();
+##            clear();
+##        }
+##    };
+##    el.onerror = function() {
+##        clear();
+##    };
+##    el.src = o.url;
+##    document.getElementsByTagName('head')[0].appendChild(el);
+##
+##    function clear() {
+##        if (!el) {
+##            return;
+##        }
+##        el.onload = el.onreadystatechange = el.onerror = null;
+##        el.parentNode && (el.parentNode.removeChild(el));
+##        el = null;
+##    }
+##}
+##
+##function delCookie(name, path, domain, secure) {
+##    //删除cookie
+##    var value = getCookie(name);
+##    if (value != null) {
+##        var exp = new Date();
+##        exp.setMinutes(exp.getMinutes() - 1000);
+##        path = path || "/";
+##        document.cookie = name + '=;expires=' + exp.toGMTString() + (path ? ';path=' + path : '') + (domain ? ';domain=' + domain : '') + (secure ? ';secure' : '');
+##    }
+##}
+##
+##(function() {
+##    var Foot={};
+##
+##    Foot.setComboJs=function(){
+##        var ua = navigator.userAgent.toLowerCase(),
+##                isInWx = (ua.indexOf('micromessenger')) > -1,
+##                isInQQ = ((/qq\/([\d\.]+)*/).test(ua))
+##        _conf = {
+##            'report': '/js/version/2014/09/pp.wg.mobilereport.20140929.js,/js/mobile/common/dest/wg.report.min.js',
+##            'ping': '/js/version/2014/08/pp.mobile.ping.20140825.js',
+##            'wxapi': '/js/mobile/common/dest/wg.wxapi.min.js',
+##            'mwfoot': '/js/mobile/common/dest/wg.mwfoot.min.js',
+##            'wxfoot': '/js/mobile/common/dest/wg.wxfoot.min.js',
+##            'wgstorage': '/js/mobile/common/dest/wg.storage.min.js',
+##            'jdappdl' : '/js/mobile/common/dest/wg.jdappdl.min.js',
+##            'navfoot' : '/js/mobile/common/dest/wg.navfoot.min.js',
+##            'searchfoot' : '/js/mobile/common/dest/wg.searchfoot.min.js',
+##            'imgSpeed' : '/js/mobile/common/dest/wg.imgReport.min.js',
+##            'pdebug' : '/js/mobile/common/dest/wg.debug.min.js'
+##        },
+##                _footconf = window.FOOTCONFIG || [],
+##                _sourceArr = [],
+##                _script = document.createElement('SCRIPT');
+##        FOOTDETECT.scene = (ua.indexOf('micromessenger')) > -1 ? 'weixin' : ((/qq\/([\d\.]+)*/).test(ua) ? 'qq' : 'mobile');
+##        setCookie('cid', FOOTDETECT.scene === 'weixin' ? 1 : (FOOTDETECT.scene === 'qq' ? 2 : 3), 43200, '', 'wanggou.com');
+##
+##        _footconf.push('wgstorage');
+##        FOOTDETECT.scene=="weixin"&&_footconf.push('imgSpeed');
+##        _footconf.push('pdebug');
+##
+##        if(window._jdApp){
+##            _footconf.push('jdappdl');
+##        }
+##        if(window._navfoot){
+##            _footconf.push('navfoot');
+##        }
+##        if(window._searchfoot){
+##            _footconf.push('searchfoot');
+##        }
+##        /*foot debug*/
+##        var debugJS=[];
+##        /*foot debug*/
+##        for (var i = 0; i < _footconf.length; i++) {
+##            /*foot debug*/
+##            if(window.footDebugInfo&&window.footDebugInfo[_footconf[i]]){debugJS.push(window.footDebugInfo[_footconf[i]]);continue;}
+##            /*foot debug*/
+##            var s = _conf[_footconf[i]];
+##            if (s) {
+##                _sourceArr.push(s);
+##            }
+##        }
+##        setTimeout(function() {
+##            (document.head || document.getElementsByTagName('head')[0]).appendChild(_script);
+##            _script.charset = 'utf-8';
+##            _script.defer = 'defer';
+##            _script.async = 'async';
+##            _script.src = 'http://static.paipaiimg.com/c/=' + _sourceArr.join(',') + '?t=201409291905';
+##        }, 0);
+##        /*foot debug*/
+##        for(var di= 0,dl=debugJS.length;di<dl;di++){
+##            var debugSC=document.createElement('script');
+##            debugSC.charset = 'utf-8';
+##            debugSC.src='http://static.paipaiimg.com'+debugJS[di];
+##            (document.head || document.getElementsByTagName('head')[0]).appendChild(debugSC);
+##        }
+##        /*foot debug*/
+##    };
+##
+##    Foot.setRegion=function(){
+##        var arr = (/(wanggou.com|qq.com)$/i).exec(location.host),
+##                host,
+##                sid = getQuery('sid'),
+##                uk = getQuery('uk'),
+##                cookie_sid = getCookie('sid'),
+##                uin=getCookie('uin'),
+##                wg_uin=getCookie('wg_uin');
+##
+##        if(arr && arr.length === 2){
+##            host=arr[1];
+##            //sid同步
+##            if(sid){
+##                setCookie('sid', sid, 43200, '', host);
+##                if(cookie_sid != sid){
+##                    setCookie('wg_skey', 0, 60, '', host);
+##                    setCookie('skey', 0, 60, '', host);
+##                }
+##            }
+##            //uk打入cookie
+##            uk&&setCookie('uk', uk, 43200, '', host);
+##            //修正多个账号登录后导致的混乱
+##            if(uin&&wg_uin){
+##                uin=uin.replace(/^o/i,"")*1;
+##                wg_uin=wg_uin*1;
+##                if(/qq\/[\d\.]+/i.test(navigator.userAgent)&&uin!=wg_uin){//两个不一致，则清空uin和skey
+##                    setCookie('wg_uin', '', 172800, '', host);
+##                    setCookie('uin', '', 172800, '', host);
+##                    setCookie('wg_skey', '', 172800, '', host);
+##                    setCookie('skey', '', 172800, '', host);
+##                }
+##            }
+##        }
+##
+##        window.regioncb = function(o) {
+##            if (o.errCode == "0") {
+##                var d = o.data;
+##                jdlocid = d.provid + "_" + d.cityid + "_" + d.countyid;
+##                jdlocname = d.provname + "_" + d.cityname + "_" + d.countyname;
+##                localStorage && localStorage.setItem('jdLOCAddrId', jdlocid);
+##                localStorage && localStorage.setItem('jdLOCAddrName', jdlocname);
+##                setCookie('jdLOCAddrId', jdlocid, 5256000, '', 'wanggou.com');
+##                setCookie('jdLOCAddrName', jdlocname, 5256000, '', 'wanggou.com');
+##            }
+##
+##        }
+##        //打地区cookie
+##        if (!(getCookie("jdLOCAddrId") || localStorage.getItem('jdLOCAddrId'))) {
+##            loadUrl({
+##                url: 'http://bases.wanggou.com/recvaddr/getjd3lvladdrbyip?callback=regioncb',
+##                charset: 'gbk'
+##            });
+##        }
+##    };
+##
+##    Foot.setEvent=function(){
+##        var events = ['load'];
+##        for (var i = 0; i < events.length; i++) {
+##            (function(eName) {
+##                window.addEventListener(eName, function() {
+##                    FOOTDETECT[eName] = true;
+##                });
+##            })(events[i]);
+##        }
+##    };
+##
+##    Foot.init=function(){
+##        this.setComboJs();
+##        this.setRegion();
+##        this.setEvent();
+##    };
+##
+##    Foot.init();
+##})();
+##</script><!--[if !IE]>|xGv00|47b9aa9f5ca5b0e8e52a524532ac768e<![endif]--><!--[if !IE]>|xGv00|7e4222a87543868eb9337b2ddbd82a83<![endif]-->
+##
+##<script>
+##    if(location.search.indexOf('debug=true') > -1){
+##        setTimeout(function(){localStorage.removeItem('_m_wg.itemV4');}, 2000);
+##    }
+##</script>
+##
+##<!--[if !IE]>|xGv00|7c7fcea1c447fd2fa8534b259ad7bafe<![endif]--><iframe id="syn_vk_iframe" src="http://wei.jd.com/mobile/synvisitkey.shtml?ptag=37028.5.1&amp;pps=mart.00000000030001:410BF8E4023A930E0000255B00008A10:0" style="display: none;"></iframe></body></html>
