@@ -404,15 +404,6 @@ function delCookie(name, path, domain, secure) {
         _conf = {
             'report': '/js/version/2014/09/pp.wg.mobilereport.20140925.js,/js/mobile/common/dest/wg.report.min.js',
             'ping': '/js/version/2014/08/pp.mobile.ping.20140825.js',
-            'wxapi': '/js/mobile/common/dest/wg.wxapi.min.js',
-            'mwfoot': '/js/mobile/common/dest/wg.mwfoot.min.js',
-            'wxfoot': '/js/mobile/common/dest/wg.wxfoot.min.js',
-            'wgstorage': '/js/mobile/common/dest/wg.storage.min.js',
-            'jdappdl' : '/js/mobile/common/dest/wg.jdappdl.min.js',
-            'navfoot' : '/js/mobile/common/dest/wg.navfoot.min.js',
-            'searchfoot' : '/js/mobile/common/dest/wg.searchfoot.min.js',
-            'imgSpeed' : '/js/mobile/common/dest/wg.imgReport.min.js',
-            'pdebug' : '/js/mobile/common/dest/wg.debug.min.js'
         },
                 _footconf = window.FOOTCONFIG || [],
                 _sourceArr = [],
@@ -699,7 +690,7 @@ function delCookie(name, path, domain, secure) {
     </div>
 </div>
 <div class="wx_nav">
-    <a href="shop" data-href="shop" class="nav_index">购物</a>
+    <a href="shop?gender=male" data-href="shop" class="nav_index">购物</a>
     <a href="shopcircle" data-href="shop_cricle" class="nav_shop_circle">购物圈</a>
     <a href="" data-href="#" class="nav_search on" style="display:">搜索</a>
     <a href="" data-href="shop_car" class="nav_shopcart">购物车</a>

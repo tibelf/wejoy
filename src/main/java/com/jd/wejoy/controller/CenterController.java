@@ -42,6 +42,14 @@ public class CenterController extends HttpServlet {
         //	        model.addAttribute("message", "wejoy，demo");
         //	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
         //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
+        return "classify";
+    }
+
+    @RequestMapping(value="/classify_female",  method = RequestMethod.GET)
+    public String classifyFemale(ModelMap model) {
+        //	        model.addAttribute("message", "wejoy，demo");
+        //	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
+        //	        model.addAttribute("date", dateFormat.format(new java.util.Date()));
         return "classify_female";
     }
 

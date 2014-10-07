@@ -38,22 +38,22 @@
 	
 	<script >
 
- function show(){
-	document.getElementById("shopget").style.display="";
- }
- 
-function hidden(){
-	document.getElementById("shopget").style.display="none";
-}
-  
-function F_Open_dialog() 
-{ 
-        document.getElementById("btn_file").click(); 
-} 
+        function show(){
+            document.getElementById("shopget").style.display="";
+        }
 
-function addsign(){
-	window.location.href="/shopaddsign"
-}
+        function hidden(){
+            document.getElementById("shopget").style.display="none";
+        }
+
+        function F_Open_dialog()
+        {
+            document.getElementById("btn_file").click();
+        }
+
+        function addsign(){
+            window.location.href="/shopaddsign"
+        }
 
 
 </script>
@@ -76,7 +76,9 @@ function addsign(){
     </map>
     <table>
         <tr>
-            <td width="300" id="image"><img src = "/image/gouwucirclr_comment.jpg"/></td>
+            <td width="300" id="image">
+                    <img src = "/image/gouwucirclr_comment.jpg"/>
+            </td>
         </tr>
     </table>
     <br/>
@@ -84,7 +86,13 @@ function addsign(){
     <br/>
     <br/>
     <div class="pai">
-        <img src = "/image/gouwucircle_camera.png" style="width: 60px;height: 53px;"/>
+        <a href="javascript:F_Open_dialog();">
+            <img src = "/image/gouwucircle_camera.png" style="width: 60px;height: 53px;"/>
+        </a>
+    </div>
+    <div style="display:none">
+        <input type="file" id="btn_file" name="btn_file"  style="display:none"  onchange="javascript:addsign();"  >
+        <li class="rebound" accept="image/*;capture=camera"></li>
     </div>
 </div>
 
@@ -92,8 +100,11 @@ function addsign(){
 
 
 <div class="wx_nav">
-    <a href="shop" data-href="shop" class="nav_index">购物</a>
+    <a href="shop?gender=male" data-href="shop" class="nav_index">购物</a>
     <a href="" data-href="#" class="nav_shop_circle on">购物圈</a>
     <a href="classify" data-href="search" class="nav_search" >搜索</a>
     <a href="" data-href="shop_car" class="nav_shopcart">购物车</a>
-    <a href="" data-href="user" class="nav_me">个人中心</a></div></body></html>
+    <a href="" data-href="user" class="nav_me">个人中心</a></div>
+
+
+</body></html>

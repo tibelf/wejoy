@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>赞助</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="//pics0.paipaiimg.com">
+    <link rel="dns-prefetch" href="//pics1.paipaiimg.com">
+    <link rel="dns-prefetch" href="//pics2.paipaiimg.com">
+    <link rel="dns-prefetch" href="//pics3.paipaiimg.com">
+    <link rel="dns-prefetch" href="//static.paipaiimg.com">
+    <link combofile="mall/category_v2.shtml" rel="stylesheet" href="#springUrl('/css/all_gouwucircle.min.css')">
+    <script charset="utf-8" async="" src="http://static.gtimg.com/js/version/201306/loadscript.201306251923.js"></script><script charset="utf-8" defer="" async="" src="http://static.paipaiimg.com/c/=/js/mobile/common/dest/wg.wxapi.min.js,/js/version/2014/09/pp.wg.mobilereport.20140925.js,/js/mobile/common/dest/wg.report.min.js,/js/version/2014/08/pp.mobile.ping.20140825.js,/js/mobile/common/dest/wg.wxfoot.min.js,/js/mobile/common/dest/wg.storage.min.js,/js/mobile/common/dest/wg.debug.min.js,/js/mobile/common/dest/wg.navfoot.min.js?t=201409281905"></script><script charset="gbk" type="text/javascript" src="http://static.paipaiimg.com/js/version/2014/06/pp.wg.jdSmartbox.20140605.js?t=2014007021448"></script><script>var old = null;function asplay_top(c){var audio = document.createElement("audio");if(audio != null && audio.canPlayType && audio.canPlayType("audio/mpeg")){if(old){old.pause();}audio.src = c;old = audio;audio.play();}}</script><link type="text/css" rel="stylesheet" href="http://static.paipaiimg.com/wx/css/mall/search_panel.s.min.css?t=201407301111" id="loadCss0.17307894048281014">
+    <style type="text/css">
+        body p {
+            text-align: right;
+        }
+        #image {
+            text-align: right;
+        }
+        .head_image {
+            text-align:center;
+        }
+        #text {
+            vertical-align:bottom;
+        }
+        * {
+            margin:0;
+            padding:0
+        }
+        html, body {
+            height: 100%;
+            width: 100%;
+            font-size:12px
+        }
+        .white_content {
+            display: none;
+            position: absolute;
+            top: 25%;
+            left: 20%;
+            width: 50%;
+            padding: 6px 16px;
+            border: 12px solid #D6E9F1;
+            background-color: white;
+            z-index:1002;
+            overflow: auto;
+        }
+        .black_overlay {
+            display: none;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            background-color:#f5f5f5;
+            z-index:1001;
+            -moz-opacity: 0.8;
+            opacity:.80;
+            filter: alpha(opacity=80);
+        }
+        .close {
+            float:right;
+            clear:both;
+            width:100%;
+            text-align:right;
+            margin:0 0 6px 0
+        }
+        .close a {
+            color:#333;
+            text-decoration:none;
+            font-size:14px;
+            font-weight:700
+        }
+        .con {
+            /*text-indent:1.5pc;*/
+            line-height:21px
+        }
+    </style>
+    <script>
+        function show(tag){
+            var light=document.getElementById(tag);
+            var fade=document.getElementById('fade');
+            light.style.display='block';
+            fade.style.display='block';
+        }
+        function hide(tag){
+            var light=document.getElementById(tag);
+            var fade=document.getElementById('fade');
+            light.style.display='none';
+            fade.style.display='none';
+        }
+        function postDasan(){
+            window.location.href = "/shopcircle_dasansuccess"
+        }
+    </script>
+</head>
+<body>
+##<form>
+<div class="head_image">
+    <img src = "/image/head_xiaohuli.png"/>
+</div>
+<br/><br/>
+<table>
+    <tr>
+        <td width="60" ></td>
+        <td width="120" >金额（元）</td>
+        <td width="260" ><input type="text" value="10" readonly/></td>
+    </tr>
+</table>
+<br/><br/>
+<div style="text-align:center;">
+    <input type="image" src = "/image/btn_zhanzhu.png" style="width:200px;height: 50px" onclick="show('light')"/>
+</div>
+##</form>
+<div id="light" class="white_content">
+    <div class="close"><a href="javascript:void(0)" onclick="hide('light')"> 关闭</a></div>
+    <div class="con">
+        <p style="text-align: center">请输入支付密码</p>
+        <p style="text-align: center">￥10.00</p>
+        <table>
+            <tr>
+                <td width="10" ><input type="password" style="width: 30px;height: 30px"/></td>
+                <td width="10" ><input type="password" style="width: 30px;height: 30px"/></td>
+                <td width="10" ><input type="password" style="width: 30px;height: 30px"/></td>
+                <td width="10" ><input type="password" style="width: 30px;height: 30px"/></td>
+                <td width="10" ><input type="password" style="width: 30px;height: 30px" onchange="postDasan()"/></td>
+            </tr>
+        </table>
+    </div>
+</div>
+##    <img src = "/image/gouwucircle_zhenren.jpg" style="top:0px;left: 0px; width:100%;height:50px;" />
+##    <img src = "/image/gouwucircle_xiuyixiu.jpg" style="top:0px;left: 0px; width:100%;height:400px;" />
+##    <table>
+##        <tr>
+##            <td width="300" id="image"><img src = "/image/gouwucirclr_comment.jpg"/></td>
+##        </tr>
+##    </table>
+##    <br/>
+##    <br/>
+##    <br/>
+##    <br/>
+##    <div class="pai">
+##        <img src = "/image/gouwucircle_camera.png" style="width: 60px;height: 53px;"/>
+##    </div>
+##<div class="wx_nav">
+##    <a href="" data-href="shop" class="nav_index">购物</a>
+##    <a href="" data-href="#" class="nav_shop_circle on" style="display:">购物圈</a>
+##    <a href="" data-href="#" class="nav_search" >搜索</a>
+##    <a href="" data-href="shop_car" class="nav_shopcart">购物车</a>
+##    <a href="" data-href="user" class="nav_me">个人中心</a></div></body></html>

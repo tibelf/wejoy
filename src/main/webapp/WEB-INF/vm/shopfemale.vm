@@ -943,15 +943,6 @@ window.setTimeout(function() {
                     'mobilereport':'/js/version/2014/09/pp.wg.mobilereport.20140929.js',
                     'report': '/js/mobile/common/dest/wg.report.min.js',
                     'ping': '/js/version/2014/08/pp.mobile.ping.20140825.js',
-                    'wxapi': '/js/mobile/common/dest/wg.wxapi.min.js',
-                    'mwfoot': '/js/mobile/common/dest/wg.mwfoot.min.js',
-                    'wxfoot': '/js/mobile/common/dest/wg.wxfoot.min.js',
-                    'wgstorage': '/js/mobile/common/dest/wg.storage.min.js',
-                    'jdappdl' : '/js/mobile/common/dest/wg.jdappdl.min.js',
-                    'navfoot' : '/js/mobile/common/dest/wg.navfoot.min.js',
-                    'searchfoot' : '/js/mobile/common/dest/wg.searchfoot.min.js',
-                    'imgSpeed' : '/js/mobile/common/dest/wg.imgReport.min.js',
-                    'cookieReset' : '/js/mobile/common/dest/wg.cookieReset.min.js'
                 },
         //isDev=/^(172|10)\./.test('112.90.77.176'),
                 isAct=location.href.replace(/(\?|#).*$/,"").indexOf("event")>-1,
@@ -981,6 +972,6 @@ window.setTimeout(function() {
 <div class="wx_nav">
     <a href="" data-href="#" class="nav_index on">购物</a>
     <a href="shopcircle" data-href="#" class="nav_shop_circle">购物圈</a>
-    <a href="classify" data-href="search" class="nav_search" style="display:">搜索</a>
+    <a href="classify_female" data-href="search" class="nav_search" style="display:">搜索</a>
     <a href="" data-href="shop_car" class="nav_shopcart">购物车</a>
     <a href="" data-href="user" class="nav_me">个人中心</a></div></body></html>
