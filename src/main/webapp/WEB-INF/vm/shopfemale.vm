@@ -674,21 +674,20 @@ window.setTimeout(function() {
 
 
 
-
         <li>
             <a class="url" href="/custom_watch_detail">
-                <img class="photo" src="http://img3.paipaiimg.com/boss-5428B8D3-13CEBA845428B8D30401000038DC1D0D.1.min.1.jpg" onload="if(!speedTimePoint[7]){speedTimePoint[7] = new Date();}">
+                <img class="photo" src="image/girlwatch.jpg" onload="if(!speedTimePoint[7]){speedTimePoint[7] = new Date();}">
             </a>
             <div class="info_wrap">
                 <div class="fn">
-                    豪伦诗力洛克全自动机械商务男表
+                    豪伦诗力洛克魅力女表
                 </div>
                 <div class="brand_disc">
-                    京东男表销量第一爆款！腕间一款力洛克腕表不仅是您身份的标识，更代表品位、优雅、时尚。全网最低价！好评98%，并有多色可选！
+                    京东女表销量第一爆款！腕间一款力洛克腕表不仅是您身份的标识，更代表品位、优雅、时尚。全网最低价！好评98%，并有多色可选！
                 </div>
                 <div class="price_wrap">
                     <div class="col_left">
-                        <div class="price">京东价：<em>¥399.00</em></div>
+                        <div class="price">京东价：<em>¥299.00</em></div>
                         <div class="old_price">市场价：<em>¥1699.00</em></div>
                     </div>
                     <a class="btn_buy" href="/custom_watch_detail">立即购买</a>
@@ -981,7 +980,7 @@ window.setTimeout(function() {
 </script>
 <div class="wx_nav">
     <a href="" data-href="#" class="nav_index on">购物</a>
-    <a href="shopcircle" data-href="shop_cricle" class="nav_shop_circle on">购物圈</a>
+    <a href="shopcircle" data-href="#" class="nav_shop_circle">购物圈</a>
     <a href="classify" data-href="search" class="nav_search" style="display:">搜索</a>
     <a href="" data-href="shop_car" class="nav_shopcart">购物车</a>
     <a href="" data-href="user" class="nav_me">个人中心</a></div></body></html>

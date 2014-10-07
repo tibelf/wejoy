@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>秀一秀</title>
+<link type="text/css" rel="stylesheet" href="css/all_gouwucircle.min.css">
+<script type="text/javascript">
+var docEle = function()
+{
+    return document.getElementById(arguments[0]) || false;
+}
+
+function openNewDiv(_id)
+{
+    var m = "mask";
+    if (docEle(_id)) document.body.removeChild(docEle(_id));
+    if (docEle(m)) document.body.removeChild(docEle(m));
+    
+    //mask遮罩层
+
+    var newMask = document.createElement("div");
+    newMask.id = m;
+    newMask.style.position = "absolute";
+    newMask.style.zIndex = "1";
+    _scrollWidth = Math.max(document.body.scrollWidth,document.documentElement.scrollWidth);
+    _scrollHeight = Math.max(document.body.scrollHeight,document.documentElement.scrollHeight);
+    newMask.style.width = _scrollWidth + "px";
+    newMask.style.height = _scrollHeight + "px";
+    newMask.style.top = "0px";
+    newMask.style.left = "0px";
+    newMask.style.background = "#33393C";
+    newMask.style.filter = "alpha(opacity=40)";
+    newMask.style.opacity = "0.40";
+    document.body.appendChild(newMask);
+    
+    //新弹出层
+
+    var newDiv = document.createElement("div");
+    newDiv.id = _id;
+    newDiv.style.position = "absolute";
+    newDiv.style.zIndex = "10";
+    newDivWidth = 0;
+    newDivHeight = 200;
+    newDiv.style.width = newDivWidth + "px";
+    newDiv.style.height = newDivHeight + "px";
+    newDiv.style.top = (document.body.scrollTop + document.body.clientHeight/2 - newDivHeight/2) + "px";
+    newDiv.style.left = (document.body.scrollLeft + document.body.clientWidth/2 - newDivWidth/2) + "px";
+    newDiv.style.background = "#EFEFEF";
+    newDiv.style.border = "0px solid #860001";
+    newDiv.style.padding = "0px";
+    newDiv.innerHTML = "<img src='image/money.png' width='100px;' height='100px;' ></img>";
+    document.body.appendChild(newDiv);
+    
+    //弹出层滚动居中
+
+    function newDivCenter()
+    {
+        newDiv.style.top = (document.body.scrollTop + document.body.clientHeight/2 - newDivHeight/2) + "px";
+        newDiv.style.left = (document.body.scrollLeft + document.body.clientWidth/2 - newDivWidth/2) + "px";
+    }
+    if(document.all)
+    {
+        window.attachEvent("onscroll",newDivCenter);
+    }
+    else
+    {
+        window.addEventListener('scroll',newDivCenter,false);
+    }
+    
+    //关闭新图层和mask遮罩层
+
+    var newA = document.createElement("a");
+    newA.href = "#";
+    newA.innerHTML = "关闭";
+    newA.onclick = function()
+    {
+        if(document.all)
+        {
+            window.detachEvent("onscroll",newDivCenter);
+        }
+        else
+        {
+            window.removeEventListener('scroll',newDivCenter,false);
+        }
+        document.body.removeChild(docEle(_id));
+        document.body.removeChild(docEle(m));
+        return false;
+    }
+    newDiv.appendChild(newA);
+	
+}
+</script>
+</head>
+
+<body onload="openNewDiv('newDiv');return false;" bgcolor="#FFFFFF">
+<table id="__01" style="width:100%; height="1010" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<img src="image/showrelease_01.jpg" style="width:100%; height="598" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="image/showrelease_02.jpg" style="width:100%; height="47" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="image/showrelease_03.jpg" style="width:100%; height="365" alt=""></td>
+	</tr>
+</table>
+    <div class="wx_nav">
+        <a href="shop?actid=35011&tab=2" data-href="#" class="nav_index">购物</a>
+    	<a href="/shopcircle" data-href="#" class="nav_shop_circle">购物圈</a>
+        <a href="#" data-href="http://mm.wanggou.com/category_m.shtml?PTAG=37080.1.2&shownav=1" class="nav_search" style="display:">搜索</a>
+        <a href="#" data-href="http://mm.wanggou.com/my/jdshopcart.shtml?PTAG=37080.1.3&shownav=1" class="nav_shopcart">购物车</a>
+        <a href="#" data-href="http://mm.wanggou.com/my/index.shtml?PTAG=37080.1.4&shownav=1" class="nav_me">个人中心</a>
+    </div>
+</body>
+</html>

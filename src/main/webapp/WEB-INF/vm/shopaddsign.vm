@@ -2,6 +2,7 @@
 <html lang="zh-CN"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link type="text/css" rel="stylesheet" href="css/all_gouwucircle.min.css">
 <title>秀一秀</title>
 <script >
 
@@ -107,14 +108,15 @@ function hiddenorder(){
 
 </head>
 
-<body>
+<body style="background-color:#4b4b4b;" >
 
 <div style="width: 100%;height: auto;overflow: hidden;padding-bottom: 20px;  position:relative; left:0px; right:0px;">
 <div id="bksign" style="height: auto;overflow: hidden; position:relative; left:0px; right:0px; z-index:2px;"><a href="javascript:show();"><img src="image/biaoq_01.jpg" style="width:100%;"></a></div>
+<div ><a href="/showrelease" ><img src="image/btn_ff.png" style="width:100%;"></a></div>
 <div ><img src="image/biaoq_02.jpg" style="width:100%;"></div>
 <div id="sign" style="display:none;">   
     
-    <div style="position:absolute; right:30%;top:25%; z-index:10px;"><a href="javascript:showlabel()"><img src="image/btn_label.png.png"  style=" min-width:37px; max-width:75px; min-height:35px; max-height:71px;"></a></div>
+    <div style="position:absolute; right:30%;top:25%; z-index:10px;"><a href="javascript:showlabel()"><img src="image/btn_label.png.png"  style="width:100%;"></a></div>
     <div style="position:absolute; right:45%;top:25%; z-index:10px;"><a href="javascript:showorder()"><img src="image/btn_order.png.png"  style=" min-width:37px; max-width:75px; min-height:35px; max-height:71px;"></a></div>
     <div style="position:absolute; right:15%;top:25%; z-index:10px;"><a href="javascript:showposition()"><img src="image/btn_position.png.png" style=" min-width:37px; max-width:75px; min-height:35px; max-height:71px;" ></a></div>
 	<div style="position:absolute; right:60%; top:25%; z-index:10px;"><a href="javascript:showshuoshuo()"><img src="image/btn_comment.png.png"  style=" min-width:37px; max-width:75px; min-height:35px; max-height:71px;"></a></div>
@@ -124,34 +126,42 @@ function hiddenorder(){
 
 
 <!--说说输入框-->
-<div  id="shuoshuo" style="display:none;  position:absolute; right:10%;top:50%; z-index:10px; background-image:url(image/say.png);  background-repeat:no-repeat; width:50%; height:50%; padding-left:35px; padding-top:5px;">
+<div  id="shuoshuo" style="display:none;  position:absolute; right:10%;top:25%; z-index:10px; background-image:url(image/say.png);  background-repeat:no-repeat; width:50%; height:50%; padding-left:35px; padding-top:5px;">
 	<input name="showmsg" id="showmsg" type="text" value="生活其实很简单" onkeyup="showmsg()"  onblur="hiddenmsg()" style=" background-color:#3d3c35; border:0px; height:25px;color:#FFF;" />
 </div>
-<div id="getmsg" style="position:absolute; display:none; right:10%;top:90%; color:red">生活其实很简单</div>
+<div id="getmsg" style="position:absolute; display:none; right:35%;top:20%; color:red">生活其实很简单</div>
 
 <!--关联订单-->
-<div id="order" style="display:none; position:absolute; right:15%;top:50%; z-index:10px;  ">
-    <div ><a href="javascript:showOrder();"><img src="image/dingd_1.png" style="width:100%"></a></div>
+<div id="order" style="display:none; position:absolute; right:25%;top:25%; z-index:10px;  ">
+    <div ><a href="javascript:showOrder();"><img src="image/dingd_3.png" style="width:100%"></a></div>
 	<div id="orderg" style="display:none">
         <div style="margin-left:10px;" ><a href="javascript:getOneOrder()" onblur="hiddenorder()"><img src="image/label_dingdan.png.png" style="width:100%"></a></div>
         <div style="margin-left:10px;" ><a  href="javascript:getTwoOrder()" onblur="hiddenorder()" ><img src="image/label_dingdan.png_1.png"  style="width:100%"></a></div>
 	</div>
 </div>
-<div id="getordermsg" style="position:absolute; display:none; right:50%;top:80%; color:red"></div>
+<div id="getordermsg" style="position:absolute; display:none; right:50%;top:30%; color:red"></div>
 
 <!--生态瓶-->
-<div  id="label" style="display:none;  position:absolute; right:15%;top:50%; z-index:10px; background-image:url(image/shengtai.png);  background-repeat:no-repeat; width:50%; height:50%; padding-left:35px; padding-top:5px;">
+<div  id="label" style="display:none;  position:absolute; right:15%;top:25%; z-index:10px; background-image:url(image/shengtai.png);  background-repeat:no-repeat; width:50%; height:50%; padding-left:35px; padding-top:5px;">
 	<input name="showmsg" id="labelmsg" type="text" value="生态瓶" onkeyup="showlabelmsg()"  onblur="hiddenlabel()" style=" background-color:#3d3c35; border:0px; height:25px;color:#FFF;" />
 </div>
-<div id="labelms" style="position:absolute; display:none; right:80%;top:80%; color:red"></div>
+<div id="labelms" style="position:absolute; display:none; right:40%;top:25%; color:red"></div>
 
 <!--地址搜索-->
-<div id="position" style="position:absolute;display:none;right:10%;top:50%; z-index:10px; background-image:url(image/label_btn_recommended07.png.png);  background-repeat:no-repeat; width:50%; height:50%; padding-left:35px; padding-top:5px;">
+<div id="position" style="position:absolute;display:none;right:10%;top:25%; z-index:10px; background-image:url(image/label_btn_recommended07.png.png);  background-repeat:no-repeat; width:50%; height:50%; padding-left:35px; padding-top:5px;">
    <select style="margin-left:50px;     background-color:#3d3c35; border:0px; height:25px; color:#FFF;"id="pos" name="pos" onchange="getPos();">
 	  <option id="" value="北辰中心" >北辰中心</option>
 	  <option id="" value="国家会议中心" >国家会议中心</option>
    </select>
 </div>
 <div id="posi" style="position:absolute; display:none; right:50%;top:35%; color:red"></div>
+
+<div class="wx_nav">
+    <a href="shop?actid=35011&tab=2" data-href="#" class="nav_index">购物</a>
+	<a href="/shopcircle" data-href="#" class="nav_shop_circle">购物圈</a>
+    <a href="#" data-href="http://mm.wanggou.com/category_m.shtml?PTAG=37080.1.2&shownav=1" class="nav_search" style="display:">搜索</a>
+    <a href="#" data-href="http://mm.wanggou.com/my/jdshopcart.shtml?PTAG=37080.1.3&shownav=1" class="nav_shopcart">购物车</a>
+    <a href="#" data-href="http://mm.wanggou.com/my/index.shtml?PTAG=37080.1.4&shownav=1" class="nav_me">个人中心</a>
+</div>
 </body>
 </html>
