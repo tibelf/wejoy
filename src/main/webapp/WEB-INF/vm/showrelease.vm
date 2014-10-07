@@ -108,7 +108,7 @@ function openNewDiv(_id)
 	</tr>
 </table>
     <div class="wx_nav">
-        <a href="shop?actid=35011&tab=2" data-href="#" class="nav_index">购物</a>
+        <a href="shop?gender=male" data-href="#" class="nav_index">购物</a>
     	<a href="/shopcircle" data-href="#" class="nav_shop_circle">购物圈</a>
         <a href="#" data-href="http://mm.wanggou.com/category_m.shtml?PTAG=37080.1.2&shownav=1" class="nav_search" style="display:">搜索</a>
         <a href="#" data-href="http://mm.wanggou.com/my/jdshopcart.shtml?PTAG=37080.1.3&shownav=1" class="nav_shopcart">购物车</a>

@@ -72,7 +72,7 @@
     </div>
 </div>
 <div class="wx_nav">
-    <a href="shop" data-href="shop" class="nav_index">购物</a>
+    <a href="shop?gender=male" data-href="shop" class="nav_index">购物</a>
     <a href="" data-href="#" class="nav_shop_circle on" style="display:">购物圈</a>
     <a href="classify" data-href="search" class="nav_search" >搜索</a>
     <a href="" data-href="shop_car" class="nav_shopcart">购物车</a>
