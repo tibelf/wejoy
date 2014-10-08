@@ -35,6 +35,27 @@
             left:250px;
         }
     </style>
+    <script >
+
+        function show(){
+            document.getElementById("shopget").style.display="";
+        }
+
+        function hidden(){
+            document.getElementById("shopget").style.display="none";
+        }
+
+        function F_Open_dialog()
+        {
+            document.getElementById("btn_file").click();
+        }
+
+        function addsign(){
+            window.location.href="/shopaddsign"
+        }
+
+
+    </script>
 </head>
 <body>
 <div>
@@ -58,7 +79,13 @@
     <br/>
     <br/>
     <div class="pai">
-        <img src = "/image/gouwucircle_camera.png" style="width: 60px;height: 53px;"/>
+        <a href="javascript:F_Open_dialog();">
+            <img src = "/image/gouwucircle_camera.png" style="width: 60px;height: 53px;"/>
+        </a>
+    </div>
+    <div style="display:none">
+        <input type="file" id="btn_file" name="btn_file"  style="display:none"  onchange="javascript:addsign();"  >
+        <li class="rebound" accept="image/*;capture=camera"></li>
     </div>
 </div>
 <div class="wx_nav">
